@@ -3,7 +3,7 @@ let body = `
 <html lang=en>
   <head>
     <meta charset=utf-8>
-    <title>Hi!</title>
+    <title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>
     <link rel="stylesheet" href="https://static.begin.app/starter/default.css">
   </head>
   <body>
@@ -18,6 +18,10 @@ let body = `
 
     <p class="center-text">
       Where: <a href="https://townhallseattle.org/">Town Hall</a> (Seattle, WA, USA)
+    </p>
+
+    <p class="center-text">
+      <i>Save the date! More info coming soon!</i>
     </p>
 
   </body>
