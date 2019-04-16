@@ -21,7 +21,11 @@ let body = `
     </p>
 
     <p class="center-text">
-      <i>Save the date! More info coming soon!</i>
+      <b>Save the date! More info coming soon!</b>
+    </p>
+
+    <p class="center-text">
+      <i>This website is powered by <a href="https://begin.com>Begin</a></i>
     </p>
 
   </body>
