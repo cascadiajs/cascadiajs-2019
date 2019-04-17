@@ -25,7 +25,7 @@ let body = `
     </p>
 
     <p class="center-text">
-      <i>This website is powered by <a href="https://begin.com">Begin</a></i>
+      <i>✨This website is powered by <a href="https://begin.com">Begin</a></i>
     </p>
 
   </body>
