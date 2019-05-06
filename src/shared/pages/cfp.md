@@ -1,8 +1,7 @@
 # Call for Presenters (closes June 30, 2019)
 
-Thank you for your interest in speaking at our upcoming conference. This CFP is design for both new speakers (no conference experience) AND experienced speakers. Here are a few important notes before you continue:
+Thank you for your interest in speaking at CascadiaJS 🌲. This CFP is design for both new speakers (no conference experience) AND experienced speakers. Here are a few important notes before you continue:
 
-* 🎥 You must have published your video submission in order to submit this form.
 * ⏳ Talks are 25 minutes long with no Q&A following the talk.
 * 📆 CFP closes at 11:59 PM Pacific US time on June 30, 2019.
 * 🛩 We cover all travel expenses and arrange for lodging for out of town speakers.
@@ -15,7 +14,7 @@ Please review the information below before you submit to the CFP.
 
 We are explicitly looking for new voices in our industry (i.e. anyone who hasn't given a big conference talk). Some of the best talks given at past CascadiaJS events have come from folks giving their first conference talk. Every developer has a story: about how they got into this industry, how their team solved a problem, how they used the open web to create an amazing experience. We hope that you’ll tell us about yours! 
 
-Meetups, smaller events, school talks don't count as "big conference talks", so please make sure to mark yourself as a "new speaker" when you apply!
+Meetups, smaller events, school talks don't count as "big conference talks", so please make sure to specify your experience level when you apply!
 
 ## Representation
 
@@ -54,6 +53,7 @@ A great talk tells a story -- it can address issues that developers struggle wit
 * EcmaScript (ES2019, the future)
 * Intelligent Apps (AI, ML)
 * APIs (GraphQL, REST, HTTP protocol fun)
+* Decentralized Web (IPFS, dat, etc)
 * Building more inclusive technical communities and a healthier industry
 * Going beyond touch & text (e.g. AR/VR, voice interfaces)
 * Web platform (Web Assembly, latest additions)
@@ -62,8 +62,6 @@ A great talk tells a story -- it can address issues that developers struggle wit
 * Devops (Serverless, Containers, etc)
 * Developer Ethics
 * Security, Privacy and Trust
-* Decentralized Web (IPFS, dat, etc)
-
 
 ## How to Submit a Proposal
 
@@ -73,7 +71,7 @@ Talk submissions are done as 2 minute videos. Your goal here is not to produce a
 
 We won't make the videos public, so no need to worry about random Internet people seeing them. But we feel this is a good opportunity to start building a comfort level with talking about your idea in front of an audience.
 
-Here is an [example submission](https://www.youtube.com/watch?v=VcYSf2EWFKk&feature=youtu.be) from one of our 2018 speakers, Elgin-Skye McLaren. Here's another one from [Will Klein](https://drive.google.com/file/d/12onj0eQPspOj1bSkL8waM-m52vZgL2IY/view). These videos are meant to be templates, they're just meant to illustrate a few goals: be clear about your topic, share some context for why you care, and please be yourself!
+Here is an [example submission](https://www.youtube.com/watch?v=VcYSf2EWFKk&feature=youtu.be) from one of our 2018 speakers, Elgin-Skye McLaren. Here's another one from [Will Klein](https://drive.google.com/file/d/12onj0eQPspOj1bSkL8waM-m52vZgL2IY/view). These videos are *not* meant to be templates, they're just here to illustrate a few goals: be clear about your topic, share some context for why you care, and please be yourself!
 
 ## Stuck on the Idea of a Video Submission?
 
@@ -95,8 +93,12 @@ Once your talk has been accepted, we will commit to working with you to give an 
 
 ## The Selection Process
 
-Submissions close on June 30th at 11:59PM PDT. We will get back to all speakers as soon as possible.
+Submissions close on June 30th at 11:59PM PDT. We will get back to all speakers as soon as possible. We will email all speakers at roughly the same time, so everyone will hear back on the same day.
 
 ## You’ll Do Great!
 
 If you have any questions about this process, need more information or need assistance with travel and/or lodging, don't hesitate to reach out to us at carter@cascadiajs.com.
+
+## Submit a Proposal
+
+https://cascadiajs.typeform.com/to/SrKdlj (closed on June 30, 2019)
