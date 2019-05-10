@@ -101,4 +101,4 @@ If you have any questions about this process, need more information or need assi
 
 ## Submit a Proposal
 
-https://cascadiajs.typeform.com/to/SrKdlj (closed on June 30, 2019)
+https://cascadiajs.typeform.com/to/SrKdlj (closes on June 30, 2019)
