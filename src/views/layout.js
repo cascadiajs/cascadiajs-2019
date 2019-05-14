@@ -1,5 +1,13 @@
 var md = require("marked")
 
+let url
+let env = process.env.NODE_ENV
+if (env === "production") url = process.env.BEGIN_STATIC_ORIGIN
+// change to EDGE later
+else if (env === "staging") url = process.env.BEGIN_STATIC_ORIGIN
+// S3
+else url = "/_static" // Handles local use cases
+
 module.exports = function Layout(content) {
 	//console.log(content)
 	return `
@@ -10,7 +18,7 @@ module.exports = function Layout(content) {
     <title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@^7.0.0">
     <link rel="stylesheet" href="https://use.typekit.net/cnx1fnn.css">
-    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="${url}/styles.css">
   </head>
   <body>
     <header>
