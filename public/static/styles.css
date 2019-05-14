@@ -1,0 +1,28 @@
+body {
+	font-family: proxima-nova, sans-serif;
+	font-weight: 100;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+header,
+footer {
+	text-align: center;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+#page {
+	margin: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+	#page {
+		width: 60vw;
+		margin: 0 auto;
+	}
+}
