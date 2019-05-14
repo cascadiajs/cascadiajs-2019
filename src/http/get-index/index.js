@@ -9,6 +9,7 @@ else url = "/_static" // Handles local use cases
 let html = `
 <!DOCTYPE html>
 <html lang="en">
+  <!-- making Ryan happy -->
 	<head>
 		<meta charset="utf-8" />
 		<title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>
