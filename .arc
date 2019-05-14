@@ -3,7 +3,6 @@ lion-ncr
 
 @http
 get /
-get /:page
 get /static/:file
 
 @tables
