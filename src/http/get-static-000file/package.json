@@ -1,0 +1,7 @@
+{
+  "name": "begin-app-get-static-000file",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin/data": "latest"
+  }
+}
