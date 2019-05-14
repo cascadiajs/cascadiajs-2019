@@ -2,7 +2,8 @@ var fs = require("fs")
 var read = fs.readFileSync
 var exists = fs.existsSync
 var join = require("path").join
-var Layout = require("@architect/views/layout")
+var md = require("marked")
+var Layout = require("./layout")
 
 module.exports = function render(doc) {
 	// Defines the file needed to render a doc
@@ -13,7 +14,7 @@ module.exports = function render(doc) {
 		// Now get the metadata, content, and send to Layout
 		var content = read(contentFile).toString()
 		return {
-			html: Layout(content)
+			html: Layout(md(content))
 		}
 	} else {
 		// Return 404

@@ -1,5 +1,5 @@
 let arc = require("@architect/functions")
-let render = require("@architect/shared/render")
+let render = require("@architect/views/markdown")
 
 function route(req, res) {
 	let { page } = req.params

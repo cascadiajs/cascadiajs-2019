@@ -1,5 +1,3 @@
-var md = require("marked")
-
 let url
 let env = process.env.NODE_ENV
 if (env === "production") url = process.env.BEGIN_STATIC_ORIGIN
@@ -29,7 +27,7 @@ module.exports = function Layout(content) {
       </nav>
     </header>
     <article id="page">
-    ${md(content)}
+    ${content}
     </article>
     <footer>
       <i>✨This website is powered by <a href="https://begin.com">Begin</a></i>
