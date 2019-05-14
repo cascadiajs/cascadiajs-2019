@@ -3,7 +3,6 @@ forest-1dg
 
 @http
 get /
-get /static/:file
 
 @tables
 data
