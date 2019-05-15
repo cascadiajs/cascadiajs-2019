@@ -3,7 +3,7 @@ var read = fs.readFileSync
 var exists = fs.existsSync
 var join = require("path").join
 var md = require("marked")
-var Layout = require("./layout")
+var Layout = require("@architect/views/layout")
 
 module.exports = function render(doc) {
 	// Defines the file needed to render a doc
