@@ -1,5 +1,18 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
 body {
 	font-family: proxima-nova, sans-serif;
+	font-weight: 100;
+}
+
+h1,
+h2,
+h3,
+h4 {
 	font-weight: 100;
 }
 
@@ -7,13 +20,48 @@ img {
 	max-height: 100%;
 	max-width: 100%;
 }
+
+#root {
+	display: grid;
+	min-height: 100%;
+	grid-template-columns: 100%;
+	grid-template-rows: auto 1fr auto;
+}
+
 header,
 footer {
 	text-align: center;
 }
 
+nav {
+	padding: 10px;
+	background-color: #275197;
+}
+
+nav a,
+nav a:visited {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	display: inline-block;
+	padding-right: 20px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
 footer {
+	padding: 10px;
+	background-color: #275197;
+	color: #fff;
 	margin-top: 50px;
+}
+
+footer a,
+footer a:visited {
+	color: #fff;
+	text-decoration: none;
 }
 
 #page {
