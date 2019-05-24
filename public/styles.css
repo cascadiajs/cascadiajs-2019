@@ -73,4 +73,18 @@ footer a:visited {
 		width: 60vw;
 		margin: 0 auto;
 	}
+
+	#schedule {
+		display: flex;
+		width: 100%;
+	}
+
+	#schedule .item {
+		padding: 5px;
+		flex: 1;
+	}
+
+	#schedule .item h3 {
+		margin-top: 0;
+	}
 }
