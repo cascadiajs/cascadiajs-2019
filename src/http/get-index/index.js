@@ -13,6 +13,10 @@ let content = `
   <h2>Schedule</h2>
   <section id="schedule">
     <div class="item">
+      <h3>Nov 4</h3>
+      <p><a href="/workshop-reactjs" title="React training by Formidable, the premier JavaScript consultancy trusted by engineers.">ReactJS Workshop</a></p>
+    </div>
+    <div class="item">
       <h3>Nov 5-6</h3>
       <p><a href="/workshop-graphql" title="Want to learn GraphQL but you’re not sure where to get started? Get a solid foundation in this hands-on,
         two-day workshop.">GraphQL Workshop</a></p>
