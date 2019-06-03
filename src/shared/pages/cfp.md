@@ -1,6 +1,6 @@
 # Call for Presenters (closes June 30, 2019)
 
-Thank you for your interest in speaking at CascadiaJS 🌲. This CFP is design for both new speakers (no conference experience) AND experienced speakers. Here are a few important notes before you continue:
+Thank you for your interest in speaking at CascadiaJS 🌲. Here are a few important notes before you continue:
 
 - ⏳ Talks are 25 minutes long with no Q&A following the talk.
 - 📆 CFP closes at 11:59 PM Pacific US time on June 30, 2019.
@@ -10,13 +10,13 @@ Thank you for your interest in speaking at CascadiaJS 🌲. This CFP is design f
 
 Please review the information below before you submit to the CFP.
 
-## New Speakers
+## Who we are looking for
 
-We are explicitly looking for new voices in our industry (i.e. anyone who hasn't given a big conference talk). Some of the best talks given at past CascadiaJS events have come from folks giving their first conference talk. Every developer has a story: about how they got into this industry, how their team solved a problem, how they used the open web to create an amazing experience. We hope that you’ll tell us about yours!
+This year's CFP is open to both experienced speakers and folks who have never given a big conference talk. The criteria we will use for evaluating submissions will be the same, and no added weight will be awarded to folks just because they've spoken before. Some of the best talks given at past CascadiaJS events have come from folks giving their first conference talk.
 
-Meetups, smaller events, school talks don't count as "big conference talks", so please make sure to specify your experience level when you apply!
+EVERY DEVELOPER HAS A STORY: about how they got into this industry, how their team solved a problem, how they used the open web to create an amazing experience. We hope that you’ll tell us about yours!
 
-## Representation
+## Representation in tech
 
 We are also looking for stories from folks who belong to underrepresented groups (URMs) in our industry. Seattle (and the Pacific Northwest) has a bad reputation for being pretty homogenous, and we want to create an environment for all kinds of speakers, from all kinds of backgrounds, because we beleive that makes a difference in shifting the inclusivity of our industry forward.
 
