@@ -16,6 +16,13 @@ h4 {
 	font-weight: 100;
 }
 
+h2 {
+	display: inline-block;
+	border: 1px solid #333;
+	padding: 10px;
+	box-shadow: 3px 3px 0 0 #000;
+}
+
 img {
 	max-height: 100%;
 	max-width: 100%;
@@ -28,14 +35,18 @@ img {
 	grid-template-rows: auto 1fr auto;
 }
 
-header,
-footer {
-	text-align: center;
-}
-
 nav {
 	padding: 10px;
 	background-color: #275197;
+}
+
+nav svg {
+	width: 25px !important;
+}
+
+nav a {
+	display: block;
+	margin-bottom: 5px;
 }
 
 nav a,
@@ -43,7 +54,6 @@ nav a:visited {
 	color: #fff;
 	text-decoration: none;
 	font-weight: 700;
-	display: inline-block;
 	padding-right: 20px;
 }
 
@@ -68,10 +78,24 @@ footer a:visited {
 	margin: 10px;
 }
 
+.exclaim {
+	background-color: yellow;
+	font-weight: 600;
+}
+
 @media only screen and (min-width: 768px) {
 	#page {
 		width: 60vw;
 		margin: 0 auto;
+	}
+
+	header,
+	footer {
+		text-align: center;
+	}
+
+	nav a {
+		display: inline;
 	}
 
 	#schedule {

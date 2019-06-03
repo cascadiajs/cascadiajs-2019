@@ -6,10 +6,19 @@ let content = `
   </h1>
   <p>
     CascadiaJS features a single track of 24 amazing speakers discussing the cutting-edge of JavaScript, 
-    web development and engineering culture over the course of 2 days. We also work hard to provide a safe 
+    web development and engineering culture over the course of 2 days.
+  </p>
+  <p>We also work hard to provide a safe 
     and inclusive environment for everyone! We expect, and require, all organizers, sponsors, speakers, 
     volunteers, and attendees of all levels to adhere to our <a href="/code-of-conduct">Code of Conduct</a>. 
   </p>
+  <section id="tickets">
+    <h2>Tickets</h2>
+    <p>
+      Early Bird tickets will go on sale on <span class="exclaim">Friday, June 7th at 10am PDT</span>.
+    </p>
+  </section>
+  
   <h2>Schedule</h2>
   <section id="schedule">
     <div class="item">
