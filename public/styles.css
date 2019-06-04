@@ -10,9 +10,7 @@ body {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
 	font-weight: 100;
 }
 
@@ -26,6 +24,13 @@ h2 {
 img {
 	max-height: 100%;
 	max-width: 100%;
+}
+
+blockquote {
+	margin: 0 0 0 5px;
+	border-left: 1px solid #aaa;
+	padding-left: 10px;
+	color: #777;
 }
 
 #root {

@@ -13,6 +13,8 @@ module.exports = function render(doc) {
 	if (exists(contentFile)) {
 		// Now get the metadata, content, and send to Layout
 		var content = read(contentFile).toString()
+		// swap out all instances of ${STATIC} with value of BEGIN_STATIC_ORIGIN
+		content = content.replace("${STATIC}", process.env.BEGIN_STATIC_ORIGIN)
 		return {
 			html: Layout(md(content))
 		}
