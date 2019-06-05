@@ -45,7 +45,7 @@ nav {
 	background-color: #275197;
 }
 
-nav svg {
+nav svg, #sponsorships svg {
 	width: 25px !important;
 }
 
@@ -88,6 +88,22 @@ footer a:visited {
 	font-weight: 600;
 }
 
+table#sponsorships th {
+	vertical-align: bottom;
+	text-align: left;
+}
+
+table#sponsorships th, table#sponsorships td {
+	white-space: nowrap;
+}
+
+table#sponsorships span.check {
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	white-space: nowrap;
+}
+
+
 @media only screen and (min-width: 768px) {
 	#page {
 		width: 60vw;
@@ -115,5 +131,9 @@ footer a:visited {
 
 	#schedule .item h3 {
 		margin-top: 0;
+	}
+
+	table#sponsorships th, table#sponsorships td {
+		padding: 10px;
 	}
 }
