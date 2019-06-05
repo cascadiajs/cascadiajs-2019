@@ -255,7 +255,7 @@ The evening before the conference we will organize a mixer that pairs our schola
 
 <h2 id="team"><i class="fas fa-handshake"></i> Meet the Team</h2>
 
-This is perfect if you're bring your team to the event and have an open job that you're hiring for. Comes with a job posting, a block of 4 tickets, 20% any additional tickets and access to private meeting rooms where we will help you book time to meet any of our attendees who are interested in your position.
+This is perfect if you're bring your team to the event and have an open job that you're hiring for. Comes with a job posting, a block of 4 tickets, 20% off any additional tickets and access to private meeting rooms where we will help you book time to meet any of our attendees who are interested in your position.
 
 <h2 id="captions"><i class="fas fa-closed-captioning"></i> Captioning</h2>
 
@@ -263,7 +263,7 @@ We will be live captioning all 24 talks for the hearing impaired. Your logo will
 
 <h2 id="birds"><i class="fas fa-feather"></i> Birds of a Feather</h2>
 
-We will be setting-up "interest areas" throughout the venue where folks who share an interest (ReactJS, GraphQL, etc) can congregate and meet one another. We are looking for companies who are heavily involved in technical space (i.e. NoSQL) to staff these areas,  facilitate introduction and moderate conversations. If your company's product or engineering team has deep expertise in a technical topic of interest to our attendees this is a great option you for. 
+We will be setting-up "interest areas" throughout the venue where folks who share an interest (ReactJS, GraphQL, etc) can congregate and meet one another. We are looking for companies who are heavily involved in a technical space (i.e. NoSQL) to staff these areas,  facilitate introductions and moderate conversations. If your company's product or engineering team has deep expertise in a technical topic of interest to our attendees, this is a great option for you. 
 
 <h2 id="bus"><i class="fas fa-bus"></i> Hacker Bus</h2>
 
