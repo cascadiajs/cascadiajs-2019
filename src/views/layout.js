@@ -1,10 +1,10 @@
-let url
+let staticBaseUrl
 let env = process.env.NODE_ENV
-if (env === "production") url = process.env.BEGIN_STATIC_ORIGIN
+if (env === "production") staticBaseUrl = process.env.BEGIN_STATIC_ORIGIN
 // change to EDGE later
-else if (env === "staging") url = process.env.BEGIN_STATIC_ORIGIN
+else if (env === "staging") staticBaseUrl = process.env.BEGIN_STATIC_ORIGIN
 // S3
-else url = "/_static" // Handles local use cases
+else staticBaseUrl = "/_static" // Handles local use cases
 
 module.exports = function Layout(content) {
 	return `
@@ -17,7 +17,24 @@ module.exports = function Layout(content) {
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@^7.0.0">
     <link rel="stylesheet" href="https://use.typekit.net/cnx1fnn.css">
     <script src="https://kit.fontawesome.com/439d39b111.js"></script>
-    <link rel="stylesheet" href="${url}/styles.css">
+    <link rel="stylesheet" href="${staticBaseUrl}/styles.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="${staticBaseUrl}/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="${staticBaseUrl}/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="${staticBaseUrl}/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="${staticBaseUrl}/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="${staticBaseUrl}/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="${staticBaseUrl}/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="${staticBaseUrl}/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="${staticBaseUrl}/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="${staticBaseUrl}/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="${staticBaseUrl}/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="${staticBaseUrl}/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="${staticBaseUrl}/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="${staticBaseUrl}/favicons/favicon-16x16.png">
+    <link rel="manifest" href="${staticBaseUrl}/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="${staticBaseUrl}/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <div id="root">
