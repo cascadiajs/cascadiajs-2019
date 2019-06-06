@@ -33,6 +33,15 @@ blockquote {
 	color: #777;
 }
 
+ul {
+	padding:0
+}
+
+li {
+	list-style-type: none;
+	margin-bottom:5px;
+}
+
 #root {
 	display: grid;
 	min-height: 100%;
@@ -106,6 +115,24 @@ table#sponsorships span.check {
 .tierCol, .qCol {
 	display: none;
 }
+
+a.cta {
+	font-size: 1.2em;
+	font-weight: 600;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+	display: inline-block;
+	background-color: #fff;
+	color: #275197;
+  border: 1px solid rgb(55, 107, 251);
+}
+
+a.cta:hover {
+	background-color: rgb(55, 107, 251);
+	color: #fff;
+}
+
 
 @media only screen and (min-width: 768px) {
 	#page {

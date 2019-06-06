@@ -2,11 +2,11 @@
 
 Thank you for your interest in speaking at CascadiaJS 🌲. Here are a few important notes before you continue:
 
-- ⏳ Talks are 25 minutes long with no Q&A following the talk.
-- 📆 CFP closes at 11:59 PM Pacific US time on June 30, 2019.
-- 🛩 We cover all travel expenses and arrange for lodging for out of town speakers.
-- 😅 You commit to work with us on the talk and practice it several times.
-- 🙌 We'll support and mentor you in whatever way you need!
+- <i class="fas fa-clock"></i> Talks are 25 minutes long with no Q&A following the talk.
+- <i class="fas fa-calendar-alt"></i>  CFP closes at 11:59 PM Pacific US time on June 30, 2019.
+- <i class="fas fa-plane-arrival"></i>  We cover all travel expenses and arrange for lodging for out of town speakers.
+- <i class="fas fa-user-hard-hat"></i>  You commit to work with us on the talk and practice it several times.
+- <i class="fas fa-hand-heart"></i>  We'll support and mentor you in whatever way you need!
 
 Please review the information below before you submit to the CFP.
 
@@ -20,7 +20,7 @@ EVERY DEVELOPER HAS A STORY: about how they got into this industry, how their te
 
 We are also looking for stories from folks who belong to underrepresented groups (URMs) in our industry. Seattle (and the Pacific Northwest) has a bad reputation for being pretty homogenous, and we want to create an environment for all kinds of speakers, from all kinds of backgrounds, because we beleive that makes a difference in shifting the inclusivity of our industry forward.
 
-## Code of Conduct
+## Code of conduct
 
 Please review our [Code of Conduct](/code-of-conduct). Everyone who participates in our conference agrees to the enforcement of our CoC, and includes our friends, speakers, staff, sponsors, and attendees.
 
@@ -28,10 +28,13 @@ Please review our [Code of Conduct](/code-of-conduct). Everyone who participates
 
 If we accept your proposal to speak, the following items are taken care of by us:
 
-- One ticket to the conference
-- Lodging for 3 nights in Seattle
-- Travel to/from Seattle
-- A few surprises 😊
+<i class="fas fa-ticket-alt"></i> One ticket to the conference
+
+<i class="fas fa-hotel"></i> Lodging for 3 nights in Seattle
+
+<i class="fas fa-plane-departure"></i> Travel to/from Seattle
+
+<i class="fas fa-gifts"></i> A few surprises 😊
 
 ## Topics
 
@@ -63,23 +66,23 @@ A great talk tells a story -- it can address issues that developers struggle wit
 - Developer Ethics
 - Security, Privacy and Trust
 
-## How to Submit a Proposal
+## How to submit a proposal
 
 First, make sure you're available to attend the conference. It will be held on **November 7-8, 2019**.
 
-Talk submissions are done as 2 minute videos. Your goal here is not to produce a perfectly executed mini-talk, it is to describe your talk idea informally. What's the topic? How do you want to approach it? Why is it interesting?
+Talk submissions are done as **2 minute videos**. Your goal here is not to produce a perfectly executed mini-talk, it is to describe your talk idea informally. What's the topic? How do you want to approach it? Why is it interesting?
 
 We won't make the videos public, so no need to worry about random Internet people seeing them. But we feel this is a good opportunity to start building a comfort level with talking about your idea in front of an audience.
 
 Here is an [example submission](https://www.youtube.com/watch?v=VcYSf2EWFKk&feature=youtu.be) from one of our 2018 speakers, Elgin-Skye McLaren. Here's another one from [Will Klein](https://drive.google.com/file/d/12onj0eQPspOj1bSkL8waM-m52vZgL2IY/view). These videos are _not_ meant to be templates, they're just here to illustrate a few goals: be clear about your topic, share some context for why you care, and please be yourself!
 
-## Stuck on the Idea of a Video Submission?
+## Stuck on the idea of a video submission?
 
 If you're still hesitant about the video, here's a suggestion. Forget recording for now. Stand up, in a place where no one can hear you, and describe your talk idea out loud. When you're done, start over and do it again, ten times in a row. With a two-minute limit, ten tries only take about 20 minutes. After your tenth try, you may feel much more confident.
 
 Once you’ve recorded your 2-minute video, just upload it to a public but obfuscated place. Some suggestions: Youtube (mark as unlisted), Dropbox, S3, your own web host.
 
-## We’re Here to Help!
+## We’re here to help!
 
 There are a million reasons why you might not think you’re qualified or capable of giving a talk, let alone at CascadiaJS. We are here to prove you wrong. If all you have is a gut feeling that you have something important to share with people, we are here to help you hone your idea and craft a great submission. We are happy to connect you with experienced speakers to help prepare your submission. Just [join our Slack](https://join.slack.com/t/cascadiajs/shared_invite/enQtMzcyMjkzMDk0NjQwLTc3YmJiMTk0NTZjNDBjMzg2YTMxNDA4Njk3YTgyZWY0MGM4NjVhZTI0YTUzYTRmYzRlNThhNTIxOGNkMDU1ZGU) and head over to the #cfp channel.
 
@@ -91,14 +94,13 @@ If you need more encouragement, check out the following resources:
 
 Once your talk has been accepted, we will commit to working with you to give an awesome talk. This includes reviewing and advising on slides and helping you practice giving your talk. We can hook you up with local groups or set up a stage for you and a bunch of friends in advance, so you can practice in front of a friendly crowd. Again, whatever else you might need, we’re here to help.
 
-## The Selection Process
+## The selection process
 
 Submissions close on June 30th at 11:59PM PDT. We will get back to all speakers as soon as possible. We will email all speakers at roughly the same time, so everyone will hear back on the same day.
 
-## You’ll Do Great!
+## You’ll do great!
 
 If you have any questions about this process, need more information or need assistance with travel and/or lodging, don't hesitate to reach out to us at carter@cascadiajs.com.
 
-## Submit a Proposal
 
-https://cascadiajs.typeform.com/to/SrKdlj (closes on June 30, 2019)
+<a class="cta" href="https://cascadiajs.typeform.com/to/SrKdlj">Submit a Proposal</a>
