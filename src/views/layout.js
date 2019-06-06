@@ -27,7 +27,8 @@ module.exports = function Layout(content) {
           <a href="/"><i class="fas fa-home"></i>Home</a>
           <a href="/why-cascadiajs"><i class="fas fa-heart-square"></i>Why CascadiaJS?</a>
           <a href="/#tickets"><i class="fas fa-ticket-alt"></i>Buy Tickets</a>
-          <a href="/cfp"><i class="fas fa-microphone"></i>Speak at CascadiaJS</a>
+          <a href="/cfp"><i class="fas fa-microphone"></i>Be a Speaker</a>
+          <a href="/sponsor"><i class="fas fa-hand-holding-seedling"></i>Sponsor Us</a>
           <a href="/code-of-conduct"><i class="fas fa-dove"></i>Code of Conduct</a>
         </nav>
       </header>
