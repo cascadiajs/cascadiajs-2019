@@ -2,15 +2,38 @@
 
 The most important thing we do as a conference is bring developers together to meet, build relationships and learn from one another. Many of the attendees who come to CascadiaJS do so because they are trying to learn new skills, become better engineers, build their professional network or find a new job. For companies that are hiring or building products for developers, sponsoring CascadiaJS is a great way to connect with these folks.
 
+![Amazon at CascadiaJS](https://pbs.twimg.com/media/DtM87aIU0AMyD94.jpg:large)
+
+## About CascadiaJS
+
+CascadiaJS was started in 2012 by web developers in the Pacific Northwest to better connect and celebrate the amazing work of communities across the region. Last year we welcomed 550 developers to the Amazon Meeting Center where 25 amazing speakers covered everything from advances in front-end development to building software for the distributed web.
+
+Here are a few data points:
+
+* Number of events since 2012 = 6
+* YouTube views for the 2018 talks =  47k
+* Twitter impressions for 2018 = 665k
+* Number of scholarships awarded in 2018 = 46
+* Expected number of attendees for 2019 = 600
+
+Past events and testimonials: 
+* [2018](https://2018.cascadiajs.com/) / [Videos](https://www.youtube.com/playlist?list=PL37ZVnwpeshHipbzU5EyjRkem3U5OVWxm) / [Tweets](https://twitter.com/search?q=cascadiajs%20OR%20%23cjs18%20since%3A2018-10-01%20until%3A2018-12-01&src=typd)
+* [2016](https://2016.cascadiafest.org/) / [Videos](https://www.youtube.com/playlist?list=PLLiioAbFTbKNKyP1m4dmW_xu9byJOPMHe) / [Tweets](https://twitter.com/search?q=%23cascadiafest%20OR%20cascadiajs%20since%3A2016-04-01%20until%3A2016-08-01&src=typd)
+* [2015](https://2015.cascadiajs.com/) / [Videos](https://www.youtube.com/playlist?list=PLLiioAbFTbKNpjG_yNpNfhAmQ9KsxFzX7) / [CascadiaFest 2015: A Debrief](http://www.apptentive.com/blog/cascadiafest-2015-a-debrief/) / [The Komodo in Cascadia(JS)](http://komodoide.com/blog/the-komodo-in-cascadia/)
+* [2014](https://2014.cascadiajs.com/) / [Videos](https://www.youtube.com/playlist?list=PLLiioAbFTbKMoXtKtyj_3eCfzD-eT05gl) / [Tweets](https://twitter.com/search?q=cascadiajs%20OR%20%23cjs14%20since%3A2014-01-01%20until%3A2014-12-01&src=typd)
+* [2013](https://2013.cascadiajs.com/) / [Videos](https://www.youtube.com/playlist?list=PLLiioAbFTbKP9CxF9Fu4_NQteU_v9wkA3) / [Tweets](https://twitter.com/search?q=cascadiajs%20OR%20%23cjs13%20since%3A2013-01-01%20until%3A2013-12-01&src=typd)
+* [2012](https://2012.cascadiajs.com/) / [Videos](https://www.youtube.com/playlist?list=PLLiioAbFTbKMtmUbLWDzpUzayRLC5s2NZ) / [Shipping a Conference](https://www.twilio.com/blog/2012/11/shipping-a-conference-cascadiajs.html)
+
+
 If you'd like to support our event or have any questions, please email carter@cascadiajs.com.
 
 <table id="sponsorships">
   <thead>
     <tr>
-      <th>Tier</th>
+      <th class="tierCol">Tier</th>
       <th>Sponsorship</th>
       <th>Price</th>
-      <th>Quantity</th>
+      <th class="qCol">Quantity</th>
       <th><span class="check">Tickets</span></th>
       <th><span class="check">Website</span></th>
       <th><span class="check">Banners</span></th>
@@ -24,10 +47,10 @@ If you'd like to support our event or have any questions, please email carter@ca
   </thead>
   <tbody>
     <tr>
-      <td>Platinum</td>
+      <td class="tierCol">Platinum</td>
       <td><i class="fas fa-university"></i> <a href="#venue">Venue</a></td>
       <td>$20k</td>
-      <td>1</td>
+      <td class="qCol">1</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -39,10 +62,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
     </tr>
     <tr>
-      <td>Gold</td>
+      <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day One Track</a></td>
       <td>$10k</td>
-      <td>1</td>
+      <td class="qCol">1</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -54,10 +77,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
     </tr>
     <tr>
-      <td>Gold</td>
+      <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day Two Track</a></td>
       <td>$10k</td>
-      <td>1</td>
+      <td class="qCol">1</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -69,10 +92,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
     </tr>
     <tr>
-      <td>Gold</td>
+      <td class="tierCol">Gold</td>
       <td><i class="fas fa-gamepad"></i> <a href="#party">Opening Party</a></td>
       <td>$10k</td>
-      <td>1</td>
+      <td class="qCol">1</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -84,10 +107,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
     </tr>
     <tr>
-      <td>Gold</td>
+      <td class="tierCol">Gold</td>
       <td><i class="fas fa-gamepad"></i> <a href="#party">Closing Party</a></td>
       <td>$10k</td>
-      <td>1</td>
+      <td class="qCol">1</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -99,10 +122,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
     </tr>
     <tr>
-      <td>Silver</td>
+      <td class="tierCol">Silver</td>
       <td><i class="fas fa-tshirt"></i> <a href="#booth">Booth</a></td>
       <td>$5k</td>
-      <td>1</td>
+      <td class="qCol">1</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -114,10 +137,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td></td>
     </tr>
     <tr>
-      <td>Silver</td>
+      <td class="tierCol">Silver</td>
       <td><i class="fas fa-coffee-togo"></i> <a href="#coffee">Coffee</a></td>
       <td>$6k</td>
-      <td>1</td>
+      <td class="qCol">1</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -129,10 +152,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td></td>
     </tr>
     <tr>
-      <td>Silver</td>
+      <td class="tierCol">Silver</td>
       <td><i class="fas fa-user-graduate"></i> <a href="#mixer">Mentor Mixer</a></td>
       <td>$5k</td>
-      <td>1</td>
+      <td class="qCol">1</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -144,10 +167,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td></td>
     </tr>
     <tr>
-      <td>Silver</td>
+      <td class="tierCol">Silver</td>
       <td><i class="fas fa-handshake"></i> <a href="#team">Meet the Team</a></td>
       <td>$5k</td>
-      <td>10</td>
+      <td class="qCol">10</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -159,10 +182,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td></td>
     </tr>
     <tr>
-      <td>Silver</td>
+      <td class="tierCol">Silver</td>
       <td><i class="fas fa-closed-captioning"></i> <a href="#captions">Captioning</a></td>
       <td>$3k</td>
-      <td>1</td>
+      <td class="qCol">1</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -174,10 +197,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td></td>
     </tr>
     <tr>
-      <td>Community</td>
+      <td class="tierCol">Community</td>
       <td><i class="fas fa-feather"></i> <a href="#birds">Birds of a Feather</a></td>
       <td>$2k</td>
-      <td>10</td>
+      <td class="qCol">10</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -189,10 +212,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td></td>
     </tr>
     <tr>
-      <td>Community</td>
+      <td class="tierCol">Community</td>
       <td><i class="fas fa-bus"></i> <a href="#bus">Hacker Bus</a></td>
       <td>$1k</td>
-      <td>2</td>
+      <td class="qCol">2</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -204,10 +227,10 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td></td>
     </tr>
     <tr>
-      <td>Community</td>
+      <td class="tierCol">Community</td>
       <td><i class="fas fa-hand-holding-heart"></i> <a href="#scholarships">Scholarships</a></td>
       <td>$1500</td>
-      <td>n/a</td>
+      <td class="qCol">n/a</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>

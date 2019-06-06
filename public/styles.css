@@ -103,6 +103,9 @@ table#sponsorships span.check {
 	white-space: nowrap;
 }
 
+.tierCol, .qCol {
+	display: none;
+}
 
 @media only screen and (min-width: 768px) {
 	#page {
@@ -136,4 +139,8 @@ table#sponsorships span.check {
 	table#sponsorships th, table#sponsorships td {
 		padding: 10px;
 	}
+
+  .tierCol, .qCol {
+    display: table-cell;
+  }
 }
