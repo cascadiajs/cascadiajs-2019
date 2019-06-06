@@ -125,7 +125,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-tshirt"></i> <a href="#booth">Booth</a></td>
       <td>$5k</td>
-      <td class="qCol">1</td>
+      <td class="qCol">5</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
