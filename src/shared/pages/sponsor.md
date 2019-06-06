@@ -36,8 +36,8 @@ If you'd like to support our event or have any questions, please email carter@ca
       <th class="qCol">Quantity</th>
       <th><span class="check">Tickets</span></th>
       <th><span class="check">Website</span></th>
-      <th><span class="check">Banners</span></th>
-      <th><span class="check">Social</span></th>
+      <th><span class="check">Tweets</span></th>
+      <th><span class="check">Videos</span></th>
       <th><span class="check">Booth</span></th>
       <th><span class="check">Job Posting</span></th>
       <th><span class="check">Meeting Space</span></th>
@@ -99,7 +99,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -114,7 +114,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -125,11 +125,11 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-tshirt"></i> <a href="#booth">Booth</a></td>
       <td>$5k</td>
-      <td class="qCol">5</td>
+      <td class="qCol">4</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td>✅</td>
       <td></td>
       <td></td>
@@ -144,7 +144,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td>✅</td>
       <td></td>
       <td></td>
@@ -159,7 +159,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -174,7 +174,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td></td>
       <td>✅</td>
       <td>✅</td>
@@ -189,7 +189,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -199,12 +199,12 @@ If you'd like to support our event or have any questions, please email carter@ca
     <tr>
       <td class="tierCol">Community</td>
       <td><i class="fas fa-feather"></i> <a href="#birds">Birds of a Feather</a></td>
-      <td>$2k</td>
+      <td>$2500</td>
       <td class="qCol">10</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -214,12 +214,12 @@ If you'd like to support our event or have any questions, please email carter@ca
     <tr>
       <td class="tierCol">Community</td>
       <td><i class="fas fa-bus"></i> <a href="#bus">Hacker Bus</a></td>
-      <td>$1k</td>
+      <td>$1500</td>
       <td class="qCol">2</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -230,11 +230,11 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Community</td>
       <td><i class="fas fa-hand-holding-heart"></i> <a href="#scholarships">Scholarships</a></td>
       <td>$1500</td>
-      <td class="qCol">n/a</td>
+      <td class="qCol">unlimited</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
