@@ -16,7 +16,19 @@ let content = `
   <section id="tickets">
     <h2>Tickets</h2>
     <p>
-      Early Bird tickets will go on sale on <span class="exclaim">Friday, June 7th at 10am PDT</span>.
+      Early Bird tickets are on sale <span class="exclaim">NOW</span>. A few notes about buying Early Bird tickets:
+    </p>
+    <ol>
+      <li>After the Early Bird, prices go up to $700 (Regular) and $800 (Late Bird)</li>
+      <li>If you are paying yourself, work at a non-profit or a company with less than 10 people, feel free to use the promo code INDIE for $200 off.</li>
+      <li>We will be running a Scholarship Program again this year, so if you are a member of a under-represented group in tech or need financial assistance in order to attend, <b>please stay tuned</b>.</li>
+    </ol>
+    <p>
+      Lastly, we are integrating <a href="https://fizbuz.com">Fizbuz</a> into our registration process in order to collect some demographic data and provide all of our attendees with developer profiles that they can use to get listed in the conference directory and connect with people and interesting activities during the conference. The link below will send you to a very short
+      Fizbuz sign-up flow and then redirect to the ticketing page.
+    </p>
+    <p>
+      <a class="cta" href="https://fizbuz.com/signup?placeID=PLoz9mrq5pvw8xvvnomxq71kjlngx406">Buy a Ticket</a>
     </p>
   </section>
   
