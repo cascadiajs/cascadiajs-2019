@@ -4,6 +4,7 @@ let content = `
   <h1>
     CascadiaJS 2019
   </h1>
+  <p><img src="${process.env.BEGIN_STATIC_ORIGIN}/2018-stickers.jpg" alt="stickers on table at 2018 conference"/></p>
   <p>
     CascadiaJS features a single track of 24 amazing speakers discussing the cutting-edge of JavaScript, 
     web development and engineering culture over the course of 2 days.

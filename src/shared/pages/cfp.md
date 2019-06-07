@@ -1,5 +1,7 @@
 # Call for Presenters (closes June 30, 2019)
 
+![CascadiaJS 2018 speaker](https://pbs.twimg.com/media/D8PgRE0UIAAcaHm.jpg:large)
+
 Thank you for your interest in speaking at CascadiaJS 🌲. Here are a few important notes before you continue:
 
 - <i class="fas fa-clock"></i> Talks are 25 minutes long with no Q&A following the talk.

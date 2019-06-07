@@ -1,5 +1,7 @@
 # The CascadiaJS Code of Conduct
 
+![2018 pronoun stickers](${STATIC}/2018-pronoun-stickers.jpg)
+
 ## Need Help?
 
 If you have any questions, comments, concerns, or to report anything that makes you feel uncomfortable or unsafe, you can use these channels:
