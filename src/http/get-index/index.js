@@ -19,7 +19,7 @@ let content = `
       Early Bird tickets are on sale <span class="exclaim">NOW</span>. A few notes about buying Early Bird tickets:
     </p>
     <ol>
-      <li>After the Early Bird, prices go up to $700 (Regular) and $800 (Late Bird)</li>
+      <li>After the $600 Early Bird, prices go up to $700 (Regular) and $800 (Late Bird)</li>
       <li>If you are paying yourself, work at a non-profit or a company with less than 10 people, feel free to use the promo code INDIE for $200 off.</li>
       <li>We will be running a Scholarship Program again this year, so if you are a member of a under-represented group in tech or need financial assistance in order to attend, <b>please stay tuned</b>.</li>
     </ol>
