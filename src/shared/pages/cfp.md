@@ -20,7 +20,7 @@ EVERY DEVELOPER HAS A STORY: about how they got into this industry, how their te
 
 ## Representation in tech
 
-We are also looking for stories from folks who belong to underrepresented groups (URMs) in our industry. Seattle (and the Pacific Northwest) has a bad reputation for being pretty homogenous, and we want to create an environment for all kinds of speakers, from all kinds of backgrounds, because we beleive that makes a difference in shifting the inclusivity of our industry forward.
+We are also looking for stories from folks who belong to underrepresented groups (URMs) in our industry. Seattle (and the Pacific Northwest) has a bad reputation for being pretty homogenous, and we want to create an environment for all kinds of speakers, from all kinds of backgrounds, because we believe that makes a difference in shifting the inclusivity of our industry forward.
 
 ## Code of conduct
 
