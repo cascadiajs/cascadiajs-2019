@@ -28,7 +28,7 @@ let content = `
       Fizbuz sign-up flow and then redirect to the ticketing page.
     </p>
     <p>
-      <a class="cta" href="https://fizbuz.com/signup?placeID=PLoz9mrq5pvw8xvvnomxq71kjlngx406">Buy a Ticket</a>
+      <a class="cta" href="https://fizbuz.com/signup?placeID=PLoz9mrq5pvw8xvvnomxq71kjlngx406&forwardUrl=https%3A%2F%2Fti.to%2Fevent-loop%2Fcascadiajs-2019%2Fwith%2F4-wqkvqvp-a%2Cluwnj6-r4zi%2Cmenxgsfya6k%2Cciqxti6a5yu%2Cqzjnfesyonm%2Cgxtdhvhs2s8%2Ccip51mg0glk%2C5atc3qhk-60">Buy a Ticket</a>
     </p>
   </section>
   
