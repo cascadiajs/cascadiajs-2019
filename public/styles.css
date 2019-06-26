@@ -119,6 +119,12 @@ table#sponsorships span.check {
 	display: none;
 }
 
+
+#tickets th, #tickets td {
+	text-align: left;
+	padding:10px;
+}
+
 a.cta {
 	font-size: 1.2em;
 	font-weight: 600;

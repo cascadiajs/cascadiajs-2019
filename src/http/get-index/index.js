@@ -15,17 +15,38 @@ let content = `
   </p>
   <section id="tickets">
     <h2>Tickets</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Deadline</th>
+          <th>Jun 30</th>
+          <th>Aug 30</th>
+          <th>Oct 30</th>
+        <tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Corporate</th>
+          <td>$600</td>
+          <td>$700</td>
+          <td>$800</td>
+        </tr>
+        <tr>
+          <td>Indie</th>
+          <td>$400</td>
+          <td>$500</td>
+          <td>$600</td>
+        </tr>
+        <tr>
+          <td><a href="/scholarships">Scholarship</th>
+          <td>$99</td>
+          <td>$99</td>
+          <td>$99</td>
+        </tr>
+      </tbody>
+    </table>
     <p>
-      Early Bird tickets are on sale <span class="exclaim">NOW</span>. A few notes about buying Early Bird tickets:
-    </p>
-    <ol>
-      <li>After the $600 Early Bird, prices go up to $700 (Regular) and $800 (Late Bird)</li>
-      <li>If you are paying yourself, work at a non-profit or a company with less than 10 people, feel free to use the promo code INDIE for $200 off.</li>
-      <li>We will be running a Scholarship Program again this year, so if you are a member of a under-represented group in tech or need financial assistance in order to attend, <b>please stay tuned</b>.</li>
-    </ol>
-    <p>
-      Lastly, we are integrating <a href="https://fizbuz.com">Fizbuz</a> into our registration process in order to collect some demographic data and provide all of our attendees with developer profiles that they can use to get listed in the conference directory and connect with people and interesting activities during the conference. The link below will send you to a very short
-      Fizbuz sign-up flow and then redirect to the ticketing page.
+      NOTE: If you are paying yourself, work at a non-profit or a company with less than 10 people, feel free to use the promo code INDIE for $200 off.
     </p>
     <p>
       <a class="cta" href="https://fizbuz.com/signup?placeID=PLoz9mrq5pvw8xvvnomxq71kjlngx406&forwardUrl=https%3A%2F%2Fti.to%2Fevent-loop%2Fcascadiajs-2019%2Fwith%2F4-wqkvqvp-a%2Cluwnj6-r4zi%2Cmenxgsfya6k%2Cciqxti6a5yu%2Cqzjnfesyonm%2Cgxtdhvhs2s8%2Ccip51mg0glk%2C5atc3qhk-60">Buy a Ticket</a>
