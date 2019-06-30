@@ -1,11 +1,13 @@
-# Call for Presenters (closes June 30, 2019)
+# Call for Presenters
+
+<span class="exclaim">Deadline extended to 7/21</span>
 
 ![CascadiaJS 2018 speaker](https://pbs.twimg.com/media/D8PgRE0UIAAcaHm.jpg:large)
 
 Thank you for your interest in speaking at CascadiaJS 🌲. Here are a few important notes before you continue:
 
 - <i class="fas fa-clock"></i> Talks are 25 minutes long with no Q&A following the talk.
-- <i class="fas fa-calendar-alt"></i>  CFP closes at 11:59 PM Pacific US time on June 30, 2019.
+- <i class="fas fa-calendar-alt"></i>  CFP closes on <span class="exclaim">July 21, 2019</span>.
 - <i class="fas fa-plane-arrival"></i>  We cover all travel expenses and arrange for lodging for out of town speakers.
 - <i class="fas fa-user-hard-hat"></i>  You commit to work with us on the talk and practice it several times.
 - <i class="fas fa-hand-heart"></i>  We'll support and mentor you in whatever way you need!
@@ -76,7 +78,11 @@ Talk submissions are done as **2 minute videos**. Your goal here is not to produ
 
 We won't make the videos public, so no need to worry about random Internet people seeing them. But we feel this is a good opportunity to start building a comfort level with talking about your idea in front of an audience.
 
-Here is an [example submission](https://www.youtube.com/watch?v=VcYSf2EWFKk&feature=youtu.be) from one of our 2018 speakers, Elgin-Skye McLaren. Here's another one from [Will Klein](https://drive.google.com/file/d/12onj0eQPspOj1bSkL8waM-m52vZgL2IY/view). These videos are _not_ meant to be templates, they're just here to illustrate a few goals: be clear about your topic, share some context for why you care, and please be yourself!
+Below are a couple of submissions from two of our 2018 speakers, Elgin-Skye McLaren and Atishay Jain. These videos are _not_ meant to be templates, they're just here to illustrate a few goals: be clear about your topic, share some context for why you care, and please be yourself!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VcYSf2EWFKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cexd-g9lxJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Stuck on the idea of a video submission?
 
@@ -98,7 +104,7 @@ Once your talk has been accepted, we will commit to working with you to give an 
 
 ## The selection process
 
-Submissions close on June 30th at 11:59PM PDT. We will get back to all speakers as soon as possible. We will email all speakers at roughly the same time, so everyone will hear back on the same day.
+Submissions close on <span class="exclaim">July 21, 2019</span>. We will get back to all speakers as soon as possible. We will email all speakers at roughly the same time, so everyone will hear back on the same day.
 
 ## You’ll do great!
 

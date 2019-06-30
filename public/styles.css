@@ -96,6 +96,7 @@ footer a:visited {
 }
 
 .exclaim {
+	padding: 3px;
 	background-color: yellow;
 	font-weight: 600;
 }
