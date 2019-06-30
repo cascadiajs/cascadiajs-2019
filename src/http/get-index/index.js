@@ -19,7 +19,7 @@ let content = `
       <thead>
         <tr>
           <th>Deadline</th>
-          <th>Jun 30</th>
+          <th>Jun 28</th>
           <th>Aug 30</th>
           <th>Oct 30</th>
         <tr>
