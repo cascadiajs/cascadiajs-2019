@@ -9,8 +9,7 @@ Thank you for your interest in speaking at CascadiaJS 🌲. Here are a few impor
 - <i class="fas fa-clock"></i> Talks are 25 minutes long with no Q&A following the talk.
 - <i class="fas fa-calendar-alt"></i>  CFP closes on <span class="exclaim">July 21, 2019</span>.
 - <i class="fas fa-plane-arrival"></i>  We cover all travel expenses and arrange for lodging for out of town speakers.
-- <i class="fas fa-user-hard-hat"></i>  You commit to work with us on the talk and practice it several times.
-- <i class="fas fa-hand-heart"></i>  We'll support and mentor you in whatever way you need!
+- <i class="fas fa-hand-heart"></i>  We provide support and mentorship for new speakers.
 
 Please review the information below before you submit to the CFP.
 
@@ -22,7 +21,7 @@ EVERY DEVELOPER HAS A STORY: about how they got into this industry, how their te
 
 ## Representation in tech
 
-We are also looking for stories from folks who belong to underrepresented groups (URMs) in our industry. Seattle (and the Pacific Northwest) has a bad reputation for being pretty homogenous, and we want to create an environment for all kinds of speakers, from all kinds of backgrounds, because we beleive that makes a difference in shifting the inclusivity of our industry forward.
+We are also looking for stories from folks who belong to underrepresented groups (URMs) in our industry. Seattle (and the Pacific Northwest) has a bad reputation for being pretty homogenous, and we want to create an environment for all kinds of speakers, from all kinds of backgrounds, because we believe that makes a difference in shifting the inclusivity of our industry forward.
 
 ## Code of conduct
 
@@ -84,31 +83,22 @@ Below are a couple of submissions from two of our 2018 speakers, Elgin-Skye McLa
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cexd-g9lxJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Stuck on the idea of a video submission?
-
 If you're still hesitant about the video, here's a suggestion. Forget recording for now. Stand up, in a place where no one can hear you, and describe your talk idea out loud. When you're done, start over and do it again, ten times in a row. With a two-minute limit, ten tries only take about 20 minutes. After your tenth try, you may feel much more confident.
 
 Once you’ve recorded your 2-minute video, just upload it to a public but obfuscated place. Some suggestions: Youtube (mark as unlisted), Dropbox, S3, your own web host.
+
+## Exceptions to our video submission policy
+
+We have heard from a few people that video submissions presents a barrier to them. If this is true for you, please feel free to substitute a link to a written proposal in place of a link to a video. PLEASE, keep the written proposal short and concise. Reading and reviewing the proposal should take no more than ~2 minutes. 
 
 ## We’re here to help!
 
 There are a million reasons why you might not think you’re qualified or capable of giving a talk, let alone at CascadiaJS. We are here to prove you wrong. If all you have is a gut feeling that you have something important to share with people, we are here to help you hone your idea and craft a great submission. We are happy to connect you with experienced speakers to help prepare your submission. Just [join our Slack](https://join.slack.com/t/cascadiajs/shared_invite/enQtMzcyMjkzMDk0NjQwLTc3YmJiMTk0NTZjNDBjMzg2YTMxNDA4Njk3YTgyZWY0MGM4NjVhZTI0YTUzYTRmYzRlNThhNTIxOGNkMDU1ZGU) and head over to the #cfp channel.
 
-If you need more encouragement, check out the following resources:
-
-- Tiffany Conroy, [We Are All Awesome](http://weareallaweso.me/)
-- Raquel Velez, [Is Your Conference Proposal Good Enough?](http://rckbt.me/2014/01/conference-proposals/)
-- Zach Holman, [speaking.io](http://speaking.io/plan/writing-a-cfp/)
-
-Once your talk has been accepted, we will commit to working with you to give an awesome talk. This includes reviewing and advising on slides and helping you practice giving your talk. We can hook you up with local groups or set up a stage for you and a bunch of friends in advance, so you can practice in front of a friendly crowd. Again, whatever else you might need, we’re here to help.
+If you are a new speaker, once your talk has been accepted we will commit to working with you to give an awesome talk. This includes reviewing and advising on slides and helping you practice giving your talk. We can hook you up with local groups or set up a stage for you and a bunch of friends in advance, so you can practice in front of a friendly crowd. Again, whatever else you might need, we’re here to help.
 
 ## The selection process
 
 Submissions close on <span class="exclaim">July 21, 2019</span>. We will get back to all speakers as soon as possible. We will email all speakers at roughly the same time, so everyone will hear back on the same day.
-
-## You’ll do great!
-
-If you have any questions about this process, need more information or need assistance with travel and/or lodging, don't hesitate to reach out to us at carter@cascadiajs.com.
-
 
 <a class="cta" href="https://cascadiajs.typeform.com/to/SrKdlj">Submit a Proposal</a>
