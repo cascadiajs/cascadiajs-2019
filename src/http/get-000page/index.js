@@ -1,9 +1,8 @@
 let arc = require("@architect/functions")
-let render = require("@architect/shared/markdown")
+let handler = require("@architect/shared/handler")
 
 function route(req, res) {
-	let { page } = req.params
-	res(render(page))
+	handler(req, res)
 }
 
 exports.handler = arc.http(route)
