@@ -95,8 +95,4 @@ Your JavaScript enthusiast
 
 </blockquote>
 
-## Scholarships
-
-If you are dealing with financial hardships that make a ticket purchase impossible for you, consider applying to our Scholarship program - applications are open and everyone otherwise unable to attend is invited to apply.
-
 We hope those tips are useful and we’re excited to see you at CascadiaJS in November!
