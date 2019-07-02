@@ -1,24 +1,35 @@
 html,
 body {
+	background-image: url("/_static/plaid-pattern.svg");
 	width: 100%;
 	height: 100%;
 }
 
 body {
-	font-family: proxima-nova, sans-serif;
+	font-family: canada-type-gibson, sans-serif;
 	font-weight: 100;
+	font-size: 1.125em;
 }
 
-h1,
-h2 {
-	font-weight: 100;
+h1, h2, h3, h4 {
+	margin: 0 0 32px 0;
+	font-family: rift-soft
+}
+
+h1 {
+	font-size: 2.5em;
 }
 
 h2 {
-	display: inline-block;
-	border: 1px solid #333;
-	padding: 10px;
-	box-shadow: 3px 3px 0 0 #000;
+	font-size: 2.25em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.75em;
 }
 
 img {
@@ -33,18 +44,6 @@ blockquote {
 	color: #777;
 }
 
-ul {
-	padding:0
-}
-
-ul>li {
-	list-style-type: none;
-}
-
-li {
-	margin-bottom:5px;
-}
-
 #root {
 	display: grid;
 	min-height: 100%;
@@ -54,7 +53,7 @@ li {
 
 nav {
 	padding: 10px;
-	background-color: #275197;
+	background-color: #0d29ff;
 }
 
 nav svg, #sponsorships svg {
@@ -70,7 +69,7 @@ nav a,
 nav a:visited {
 	color: #fff;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 500;
 	padding-right: 20px;
 }
 
@@ -79,20 +78,20 @@ nav a:hover {
 }
 
 footer {
-	padding: 10px;
-	background-color: #275197;
-	color: #fff;
-	margin-top: 50px;
+	background-color: #020800;
+	color: #e6e8f5;
 }
 
 footer a,
 footer a:visited {
-	color: #fff;
+	color: #e6e8f5;
 	text-decoration: none;
 }
 
 #page {
-	margin: 10px;
+	background-color: #fff;
+	margin: 8px;
+	padding: 16px;
 }
 
 .exclaim {
@@ -123,35 +122,154 @@ table#sponsorships span.check {
 
 #tickets th, #tickets td {
 	text-align: left;
-	padding:10px;
+	padding: 10px;
+}
+
+.button {
+	font-size: 1.5em;
+	font-weight: 500;
+	padding: 16px;
+	border: none;
+  	border-radius: 3px;
+	background-color: #0d29ff;
+	color: #e6e8f5;	
 }
 
 a.cta {
-	font-size: 1.2em;
-	font-weight: 600;
-  padding: 10px;
-  border-radius: 3px;
-  text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 500;
+  	padding: 16px;
+  	border-radius: 3px;
+  	text-decoration: none;
 	display: inline-block;
-	background-color: #fff;
-	color: rgb(55, 107, 251);
-  border: 1px solid rgb(55, 107, 251);
+	background-color: #ef3e4a;
+	color: #e6e8f5;
 }
 
 a.cta:hover {
-	background-color: rgb(55, 107, 251);
-	color: #fff;
+	text-decoration: underline;
 }
 
+/* Landing page styles */
+
+#landing section {
+	padding: 16px;
+	margin-bottom: 8px;
+}
+
+#landing section.filler {
+	padding: 0px !important;
+}
+
+#landing section.filler img {
+	width: 100%;
+}
+
+#landing #tickets, #landing #events, #landing #email, #landing #designed-by {
+	background-color: #b9debc;
+}
+
+#landing #venue {
+	background-color: #FFD101;
+}
+
+#landing #code-of-conduct {
+	background-color: #FF9966;
+}
+
+#landing #week {
+	background-color: #e6e8f5;
+}
+
+#landing #metrics {
+	background-color: #1D48A4;
+	color: #FF9966;
+	text-align: center;
+}
+
+#landing #hero {
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: auto;
+	text-align: center;
+}
+
+#landing #tagline {
+	background-color: #0d29ff;
+	color: #e6e8f5;
+	padding: 8px;
+	font-size: 0.75em;
+	line-height: 1em;
+}
+
+#events-list td {
+	vertical-align: top;
+	padding: 0 10px 10px 0;
+}
+
+.metric {
+	font-family: rift-soft;
+	font-size: 4.125em;
+	font-weight: 500;
+}
+
+.metric-tag {
+	font-size: 1.25em;
+}
+
+footer {
+	padding: 16px 32px 16px 32px;
+}
+
+#footer-core-info {
+	font-family: rift-soft;
+	font-size: 2.5em;
+	color: #e6e8f5;
+}
+
+ul#past-confs, ul#connect-list {
+	padding: 0;
+}
+
+ul#past-confs>li, ul#connect-list>li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+/* Mailchimp embed styles */
+
+#mce-EMAIL {
+	width:50%;
+	padding: 16px;
+	font-size: 1.5em;
+}
+
+.response {
+	padding: 8px;
+} 
+
+/* end Mailchimp */
+
+#mce-error-response {
+	color: red;
+}
 
 @media only screen and (min-width: 768px) {
-	#page {
-		width: 60vw;
-		margin: 0 auto;
+	#landing {
+		display: grid;
+		min-height: 100%;
+		grid-template-rows: 100%;
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-gap: 8px;
+		padding: 8px;
 	}
 
-	header,
-	footer {
+	#page {
+		width: 60vw;
+		margin: 8px auto;
+	}
+
+	header {
 		text-align: center;
 	}
 
@@ -177,7 +295,27 @@ a.cta:hover {
 		padding: 10px;
 	}
 
-  .tierCol, .qCol {
-    display: table-cell;
-  }
+  	.tierCol, .qCol {
+    	display: table-cell;
+  	}
+	#tickets th, #tickets td {
+		font-size: 1vw;
+	}
+
+	#landing #tagline {
+		font-size: 1.25vw;
+		line-height: 2vw;
+	}
+
+  	footer {
+		display: grid;
+		min-height: 100%;
+		grid-template-rows: 100%;
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-gap: 8px;
+	}
+	  
+	#footer-core-info {
+		font-size: 4.5vw;
+	}
 }
