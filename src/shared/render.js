@@ -5,11 +5,9 @@ var join = require("path").join
 var md = require("marked")
 var Layout = require("@architect/views/layout")
 
-/*const processVariables = (content) => {
-	content = content.replace(/\$\{STATIC\}/g, process.env.BEGIN_STATIC_ORIGIN)
-	content = content.replace(/\$\{NUM_DAYS\}/g, Math.round(((new Date('11/7/2019')).getTime() - Date.now())/ 1000 / 60 / 60 / 24))
-	return content
-}*/
+const processVariables = (content) => {
+	return content.replace(/\$\{STATIC\}/g, process.env.BEGIN_STATIC_ORIGIN)
+}
 
 const getFile = (path) => {
 	if (exists(path)) {
@@ -22,7 +20,7 @@ const getFile = (path) => {
 
 const getMarkdownHtml = (doc) => {
 	let pathToMarkdownDoc = join(__dirname, "pages", doc) + ".md"
-	let html = md(getFile(pathToMarkdownDoc))
+	let html = md(processVariables(getFile(pathToMarkdownDoc)))
 	return `<div id="page">${html}</div>`
 
 }
