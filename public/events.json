@@ -1,0 +1,18 @@
+{
+    "events": [
+        {"date": "2019-07-01", "name": "Flatiron School Seattle Coding Community", "link": null},
+        {"date": "2019-07-02", "name": "SeattleJS Hackers", "link": null},
+        {"date": "2019-07-02", "name": "Code Fellows Seattle Meetup", "link": null},
+        {"date": "2019-07-02", "name": "Learn to Code Seattle", "link": null},
+        {"date": "2019-07-08", "name": "Free Code Camp Portland", "link": null},
+        {"date": "2019-07-08", "name": "SeattleJS Hackers", "link": null},
+        {"date": "2019-07-10", "name": "Women Who Code Portland", "link": null},
+        {"date": "2019-07-11", "name": "PDX Node", "link": null},
+        {"date": "2019-07-11", "name": "Seattle JS", "link": null},
+        {"date": "2019-07-13", "name": "Nodeschool Vancouver", "link": null},
+        {"date": "2019-07-16", "name": "Front End PDX", "link": null},
+        {"date": "2019-07-17", "name": "Beer && Code Seattle", "link": null},
+        {"date": "2019-07-20", "name": "Nodeschool Vancouver", "link": null},
+        {"date": "2019-07-30", "name": "BellevueJS", "link": null}
+    ]
+}
