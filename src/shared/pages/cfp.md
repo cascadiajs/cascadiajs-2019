@@ -101,4 +101,4 @@ If you are a new speaker, once your talk has been accepted we will commit to wor
 
 Submissions close on <span class="exclaim">July 21, 2019</span>. We will get back to all speakers as soon as possible. We will email all speakers at roughly the same time, so everyone will hear back on the same day.
 
-<a class="cta" href="https://cascadiajs.typeform.com/to/SrKdlj">Submit a Proposal</a>
+<span class="cta nope">CLOSED</span>

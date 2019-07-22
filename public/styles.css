@@ -94,9 +94,9 @@ footer a:visited {
 }
 
 .exclaim {
-	padding: 3px;
+	padding: 2px;
 	background-color: yellow;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 table#sponsorships th {
@@ -134,7 +134,7 @@ table#sponsorships span.check {
 	color: #e6e8f5;	
 }
 
-a.cta {
+.cta {
 	font-size: 1.5em;
 	font-weight: 500;
   	padding: 16px;
@@ -147,6 +147,11 @@ a.cta {
 
 a.cta:hover {
 	text-decoration: underline;
+}
+
+.nope {
+	color: #000;
+	background-color: #ccc;
 }
 
 /* Landing page styles */
