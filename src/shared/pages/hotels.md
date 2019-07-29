@@ -20,7 +20,7 @@ Instructions on how to book at the group rate and what the deadlines are below.
 ![Hyatt Regency guest room](https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2019/02/21/1152/Hyatt-Regency-Seattle-P081-King-Alki-View.jpg/Hyatt-Regency-Seattle-P081-King-Alki-View.16x9.jpg?imwidth=1280)
 
 * $209 / night
-* Premium View King room
+* Premium View room
 * [11 minute walk](https://goo.gl/maps/1jTNpnt2r3ZbNEsr9) to Conference Venue
 * Deadline to book at the group rate is <span class="exclaim">Oct 16</span>
-* Reservation info coming soon!
+* Reservations may be made [online](https://www.hyatt.com/en-US/group-booking/SEARS/G-CASD)
