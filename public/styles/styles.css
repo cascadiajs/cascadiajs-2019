@@ -84,6 +84,11 @@ nav a:hover {
 	background-color: #fff;
 }
 
+#footer-sponsors section a {
+	display: block;
+	margin: 8px;
+}
+
 #footer-info {
 	background-color: #020800;
 	color: #e6e8f5;
