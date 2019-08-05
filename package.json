@@ -8,14 +8,14 @@
     "start": "NODE_ENV=testing ARC_LOCAL=1 npx sandbox"
   },
   "dependencies": {
-    "@architect/architect": "^5.6.0",
+    "@architect/architect": "latest",
     "@begin/data": "latest",
     "tiny-json-http": "latest"
   },
   "devDependencies": {
-    "aws-sdk": "^2.437.0",
-    "eslint": "^5.16.0",
+    "aws-sdk": "^2.504.0",
+    "eslint": "^6.1.0",
     "tap-spec": "^5.0.0",
-    "tape": "^4.10.1"
+    "tape": "^4.11.0"
   }
 }

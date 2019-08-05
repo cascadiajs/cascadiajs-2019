@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@^7.0.0">
     <link rel="stylesheet" href="https://use.typekit.net/cnx1fnn.css">
     <script src="https://kit.fontawesome.com/439d39b111.js"></script>
-    <link rel="stylesheet" href="${STATIC}/styles.css">
+    <link rel="stylesheet" href="${STATIC}/styles/styles.css">
     <link rel="apple-touch-icon" sizes="57x57" href="${STATIC}/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="${STATIC}/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="${STATIC}/favicons/apple-icon-72x72.png">
@@ -26,7 +26,7 @@
     <meta name="msapplication-TileImage" content="${STATIC}/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
   </head>
-  <body style="background-image:url('${STATIC}/plaid-pattern.svg');">
+  <body style="background-image:url('${STATIC}/images/plaid-pattern.svg');">
     <div id="root">
       <header>
         <nav>
@@ -40,32 +40,55 @@
       </header>
       ${CONTENT}
       <footer>
-        <section id="footer-core-info">
-          <div>CascadiaJS</div>
-          <div>Nov 7-8, 2019</div>
-          <div>Seattle, WA</div>
+        <section id="footer-sponsors">
+          <section id="sponsors-gold">
+            <a href="https://formidable.com"><img src="${STATIC}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
+          </section>
+          <section id="sponsors-silver">
+            <a href="https://saucelabs.com"><img src="${STATIC}/images/sponsors/sauce-labs.png" alt="Sauce Labs logo"/></a>
+          </section>
+          <section id="sponsors-community">
+            <a href="https://egghead.io"><img src="${STATIC}/images/sponsors/egghead.png" alt="Egghead.io logo"/></a>
+            <a href="https://www.meetup.com/ReactJS-Vancouver-Meetup/"><img src="${STATIC}/images/sponsors/react-vancouver.png" alt="React Vancouver logo"/></a>
+            <a href="http://seattlejs.com/"><img src="${STATIC}/images/sponsors/seattlejs.svg" alt="SeattleJS logo"/></a>
+          </section>
         </section>
-        <section id="footer-stay-connected">
-          <h2>Stay Connected</h2>
-          <ul id="connect-list">
-            <li><a href="http://eepurl.com/dPmCkT">Sign-up for our Newsletter</a></li>
-            <li><a href="https://join.slack.com/t/cascadiajs/shared_invite/enQtMzcyMjkzMDk0NjQwLTc3YmJiMTk0NTZjNDBjMzg2YTMxNDA4Njk3YTgyZWY0MGM4NjVhZTI0YTUzYTRmYzRlNThhNTIxOGNkMDU1ZGU">Join us on Slack</a></li>
-            <li><a href="https://twitter.com/cascadiajs">Follow us on Twitter</a></li>
-            <li><a href="https://github.com/cascadiajs/cascadiajs-2019/">Send us a PR on Github</a></li>
-          </ul>
-        </section>
-        <section id="footer-past-events">
-          <h2>Past Events</h2>
-          <ul id="past-confs">
-            <li><a href="https://2018.cascadiajs.com">2018</a></li>
-            <li><a href="https://2016.cascadiafest.org">2016</a></li>
-            <li><a href="https://2015.cascadiajs.com">2015</a></li>
-            <li><a href="https://2014.cascadiajs.com">2014</a></li>
-            <li><a href="https://2013.cascadiajs.com">2013</a></li>
-            <li><a href="https://2012.cascadiajs.com">2012</a></li>
-          </ul>
+        <section id="footer-info">
+            <section id="footer-core-info">
+                <div>CascadiaJS</div>
+                <div>Nov 7-8, 2019</div>
+                <div>Seattle, WA</div>
+              </section>
+              <section id="footer-stay-connected">
+                <h2>Stay Connected</h2>
+                <ul id="connect-list">
+                  <li><a href="http://eepurl.com/dPmCkT">Sign-up for our Newsletter</a></li>
+                  <li><a href="https://join.slack.com/t/cascadiajs/shared_invite/enQtMzcyMjkzMDk0NjQwLTc3YmJiMTk0NTZjNDBjMzg2YTMxNDA4Njk3YTgyZWY0MGM4NjVhZTI0YTUzYTRmYzRlNThhNTIxOGNkMDU1ZGU">Join us on Slack</a></li>
+                  <li><a href="https://twitter.com/cascadiajs">Follow us on Twitter</a></li>
+                  <li><a href="https://github.com/cascadiajs/cascadiajs-2019/">Send us a PR on Github</a></li>
+                </ul>
+              </section>
+              <section id="footer-past-events">
+                <h2>Past Events</h2>
+                <ul id="past-confs">
+                  <li><a href="https://2018.cascadiajs.com">2018</a></li>
+                  <li><a href="https://2016.cascadiafest.org">2016</a></li>
+                  <li><a href="https://2015.cascadiajs.com">2015</a></li>
+                  <li><a href="https://2014.cascadiajs.com">2014</a></li>
+                  <li><a href="https://2013.cascadiajs.com">2013</a></li>
+                  <li><a href="https://2012.cascadiajs.com">2012</a></li>
+                </ul>
+              </section>
         </section>
       </footer>
     </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75426-17"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-75426-17');
+    </script>
   </body>
 </html>

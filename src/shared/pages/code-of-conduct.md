@@ -1,6 +1,6 @@
 # The CascadiaJS Code of Conduct
 
-![2018 pronoun stickers](${STATIC}/2018-pronoun-stickers.jpg)
+![2018 pronoun stickers](${STATIC}/images/2018-pronoun-stickers.jpg)
 
 ## Need Help?
 

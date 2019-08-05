@@ -1,6 +1,6 @@
 # How to convince your boss to buy you a conference ticket
 
-![family photo](${STATIC}/2018-group.jpg)
+![family photo](${STATIC}/images/2018-group.jpg)
 
 _This document is influenced directly by a [similar one](https://2019.jsconf.eu/news/how-to-convince-your-boss-to-buy-you-a-conference-ticket-to-jsconf-eu/) by the organizers of JSConfEU, one of the events that inspired CascadiaJS._
 

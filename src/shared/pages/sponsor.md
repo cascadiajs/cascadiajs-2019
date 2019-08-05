@@ -125,7 +125,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-tshirt"></i> <a href="#booth">Booth</a></td>
       <td>$5k</td>
-      <td class="qCol">4</td>
+      <td class="qCol">1 (3 SOLD)</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -185,7 +185,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-closed-captioning"></i> <a href="#captions">Captioning</a></td>
       <td>$3k</td>
-      <td class="qCol">1</td>
+      <td class="qCol">SOLD</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -296,3 +296,26 @@ We are chartering buses to bring developers to Seattle down from Vancouver, BC a
 
 Help us fund 50 scholarships to CascadiaJS this year! Each Scholarship purchased comes with 1 complimentary ticket to the conference for the sponsor.
 
+<h2 id="faq">FAQ</h2>
+
+<h3 id="shipping">What is the shipping address for swag and booth kits?</h3>
+
+<pre>
+Town Hall Seattle
+c/o CascadiaJS Conference
+1118 8th Ave
+Seattle, WA 98101
+</pre>
+
+<h3 id="parking">Is there parking at the venue?</h3
+
+No, there is no parking at Town Hall Seattle. Here is a link to [transit and parking information](https://townhallseattle.org/plan-your-visit/location-directions-parking/) for the venue.
+
+<h3 id="setup">When can sponsors arrive to setup?</h3>
+
+Sponsors may arrive both days at 7am to set-up. Doors open at 8am. Sponsors will need to have their gear packed and removed from the venue by 5pm on Friday, November 7.
+
+
+<h3 id="schedule">What is the event schedule?</h3>
+
+The schedule for the conference will be posted on the website one week before the event.

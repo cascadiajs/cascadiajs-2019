@@ -20,15 +20,15 @@ h1 {
 }
 
 h2 {
-	font-size: 2.25em;
+	font-size: 2.1em;
 }
 
 h3 {
-	font-size: 2em;
+	font-size: 1.7em;
 }
 
 h4 {
-	font-size: 1.75em;
+	font-size: 1.3em;
 }
 
 img {
@@ -76,16 +76,42 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-footer {
-	background-color: #020800;
-	color: #e6e8f5;
+#footer-sponsors {
+	padding: 8px;
 }
 
-footer a,
-footer a:visited {
+#footer-sponsors section {
+	background-color: #fff;
+}
+
+#footer-info {
+	background-color: #020800;
+	color: #e6e8f5;
+	padding: 16px 32px 16px 32px;
+}
+
+#footer-info a,
+#footer-info a:visited {
 	color: #e6e8f5;
 	text-decoration: none;
 }
+
+#footer-core-info {
+	font-family: rift-soft;
+	font-size: 2.5em;
+	color: #e6e8f5;
+}
+
+ul#past-confs, ul#connect-list {
+	padding: 0;
+}
+
+ul#past-confs>li, ul#connect-list>li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+
 
 #page {
 	background-color: #fff;
@@ -221,24 +247,6 @@ a.cta:hover {
 	font-size: 1.25em;
 }
 
-footer {
-	padding: 16px 32px 16px 32px;
-}
-
-#footer-core-info {
-	font-family: rift-soft;
-	font-size: 2.5em;
-	color: #e6e8f5;
-}
-
-ul#past-confs, ul#connect-list {
-	padding: 0;
-}
-
-ul#past-confs>li, ul#connect-list>li {
-	list-style: none;
-	padding-bottom: 10px;
-}
 
 /* Mailchimp embed styles */
 
@@ -311,9 +319,19 @@ ul#past-confs>li, ul#connect-list>li {
 		line-height: 2vw;
 	}
 
-  	footer {
+	#footer-sponsors {
 		display: grid;
-		min-height: 100%;
+		grid-template-rows: 100%;
+		grid-template-columns: 3fr 2fr 1fr;
+		grid-gap: 8px;
+	}
+
+	#footer-sponsors section {
+		padding: 16px;
+	}
+
+  	#footer-info {
+		display: grid;
 		grid-template-rows: 100%;
 		grid-template-columns: 1fr 2fr 1fr;
 		grid-gap: 8px;
