@@ -1,6 +1,8 @@
 # Workshop: What's New in React 16
 
-<img alt="Formidable logo" src="${STATIC}/images/sponsors/formidable.svg" width="400"/>
+<div style="height:200px">
+    <img alt="Formidable logo" src="${STATIC}/images/sponsors/formidable.svg"/>
+</div>
 
 Formidable will hold a full-day React training workshop on *Monday, November 4th* prior to the conference. The workshop will cover some of the new patterns introduced in React 16 such as fragments, error boundaries, context, and hooks. More info on the workshop below!
 
