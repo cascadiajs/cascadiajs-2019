@@ -252,6 +252,50 @@ a.cta:hover {
 	font-size: 1.25em;
 }
 
+#speakers {
+	background-color: #fff;
+}
+
+#speaker-list {
+	display: flex;
+	flex-wrap: wrap
+}
+
+.speaker {
+	height: 300px;
+	width: 150px;
+	display:flex;
+	flex-direction: column;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+.speaker .no-image {
+	height: 150px;
+	width: 150px;
+	background-color:#000;
+}
+
+.speaker-info {
+	background-color: #0d29ff;
+	flex: 1;
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+.speaker-name {
+	font-family: rift-soft;
+	font-size: 1.7em;
+	color: #fff;
+	flex-grow: 1
+}
+
+.speaker-misc {
+	font-family: rift-soft;
+	font-size: 1.3em;
+	color: #b9debc;
+}
 
 /* Mailchimp embed styles */
 

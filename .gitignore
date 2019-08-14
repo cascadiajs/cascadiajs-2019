@@ -1,3 +1,5 @@
 .arc-env
 node_modules
 .DS_Store
+build/speakers/source/*.*
+build/speakers/dest/*.*
