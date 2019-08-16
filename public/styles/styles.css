@@ -258,7 +258,9 @@ a.cta:hover {
 
 #speaker-list {
 	display: flex;
-	flex-wrap: wrap
+	flex-wrap: wrap;
+	align-items: center;
+  	justify-content: center;
 }
 
 .speaker {
@@ -286,14 +288,14 @@ a.cta:hover {
 
 .speaker-name {
 	font-family: rift-soft;
-	font-size: 1.7em;
+	font-size: 1.6em;
 	color: #fff;
 	flex-grow: 1
 }
 
 .speaker-misc {
 	font-family: rift-soft;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: #b9debc;
 }
 
