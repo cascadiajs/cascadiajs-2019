@@ -4,6 +4,7 @@ forest-1dg
 @http
 get /
 get /:page
+get /speakers/:speaker
 
 @tables
 data
