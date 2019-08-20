@@ -289,6 +289,19 @@ a.cta:hover {
 	flex-direction: column;
 }
 
+#speaker-list .speaker:hover .speaker-info {
+	background-color: #b9debc;
+	color: #0d29ff;
+}
+
+#speaker-list .speaker:hover .speaker-name {
+	color: #0d29ff;
+}
+
+#speaker-list .speaker:hover .speaker-misc {
+	color: #0d29ff;
+}
+
 #speaker-list .speaker-name {
 	font-family: rift-soft;
 	font-size: 1.6em;
