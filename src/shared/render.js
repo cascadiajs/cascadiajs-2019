@@ -38,18 +38,22 @@ const getIndexHtml = () => {
 
 module.exports = function render({page, speaker}) {
 	try {
-		let html
+		let body, header
 		if (page) {
-			html = getMarkdownHtml(page)
+			body = getMarkdownHtml(page)
+			header = `<title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>`
 		}
 		else if (speaker) {
-			html = getSpeakerHtml(speaker)
+			body = getSpeakerHtml(speaker)
+			header = `<title>CascadiaJS 2019 | ${speakers[speaker].name} | ${speakers[speaker].talk}</title>
+	<meta property="og:image" content="${process.env.BEGIN_STATIC_ORIGIN}/${speaker}-talk.png" />`
 		}
 		else {
-			html = getIndexHtml()
+			body = getIndexHtml()
+			header = `<title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>`
 		}
 		return {
-			html: Layout(html)
+			html: Layout(body, header)
 		}
 	}
 	catch (error) {
