@@ -11,24 +11,27 @@ body {
 }
 
 h1, h2, h3, h4 {
-	margin: 0 0 16px 0;
 	font-family: rift-soft
 }
 
 h1 {
 	font-size: 2.5em;
+	margin: 0 0 16px 0;
 }
 
 h2 {
 	font-size: 2.1em;
+	margin: 0 0 8px 0;
 }
 
 h3 {
 	font-size: 1.7em;
+	margin: 0 0 4px 0;
 }
 
 h4 {
 	font-size: 1.3em;
+	margin: 0 0 2px 0;
 }
 
 img {
@@ -263,7 +266,7 @@ a.cta:hover {
   	justify-content: center;
 }
 
-.speaker {
+#speaker-list .speaker {
 	height: 300px;
 	width: 150px;
 	display:flex;
@@ -272,13 +275,13 @@ a.cta:hover {
 	margin-bottom: 8px;
 }
 
-.speaker .no-image {
+#speaker-list .speaker .no-image {
 	height: 150px;
 	width: 150px;
 	background-color:#000;
 }
 
-.speaker-info {
+#speaker-list .speaker-info {
 	background-color: #0d29ff;
 	flex: 1;
 	padding: 8px;
@@ -286,17 +289,30 @@ a.cta:hover {
 	flex-direction: column;
 }
 
-.speaker-name {
+#speaker-list .speaker-name {
 	font-family: rift-soft;
 	font-size: 1.6em;
 	color: #fff;
 	flex-grow: 1
 }
 
-.speaker-misc {
+#speaker-list .speaker-misc {
 	font-family: rift-soft;
 	font-size: 1em;
 	color: #b9debc;
+}
+
+#speaker .speaker-info {
+	display: flex;
+}
+
+#speaker .speaker-photo {
+	width: 300px;
+	margin-right: 16px;
+}
+
+#speaker .speaker-more p {
+	margin-top:0;
 }
 
 /* Mailchimp embed styles */

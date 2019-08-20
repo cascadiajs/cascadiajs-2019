@@ -1,0 +1,13 @@
+{
+    "aaron-turner": {
+        "name": "Aaron Turner",
+        "location": "Los Angeles, CA",
+        "company": "Wasmer",
+        "twitter": "twitter-handle",
+        "avatar": "aaron-turner.png",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "Building for Budgets",
+        "synopsis": "A personal story of living in a low income family with tips on how modern web technologies, like WebAssembly and Web Workers, can bring new experiences to the web for budget devices that struggled to run these experiences before."
+    }
+}

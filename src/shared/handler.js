@@ -1,8 +1,8 @@
 let render = require("@architect/shared/render")
 
 function handler(req, res) {
-	let { page } = req.params
-	res(render(page))
+	let { page, speaker } = req.params
+	res(render({page, speaker}))
 }
 
 module.exports = handler

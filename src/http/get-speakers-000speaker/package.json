@@ -2,6 +2,7 @@
   "name": "begin-app-get-speakers-000speaker",
   "dependencies": {
     "@architect/functions": "latest",
-    "@begin/data": "latest"
+    "@begin/data": "latest",
+    "marked": "^0.7.0"
   }
 }
