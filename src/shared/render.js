@@ -50,7 +50,7 @@ module.exports = function render({page, speaker}) {
 	<meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@cascadiajs">
     <meta name="twitter:title" content="CascadiaJS 2019 | ${speakers[speaker].name} | ${speakers[speaker].talk}">
-    <meta name="twitter:image" content="${process.env.BEGIN_STATIC_ORIGIN}/${speaker}-talk.png">`
+    <meta name="twitter:image" content="${process.env.BEGIN_STATIC_ORIGIN}/images/social/${speaker}-talk.png">`
 		}
 		else {
 			body = getIndexHtml()
