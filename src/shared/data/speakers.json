@@ -20,5 +20,16 @@
         "url": "https://website.domain",
         "talk": "How to Have an Amicable Breakup With A JavaScript Library",
         "synopsis": "Choosing a JavaScript library is a lot like dating: the longer you commit yourself, the messier it is when you decide to break up.  Whether something better comes along, or the library is deprecated, changing a dependency often requires a lot of time or leaves the code in a less attractive state. In this talk you will learn some techniques that will help ease the pain of this situation."
+    },
+    "ej-mason": {
+        "name": "E.J. Mason",
+        "location": "Los Angeles, CA",
+        "company": "Pearson",
+        "twitter": "codeability",
+        "avatar": "ej-mason.jpg",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "Accessibility is a Hydra",
+        "synopsis": "When Hercules fought the hydra, its heads would grow back no matter how many times he cut them off. Web accessibility professionals put repeated effort toward fighting accessibility barriers, and often feel like their work is never done. If we want to prevail against accessibility barriers, we have to understand our own hydra: we have to talk about ableism."
     }
 }
