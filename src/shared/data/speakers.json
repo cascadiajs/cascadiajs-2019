@@ -3,11 +3,22 @@
         "name": "Aaron Turner",
         "location": "Los Angeles, CA",
         "company": "Wasmer",
-        "twitter": "twitter-handle",
+        "twitter": "torch2424",
         "avatar": "aaron-turner.png",
         "bio": "this is the bio",
         "url": "https://website.domain",
         "talk": "Building for Budgets",
         "synopsis": "A personal story of living in a low income family with tips on how modern web technologies, like WebAssembly and Web Workers, can bring new experiences to the web for budget devices that struggled to run these experiences before."
+    },
+    "daria-caraway": {
+        "name": "Daria Caraway",
+        "location": "Denver, CO",
+        "company": "Workday",
+        "twitter": "darcar31",
+        "avatar": "daria-caraway.jpg",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "How to Have an Amicable Breakup With A JavaScript Library",
+        "synopsis": "Choosing a JavaScript library is a lot like dating: the longer you commit yourself, the messier it is when you decide to break up.  Whether something better comes along, or the library is deprecated, changing a dependency often requires a lot of time or leaves the code in a less attractive state. In this talk you will learn some techniques that will help ease the pain of this situation."
     }
 }
