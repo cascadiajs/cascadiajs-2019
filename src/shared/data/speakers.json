@@ -42,5 +42,16 @@
         "url": "https://website.domain",
         "talk": "How to Succeed with Inclusion Initiatives",
         "synopsis": "Leadership and staff must take intentional, self-aware personal risks to steer workplace culture toward inclusion and its economic benefits. This requires permission and a moral directive from the top to create space, incentivizing management to role model vulnerable and remarkable behaviors, giving employees opportunities to participate in and create their own inclusion activities that involve discovery and testing of personal comfort zones, and to openly reward successes."
+    },
+    "isabela-moreira": {
+        "name": "Isabela Moreira",
+        "location": "Seattle, WA",
+        "company": "Cedar AI",
+        "twitter": "isabelacmor",
+        "avatar": "isabela-moreira.jpg",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "Making Reusable SVGs with React",
+        "synopsis": "Learn how to merge your creative side with your coding side in this live-coding talk! Leveraging the practice of reusable code and React components, we’ll create SVG images and animations that can be extended, adapted, and reused throughout your app. See how a few tweaks and props injected into your standard SVG code can give you the power of composable and reusable components!"
     }
 }
