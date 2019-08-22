@@ -31,5 +31,16 @@
         "url": "https://website.domain",
         "talk": "Accessibility is a Hydra",
         "synopsis": "When Hercules fought the hydra, its heads would grow back no matter how many times he cut them off. Web accessibility professionals put repeated effort toward fighting accessibility barriers, and often feel like their work is never done. If we want to prevail against accessibility barriers, we have to understand our own hydra: we have to talk about ableism."
+    },
+    "ginger-chien": {
+        "name": "Ginger Chien",
+        "location": "Seattle, WA",
+        "company": "AT&T",
+        "twitter": "spacepupster",
+        "avatar": "ginger-chien.jpg",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "How to Succeed with Inclusion Initiatives",
+        "synopsis": "Leadership and staff must take intentional, self-aware personal risks to steer workplace culture toward inclusion and its economic benefits. This requires permission and a moral directive from the top to create space, incentivizing management to role model vulnerable and remarkable behaviors, giving employees opportunities to participate in and create their own inclusion activities that involve discovery and testing of personal comfort zones, and to openly reward successes."
     }
 }
