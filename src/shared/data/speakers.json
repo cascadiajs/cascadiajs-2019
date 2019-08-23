@@ -64,5 +64,16 @@
         "url": "https://website.domain",
         "talk": "Controlling a Swarm of Drones with JavaScript",
         "synopsis": "We're pretty used to drones flying around us by now. Until now most of these drones were still controlled by a human operator. But what if we could control them solely using our code? In this talk I will show how to control multiple drones using JavaScript. With the help of Node.js we'll send commands to the drones and read back their telemetry. I will talk about the difficulties of flying and keeping control of a drone completely without human interference. At the end we will actually have a small swarm of drones flying on stage!"
+    },
+    "kinuko-yasuda": {
+        "name": "Kinuko Yasuda",
+        "location": "Tokyo, JP",
+        "company": "Google",
+        "twitter": "kinu",
+        "avatar": "kinuko-yasuda.jpg",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "Portable, distributable web content with Web Packaging",
+        "synopsis": "The Chrome Loading team has been tackling various \"page loading\" problems. From optimizing the networking and loading stack, to helping web developers make their site's experience better with new powerful web platform features, we strive for enabling delightful user experiences on the web. In this talk I'd like to talk about one of those new features, which is called \"Web Packaging\".  Web Packaging is a set of proposals that allows web content to be digitally signed and packaged, so that the content can become \"portable\", i.e. it can not only be retrieved from the original publisher's site, but also via a fast cache, over p2p protocol, via an SD card, or virtually anything you can think of.  We believe this can increase the availability of web content for a wider audience, even where internet connectivity isn't always available!"
     }
 }
