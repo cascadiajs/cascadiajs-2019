@@ -97,5 +97,16 @@
         "url": "https://website.domain",
         "talk": "Refactoring JavaScript using JavaScript",
         "synopsis": "With codemods, engineers can programmatically refactor their code, saving hundreds of hours while reducing tech debt. I'll share my love, struggles, and successes applying them in a large codebase. We'll see my favorite codemods along with tips on how to use them effectively, and also write one from scratch!"
+    },
+    "charlie-gerard": {
+        "name": "Charlie Gerard",
+        "location": "Sydney, AU",
+        "company": "Atlassian",
+        "twitter": "devdevcharlie",
+        "avatar": "charlie-gerard.jpg",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "Machine Learning for Front-End Devs",
+        "synopsis": "Machine learning can have some pretty complicated concepts to grasp if you’re not a data scientist. However, recent developments in tooling make it more and more accessible for developers and people with little or no experience. In this presentation, we will talk about the different applications, possibilities, tools and resources, as well as show a few examples and demos, so you can get started building your own experiments using machine learning in JavaScript."
     }
 }
