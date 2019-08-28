@@ -86,5 +86,16 @@
         "url": "https://website.domain",
         "talk": "Scalable Distributed Messaging with Kafka on K8",
         "synopsis": "Kafka is a production-ready, scalable, distributed streaming platform that's being used by top companies around the world. Learn how you can turn Kafka into a powerful pub-sub mechanism for your own projects."
+    },
+    "saimon-sharif": {
+        "name": "Saimon Sharif",
+        "location": "New York, NY",
+        "company": "Attune",
+        "twitter": "saimonsharif",
+        "avatar": "saimon-sharif.jpg",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "Refactoring JavaScript using JavaScript",
+        "synopsis": "With codemods, engineers can programmatically refactor their code, saving hundreds of hours while reducing tech debt. I'll share my love, struggles, and successes applying them in a large codebase. We'll see my favorite codemods along with tips on how to use them effectively, and also write one from scratch."
     }
 }
