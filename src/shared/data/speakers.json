@@ -130,5 +130,16 @@
         "url": "https://website.domain",
         "talk": "To all the Code I've Loved Before",
         "synopsis": "From writing your first \"Hello, World!\" program, to maintaining your an unruly legacy system, and everything in between, the code we write shapes us.  This is a love letter to all the code I've written, read, reviewed and (sometimes) loathed."
+    },
+    "trivikram-kamat": {
+        "name": "Trivikram Kamat",
+        "location": "Seattle, WA",
+        "company": "Amazon",
+        "twitter": "trivikram",
+        "avatar": "trivikram-kamat.jpg",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "HTTP/3 - Node.js can do QUIC",
+        "synopsis": "Work is currently underway to develop an implementation of the new QUIC protocol with Node.js core. While still very experimental and new, this protocol will enable exciting new possibilities and applications. This talk will introduce the fundamentals of QUIC and the prototype implementation being developed."
     }
 }
