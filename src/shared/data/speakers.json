@@ -141,5 +141,16 @@
         "url": "https://website.domain",
         "talk": "HTTP/3 - Node.js can do QUIC",
         "synopsis": "Work is currently underway to develop an implementation of the new QUIC protocol with Node.js core. While still very experimental and new, this protocol will enable exciting new possibilities and applications. This talk will introduce the fundamentals of QUIC and the prototype implementation being developed."
+    },
+    "johnny-ray-austin": {
+        "name": "Johnny Ray Austin",
+        "location": "Washington, DC",
+        "company": "Till",
+        "twitter": "recursivefunk",
+        "avatar": "johnny-ray-austin.jpg",
+        "bio": "this is the bio",
+        "url": "https://website.domain",
+        "talk": "The Death of the Full Stack Developer",
+        "synopsis": "What does it even mean to be a full stack developer in 2019? Can one developer realistically have a solid understanding of all the components of a modern web stack? Let's zoom out and talk about just how far we've come, and how to set realistic expectations for developers."
     }
 }
