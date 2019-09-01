@@ -1,32 +1,35 @@
+module.exports = function layoutTemplate (props) {
+  let {content, header, static} = props
+  return `
 <!doctype html>
 <html lang=en>
   <head>
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    ${HEADER}
+    ${header}
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@^7.0.0">
     <link rel="stylesheet" href="https://use.typekit.net/cnx1fnn.css">
     <script src="https://kit.fontawesome.com/439d39b111.js"></script>
-    <link rel="stylesheet" href="${STATIC}/styles/styles.css">
-    <link rel="apple-touch-icon" sizes="57x57" href="${STATIC}/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="${STATIC}/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="${STATIC}/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="${STATIC}/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="${STATIC}/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="${STATIC}/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="${STATIC}/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="${STATIC}/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="${STATIC}/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="${STATIC}/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="${STATIC}/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="${STATIC}/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="${STATIC}/favicons/favicon-16x16.png">
-    <link rel="manifest" href="${STATIC}/manifest.json">
+    <link rel="stylesheet" href="${static}/styles/styles.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="${static}/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="${static}/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="${static}/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="${static}/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="${static}/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="${static}/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="${static}/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="${static}/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="${static}/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="${static}/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="${static}/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="${static}/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="${static}/favicons/favicon-16x16.png">
+    <link rel="manifest" href="${static}/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="${STATIC}/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="${static}/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
   </head>
-  <body style="background-image:url('${STATIC}/images/plaid-pattern.svg');">
+  <body style="background-image:url('${static}/images/plaid-pattern.svg');">
     <div id="root">
       <header>
         <nav>
@@ -39,22 +42,22 @@
           <a href="/code-of-conduct"><i class="fas fa-dove"></i>Code of Conduct</a>
         </nav>
       </header>
-      ${CONTENT}
+      ${content}
       <footer>
         <section id="footer-sponsors">
           <section id="sponsors-gold">
-            <a href="https://fizbuz.com"><img src="${STATIC}/images/sponsors/fizbuz.svg" alt="Fizbuz logo"/></a>
+            <a href="https://fizbuz.com"><img src="${static}/images/sponsors/fizbuz.svg" alt="Fizbuz logo"/></a>
           </section>
           <section id="sponsors-silver">
-            <a href="https://saucelabs.com"><img src="${STATIC}/images/sponsors/sauce-labs.png" alt="Sauce Labs logo"/></a>
-            <a href="https://formidable.com"><img src="${STATIC}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
+            <a href="https://saucelabs.com"><img src="${static}/images/sponsors/sauce-labs.png" alt="Sauce Labs logo"/></a>
+            <a href="https://formidable.com"><img src="${static}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
           </section>
           <section id="sponsors-community">
-            <a href="https://egghead.io"><img src="${STATIC}/images/sponsors/egghead.png" alt="Egghead.io logo"/></a>
-            <a href="https://stackshare.io"><img src="${STATIC}/images/sponsors/stackshare.svg" alt="StackShare logo"/></a>
+            <a href="https://egghead.io"><img src="${static}/images/sponsors/egghead.png" alt="Egghead.io logo"/></a>
+            <a href="https://stackshare.io"><img src="${static}/images/sponsors/stackshare.svg" alt="StackShare logo"/></a>
             <div id="stackshare"></div>
-            <a href="https://www.meetup.com/ReactJS-Vancouver-Meetup/"><img src="${STATIC}/images/sponsors/react-vancouver.png" alt="React Vancouver logo"/></a>
-            <a href="http://seattlejs.com/"><img src="${STATIC}/images/sponsors/seattlejs.svg" alt="SeattleJS logo"/></a>
+            <a href="https://www.meetup.com/ReactJS-Vancouver-Meetup/"><img src="${static}/images/sponsors/react-vancouver.png" alt="React Vancouver logo"/></a>
+            <a href="http://seattlejs.com/"><img src="${static}/images/sponsors/seattlejs.svg" alt="SeattleJS logo"/></a>
           </section>
         </section>
         <section id="footer-info">
@@ -96,18 +99,20 @@
     </script-->
     <script>
         var googleUA = 'UA-75426-17';
-      
+
         var googleDomainList = ['2019.cascadiajs.com', 'ti.to'];
-      
+
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
+
         ga('create', googleUA, 'auto', {'allowLinker': true});
         ga('require', 'linker');
         ga('linker:autoLink', googleDomainList);
         ga('send', 'pageview');
-      </script>      
+      </script>
   </body>
 </html>
+`
+}

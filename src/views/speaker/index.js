@@ -1,19 +1,10 @@
-const fs = require("fs")
-const read = fs.readFileSync
-const join = require("path").join
+let template = require('./speaker')
 
-// load layout into memory
-const speakerPath = join(__dirname, "speaker") + ".html"
-let speakerContent = read(speakerPath).toString()
+module.exports = function Speaker(props) {
 
+  let static = process.env.BEGIN_STATIC_ORIGIN || 'https://localhost:3333/_static/'
+  props.static = static
+  let speaker = template(props)
 
-module.exports = function Speaker(speaker) {
-  let content = speakerContent.replace(/\$\{NAME\}/g, speaker.name)
-  content = content.replace(/\$\{AVATAR\}/g, speaker.avatar)
-  content = content.replace(/\$\{LOCATION\}/g, speaker.location)
-  content = content.replace(/\$\{COMPANY\}/g, speaker.company)
-  content = content.replace(/\$\{TALK\}/g, speaker.talk)
-  content = content.replace(/\$\{ABSTRACT\}/g, speaker.synopsis)
-
-  return content
+  return speaker
 }

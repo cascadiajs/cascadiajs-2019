@@ -1,11 +1,12 @@
-var fs = require("fs")
-var read = fs.readFileSync
-var exists = fs.existsSync
-var join = require("path").join
-var md = require("marked")
-var Layout = require("@architect/views/layout")
-var Speaker = require("@architect/views/speaker")
-var speakers = require("./data/speakers")
+let fs = require('fs')
+let read = fs.readFileSync
+let exists = fs.existsSync
+let join = require('path').join
+let md = require('marked')
+let Layout = require('@architect/views/layout')
+let Index = require('@architect/views/index')
+let Speaker = require('@architect/views/speaker')
+let speakers = require('./data/speakers')
 
 const processVariables = (content) => {
 	return content.replace(/\$\{STATIC\}/g, process.env.BEGIN_STATIC_ORIGIN)
@@ -31,11 +32,6 @@ const getSpeakerHtml = (speaker) => {
 	return `<div id="page">${html}</div>`
 }
 
-const getIndexHtml = () => {
-	let pathToIndexHtml = join(__dirname, "index") + ".html"
-	return getFile(pathToIndexHtml)
-}
-
 module.exports = function render({page, speaker}) {
 	try {
 		let body, header
@@ -53,7 +49,7 @@ module.exports = function render({page, speaker}) {
     <meta name="twitter:image" content="${process.env.BEGIN_STATIC_ORIGIN}/images/social/${speaker}-talk.png">`
 		}
 		else {
-			body = getIndexHtml()
+			body = Index()
 			header = `<title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>`
 		}
 		return {

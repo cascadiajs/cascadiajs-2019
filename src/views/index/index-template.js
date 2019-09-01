@@ -1,3 +1,8 @@
+module.exports = function indexTemplate (props) {
+
+  let {static, daysRemaining} = props
+
+  return `
 <div id="landing">
   <div id="left">
     <section id="tickets">
@@ -40,7 +45,7 @@
       </p>
     </section>
     <section class="filler">
-      <img src="${STATIC}/images/filler-photo-01.jpg" alt="Speaker at CascadiaJS 2018"/>
+      <img src="${static}/images/filler-photo-01.jpg" alt="Speaker at CascadiaJS 2018"/>
     </section>
     <section id="code-of-conduct">
       <h2>Code of Conduct</h2>
@@ -51,7 +56,7 @@
     <section id="venue">
       <h2>Venue</h2>
       <p>
-        CascadiaJS 2019 will be held and the historic and newly renovated 
+        CascadiaJS 2019 will be held and the historic and newly renovated
         <a href="https://townhallseattle.org/">Town Hall Seattle</a>
         <br/>
         <br/>
@@ -63,8 +68,8 @@
     </section>
   </div>
   <div id="main">
-    <section id="hero" style="background-image: url(${STATIC}/images/family-photo.jpg);">
-      <img src="${STATIC}/images/logo-round.svg" alt="CascadiaJS 2019 logo"/>
+    <section id="hero" style="background-image: url(${static}/images/family-photo.jpg);">
+      <img src="${static}/images/logo-round.svg" alt="CascadiaJS 2019 logo"/>
       <br/>
       <span id="tagline">CascadiaJS features 2 tracks of 30+ amazing speakers</span><br/>
       <span id="tagline">discussing the cutting-edge of JavaScript, web development and</span><br/>
@@ -76,7 +81,7 @@
       <!--link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"-->
       <div id="mc_embed_signup">
       <form action="https://cascadiajs.us1.list-manage.com/subscribe/post?u=ffa37cf28eebc9e75b8558f3b&amp;id=d1b100650c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">    
+        <div id="mc_embed_signup_scroll">
           <div class="mc-field-group">
             <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="chloe.obrian@24.dev"/>
             <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
@@ -124,126 +129,126 @@
       <h2>Speakers</h2>
       <div id="speaker-list">
         <div class="speaker">
-          <a href="/speakers/aaron-turner"><img src="${STATIC}/images/speakers/aaron-turner.png" alt="photo of Aaron Turner"/></a>
+          <a href="/speakers/aaron-turner"><img src="${static}/images/speakers/aaron-turner.png" alt="photo of Aaron Turner"/></a>
           <div class="speaker-info">
             <div class="speaker-name">Aaron Turner</div>
             <div class="speaker-misc">Wasmer<br/>Los Angeles, CA</div>
           </div>
         </div>
         <div class="speaker">
-          <a href="/speakers/daria-caraway"><img src="${STATIC}/images/speakers/daria-caraway.jpg" alt="photo of Daria Caraway"/></a>
+          <a href="/speakers/daria-caraway"><img src="${static}/images/speakers/daria-caraway.jpg" alt="photo of Daria Caraway"/></a>
           <div class="speaker-info">
             <div class="speaker-name">Daria Caraway</div>
             <div class="speaker-misc">Workday<br/>Denver, CO</div>
           </div>
         </div>
         <div class="speaker">
-          <a href="/speakers/ej-mason"><img src="${STATIC}/images/speakers/ej-mason.jpg" alt="photo of E.J. Mason"/></a>
+          <a href="/speakers/ej-mason"><img src="${static}/images/speakers/ej-mason.jpg" alt="photo of E.J. Mason"/></a>
           <div class="speaker-info">
             <div class="speaker-name">E.J. Mason</div>
             <div class="speaker-misc">Pearson<br/>Los Angeles, CA</div>
           </div>
         </div>
         <div class="speaker">
-          <a href="/speakers/ginger-chien"><img src="${STATIC}/images/speakers/ginger-chien.jpg" alt="photo of Ginger Chien"/></a>
+          <a href="/speakers/ginger-chien"><img src="${static}/images/speakers/ginger-chien.jpg" alt="photo of Ginger Chien"/></a>
           <div class="speaker-info">
             <div class="speaker-name">Ginger Chien</div>
             <div class="speaker-misc">AT&amp;T<br/>Seattle, WA</div>
           </div>
         </div>
         <div class="speaker">
-          <a href="/speakers/isabela-moreira"><img src="${STATIC}/images/speakers/isabela-moreira.jpg" alt="photo of Isabela Moreira"/></a>
+          <a href="/speakers/isabela-moreira"><img src="${static}/images/speakers/isabela-moreira.jpg" alt="photo of Isabela Moreira"/></a>
           <div class="speaker-info">
             <div class="speaker-name">Isabela Moreira</div>
             <div class="speaker-misc">Cedar AI<br/>Seattle, WA</div>
           </div>
         </div>
         <div class="speaker">
-          <a href="/speakers/jasper-schulte"><img src="${STATIC}/images/speakers/jasper-schulte.jpg" alt="photo of Jasper Schulte"/></a>
+          <a href="/speakers/jasper-schulte"><img src="${static}/images/speakers/jasper-schulte.jpg" alt="photo of Jasper Schulte"/></a>
           <div class="speaker-info">
             <div class="speaker-name">Jasper Schulte</div>
             <div class="speaker-misc">GreenHome<br/>Amsterdam, NE</div>
           </div>
         </div>
         <div class="speaker">
-          <a href="/speakers/kinuko-yasuda"><img src="${STATIC}/images/speakers/kinuko-yasuda.jpg" alt="photo of Kinuko Yasuda"/></a>
+          <a href="/speakers/kinuko-yasuda"><img src="${static}/images/speakers/kinuko-yasuda.jpg" alt="photo of Kinuko Yasuda"/></a>
           <div class="speaker-info">
             <div class="speaker-name">Kinuko Yasuda</div>
             <div class="speaker-misc">Google<br/>Tokyo, JP</div>
           </div>
         </div>
         <div class="speaker">
-          <a href="/speakers/claudius-mbemba"><img src="${STATIC}/images/speakers/claudius-mbemba.jpg" alt="photo of Claudius Mbemba"/></a>
+          <a href="/speakers/claudius-mbemba"><img src="${static}/images/speakers/claudius-mbemba.jpg" alt="photo of Claudius Mbemba"/></a>
           <div class="speaker-info">
             <div class="speaker-name">Claudius Mbemba</div>
             <div class="speaker-misc">Neu<br/>Seattle, WA</div>
           </div>
         </div>
         <div class="speaker">
-          <a href="/speakers/saimon-sharif"><img src="${STATIC}/images/speakers/saimon-sharif.jpg" alt="photo of Saimon Sharif"/></a>
+          <a href="/speakers/saimon-sharif"><img src="${static}/images/speakers/saimon-sharif.jpg" alt="photo of Saimon Sharif"/></a>
           <div class="speaker-info">
             <div class="speaker-name">Saimon Sharif</div>
             <div class="speaker-misc">Attune<br/>New York, NY</div>
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/fdb3112a5367e6798e9a34b6829989f6f6985eff.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/fdb3112a5367e6798e9a34b6829989f6f6985eff.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 009</div>
             <div class="speaker-misc">Atlassian<br/>Sydney, AU</div>
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/f12ce9b364bea70fc9cf2bacf217cb34b57353b7.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/f12ce9b364bea70fc9cf2bacf217cb34b57353b7.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 010</div>
             <div class="speaker-misc">Slack<br/>San Francisco, CA</div>
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/269d2e011fc9403ca597ab8dc9428a1586cd73a5.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/269d2e011fc9403ca597ab8dc9428a1586cd73a5.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 011</div>
             <div class="speaker-misc">New York Times<br/>New York, NY</div>
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/1af0a1b798219d4487afd0e2799e6ead016ea7fa.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/1af0a1b798219d4487afd0e2799e6ead016ea7fa.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 012</div>
             <div class="speaker-misc">Amazon<br/>Seattle, WA</div>
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/956202a39df2282825bfecca2e91c7bdb2d70925.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/956202a39df2282825bfecca2e91c7bdb2d70925.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 013</div>
             <div class="speaker-misc">Morning Consult<br/>Washington, DC</div>
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/cc81c94d40a0ba25a90f4f84ab738e3d10263a36.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/cc81c94d40a0ba25a90f4f84ab738e3d10263a36.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 014</div>
             <div class="speaker-misc">Netlify<br/>Boston, MA</div>
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/02df60b2e5b1805f3019c647f60361c92dee4c31.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/02df60b2e5b1805f3019c647f60361c92dee4c31.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 015</div>
             <div class="speaker-misc">DockYard<br/>Washington, DC</div>
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/54d4efaed3f78e30b9b595db692cd7362029ddc9.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/54d4efaed3f78e30b9b595db692cd7362029ddc9.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 016</div>
             <div class="speaker-misc">Pulumi<br/>Seattle, WA</div>
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/89f7c47f6980eef915d81ebe299a9952fa689c11.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/89f7c47f6980eef915d81ebe299a9952fa689c11.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 017</div>
             <div class="speaker-misc">Twilio<br/>San Francisco, CA</div>
@@ -257,7 +262,7 @@
           </div>
         </div>
         <div class="speaker">
-          <img src="${STATIC}/images/speakers/08431cb45c390f1e8141947bb99aab6f28f62ad6.png" alt="Secret Speaker"/>
+          <img src="${static}/images/speakers/08431cb45c390f1e8141947bb99aab6f28f62ad6.png" alt="Secret Speaker"/>
           <div class="speaker-info">
             <div class="speaker-name">Speaker 019</div>
             <div class="speaker-misc">Microsoft<br/>Seattle, WA</div>
@@ -320,18 +325,18 @@
           <tr><td>8/28</td><td><a href="https://www.meetup.com/Portland-JavaScript-Admirers/events/263615230/">Portland JavaScript Admirers</a></td></tr>
           <tr><td>8/28</td><td><a href="https://www.meetup.com/seattle-ts/events/263619537/">Seattle TypeScript</a></td></tr>
           <tr><td>8/29</td><td><a href="https://www.meetup.com/fullstackpdx/events/262455915/">Full Stack PDX</a></td></tr>
-          <tr><td>8/29</td><td><a href="https://www.meetup.com/pdxnode/events/ngpncpyzlbmc/">PDXnode</a></td></tr>    
+          <tr><td>8/29</td><td><a href="https://www.meetup.com/pdxnode/events/ngpncpyzlbmc/">PDXnode</a></td></tr>
         </tbody>
       </table>
     </section>
     <section id="metrics">
-      <div class="metric">${NUM_DAYS} days</div>
+      <div class="metric">${daysRemaining} days</div>
       <div class="metric-tag">until CascadiaJS!</div>
       <div class="metric">2</div>
       <div class="metric-tag">scholarships funded!</div>
     </section>
     <section class="filler">
-      <img src="${STATIC}/images/filler-photo-02.jpg" alt="Speaker at CascadiaJS 2018"/>
+      <img src="${static}/images/filler-photo-02.jpg" alt="Speaker at CascadiaJS 2018"/>
     </section>
     <section id="designed-by">
       <h2>Made in Cascadia</h2>
@@ -340,3 +345,5 @@
   </div>
 
 </div>
+`
+}
