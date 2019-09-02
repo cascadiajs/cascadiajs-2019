@@ -1,8 +1,4 @@
-let arc = require("@architect/functions")
-let handler = require("@architect/shared/handler")
+let arc = require('@architect/functions')
+let render = require('@architect/shared/render')
 
-function route(req, res) {
-	handler(req, res)
-}
-
-exports.handler = arc.http(route)
+exports.handler = arc.http.async(render)

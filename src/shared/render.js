@@ -9,28 +9,40 @@ const getSpeakerHtml = (speaker) => {
 	return `<div id="page">${html}</div>`
 }
 
-module.exports = function render({page, speaker}) {
+module.exports = async function render(req) {
 	try {
-		let body, header
-		if (page) {
-			body = Page(page)
-			header = `<title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>`
+    let path = req.path.substr(1)
+
+    let speaker = req.params && req.params.speakers ||
+                  req.pathParameters && req.pathParameters.speakers // Arc 6 transition compat
+
+    if (speaker) {
+			let body = getSpeakerHtml(speaker)
+      let header = `
+<title>CascadiaJS 2019 | ${speakers[speaker].name} | ${speakers[speaker].talk}</title>
+<meta property="og:image" content="${process.env.BEGIN_STATIC_ORIGIN}/images/social/${speaker}-talk.png" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@cascadiajs">
+<meta name="twitter:title" content="CascadiaJS 2019 | ${speakers[speaker].name} | ${speakers[speaker].talk}">
+<meta name="twitter:image" content="${process.env.BEGIN_STATIC_ORIGIN}/images/social/${speaker}-talk.png">
+      `
+      return {
+        html: Layout(body, header)
+      }
 		}
-		else if (speaker) {
-			body = getSpeakerHtml(speaker)
-			header = `<title>CascadiaJS 2019 | ${speakers[speaker].name} | ${speakers[speaker].talk}</title>
-	<meta property="og:image" content="${process.env.BEGIN_STATIC_ORIGIN}/images/social/${speaker}-talk.png" />
-	<meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@cascadiajs">
-    <meta name="twitter:title" content="CascadiaJS 2019 | ${speakers[speaker].name} | ${speakers[speaker].talk}">
-    <meta name="twitter:image" content="${process.env.BEGIN_STATIC_ORIGIN}/images/social/${speaker}-talk.png">`
+    else if (path) {
+			let body = Page(path)
+      let header = `<title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>`
+      return {
+        html: Layout(body, header)
+      }
 		}
 		else {
-			body = Index()
-			header = `<title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>`
-		}
-		return {
-			html: Layout(body, header)
+			let body = Index()
+      let header = `<title>CascadiaJS 2019 | Nov 7-8, 2019 | Seattle, WA, USA</title>`
+      return {
+        html: Layout(body, header)
+      }
 		}
 	}
 	catch (error) {
