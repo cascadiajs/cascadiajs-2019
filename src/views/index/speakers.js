@@ -1,10 +1,8 @@
-let speakerData = require('@architect/shared/cascadiajs-2019.json')
-
 let static = process.env.NODE_ENV === 'testing' || process.env.ARC_LOCAL
   ? 'http://localhost:4444/_static/'
   : process.env.BEGIN_STATIC_ORIGIN
 
-module.exports = function Speakers () {
+module.exports = function Speakers (speakerData) {
   let speakers = []
   speakerData.forEach((speaker,index) => {
     let {id, name, location, reveal, company, pixelated, ignore} = speaker
