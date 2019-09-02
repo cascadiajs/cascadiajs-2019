@@ -1,6 +1,5 @@
 module.exports = function indexTemplate (props) {
-
-  let {events, speakers, static, daysRemaining} = props
+  let {events, speakers, assetPath, daysRemaining} = props
 
   return `
 <div id="landing">
@@ -45,7 +44,7 @@ module.exports = function indexTemplate (props) {
       </p>
     </section>
     <section class="filler">
-      <img src="${static}/images/filler-photo-01.jpg" alt="Speaker at CascadiaJS 2018"/>
+      <img src="${assetPath}/images/filler-photo-01.jpg" alt="Speaker at CascadiaJS 2018"/>
     </section>
     <section id="code-of-conduct">
       <h2>Code of Conduct</h2>
@@ -68,8 +67,8 @@ module.exports = function indexTemplate (props) {
     </section>
   </div>
   <div id="main">
-    <section id="hero" style="background-image: url(${static}/images/family-photo.jpg);">
-      <img src="${static}/images/logo-round.svg" alt="CascadiaJS 2019 logo"/>
+    <section id="hero" style="background-image: url(${assetPath}/images/family-photo.jpg);">
+      <img src="${assetPath}/images/logo-round.svg" alt="CascadiaJS 2019 logo"/>
       <br/>
       <span id="tagline">CascadiaJS features 2 tracks of 30+ amazing speakers</span><br/>
       <span id="tagline">discussing the cutting-edge of JavaScript, web development and</span><br/>
@@ -148,14 +147,13 @@ module.exports = function indexTemplate (props) {
       <div class="metric-tag">scholarships funded!</div>
     </section>
     <section class="filler">
-      <img src="${static}/images/filler-photo-02.jpg" alt="Speaker at CascadiaJS 2018"/>
+      <img src="${assetPath}/images/filler-photo-02.jpg" alt="Speaker at CascadiaJS 2018"/>
     </section>
     <section id="designed-by">
       <h2>Made in Cascadia</h2>
       <p>This site designed with ❤ by <a href="https://carrie.rabasa.com">Carrie Rabasa</a></p>
     </section>
   </div>
-
 </div>
 `
 }

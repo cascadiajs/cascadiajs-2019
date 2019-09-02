@@ -1,17 +1,22 @@
 let template = require('./index-template')
 let Events = require('./events')
 let Speakers = require('./speakers')
+let Layout = require('@architect/views/layout')
 
-module.exports = function Index (speakerData) {
+module.exports = function Index (props) {
+  let {speakerData, assetPath, speakerAssetPath} = props
 
-  let static = process.env.BEGIN_STATIC_ORIGIN || 'https://localhost:3333/_static/'
+  // Calculate days remaining until the event!
   let daysRemaining = Math.round(((new Date('11/7/2019')).getTime() - Date.now())/ 1000 / 60 / 60 / 24)
 
+  // Set up view content
   let events = Events() || 'COMING SOON!'
-  let speakers = Speakers(speakerData) || 'COMING SOON!'
+  let speakers = Speakers({speakerData, speakerAssetPath}) || 'COMING SOON!'
+  let content = template({events, speakers, assetPath, daysRemaining})
 
-  let props = {events, speakers, static, daysRemaining}
-  let index = template(props)
-
-  return index
+  let index = {
+    content,
+    assetPath
+  }
+  return Layout(index)
 }

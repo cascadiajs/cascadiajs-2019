@@ -1,35 +1,37 @@
 module.exports = function layoutTemplate (props) {
-  let {content, header, static} = props
+  let {title, header, assetPath, content} = props
+
   return `
 <!doctype html>
 <html lang=en>
   <head>
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    ${header}
+    <title>CascadiaJS 2019 | ${title}</title>
+    ${header ? header : ''}
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@^7.0.0">
     <link rel="stylesheet" href="https://use.typekit.net/cnx1fnn.css">
     <script src="https://kit.fontawesome.com/439d39b111.js"></script>
-    <link rel="stylesheet" href="${static}/styles/styles.css">
-    <link rel="apple-touch-icon" sizes="57x57" href="${static}/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="${static}/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="${static}/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="${static}/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="${static}/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="${static}/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="${static}/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="${static}/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="${static}/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="${static}/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="${static}/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="${static}/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="${static}/favicons/favicon-16x16.png">
-    <link rel="manifest" href="${static}/manifest.json">
+    <link rel="stylesheet" href="${assetPath}/styles/styles.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="${assetPath}/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="${assetPath}/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="${assetPath}/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="${assetPath}/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="${assetPath}/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="${assetPath}/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="${assetPath}/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="${assetPath}/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="${assetPath}/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="${assetPath}/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="${assetPath}/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="${assetPath}/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="${assetPath}/favicons/favicon-16x16.png">
+    <link rel="manifest" href="${assetPath}/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="${static}/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="${assetPath}/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
   </head>
-  <body style="background-image:url('${static}/images/plaid-pattern.svg');">
+  <body style="background-image:url('${assetPath}/images/plaid-pattern.svg');">
     <div id="root">
       <header>
         <nav>
@@ -46,18 +48,18 @@ module.exports = function layoutTemplate (props) {
       <footer>
         <section id="footer-sponsors">
           <section id="sponsors-gold">
-            <a href="https://fizbuz.com"><img src="${static}/images/sponsors/fizbuz.svg" alt="Fizbuz logo"/></a>
+            <a href="https://fizbuz.com"><img src="${assetPath}/images/sponsors/fizbuz.svg" alt="Fizbuz logo"/></a>
           </section>
           <section id="sponsors-silver">
-            <a href="https://saucelabs.com"><img src="${static}/images/sponsors/sauce-labs.png" alt="Sauce Labs logo"/></a>
-            <a href="https://formidable.com"><img src="${static}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
+            <a href="https://saucelabs.com"><img src="${assetPath}/images/sponsors/sauce-labs.png" alt="Sauce Labs logo"/></a>
+            <a href="https://formidable.com"><img src="${assetPath}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
           </section>
           <section id="sponsors-community">
-            <a href="https://egghead.io"><img src="${static}/images/sponsors/egghead.png" alt="Egghead.io logo"/></a>
-            <a href="https://stackshare.io"><img src="${static}/images/sponsors/stackshare.svg" alt="StackShare logo"/></a>
+            <a href="https://egghead.io"><img src="${assetPath}/images/sponsors/egghead.png" alt="Egghead.io logo"/></a>
+            <a href="https://stackshare.io"><img src="${assetPath}/images/sponsors/stackshare.svg" alt="StackShare logo"/></a>
             <div id="stackshare"></div>
-            <a href="https://www.meetup.com/ReactJS-Vancouver-Meetup/"><img src="${static}/images/sponsors/react-vancouver.png" alt="React Vancouver logo"/></a>
-            <a href="http://seattlejs.com/"><img src="${static}/images/sponsors/seattlejs.svg" alt="SeattleJS logo"/></a>
+            <a href="https://www.meetup.com/ReactJS-Vancouver-Meetup/"><img src="${assetPath}/images/sponsors/react-vancouver.png" alt="React Vancouver logo"/></a>
+            <a href="http://seattlejs.com/"><img src="${assetPath}/images/sponsors/seattlejs.svg" alt="SeattleJS logo"/></a>
           </section>
         </section>
         <section id="footer-info">
