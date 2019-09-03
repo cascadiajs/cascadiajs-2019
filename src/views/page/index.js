@@ -3,15 +3,19 @@ let exists = fs.existsSync
 let read = fs.readFileSync
 let md = require('marked')
 let join = require('path').join
+let getAssetPaths = require('@architect/shared/get-asset-paths')
 let Layout = require('@architect/views/layout')
 
-module.exports = function Page (props) {
-  let {page, assetPath} = props
-
-  let doc = `${join(__dirname, 'content', page)}.md`
-
+/**
+ * Page view
+ */
+module.exports = function Page (req) {
+  let page = req.path.substr(1)
+  let doc = join(__dirname, 'content', `${page}.md`)
   if (!exists(doc))
-    throw Error('Page not found')
+    return // Bails to 404
+
+  let {assetPath} = getAssetPaths()
 
   // Set up view content
   doc = read(doc).toString()
@@ -24,5 +28,8 @@ module.exports = function Page (props) {
     content,
     assetPath
   }
-  return Layout(page)
+  let html = Layout(page)
+  return {
+    html
+  }
 }

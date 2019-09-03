@@ -1,8 +1,21 @@
-let template = require('./speaker')
+let getAssetPaths = require('@architect/shared/get-asset-paths')
+let getSpeakerData = require('@architect/shared/get-speaker-data')
+let SpeakerTemplate = require('./speaker')
 let Layout = require('@architect/views/layout')
 
-module.exports = function Speaker(props) {
-  let {person, assetPath, speakerAssetPath} = props
+/**
+ * Speaker view
+ */
+module.exports = function Speaker(req) {
+  let {assetPath, speakerAssetPath} = getAssetPaths()
+  let speakerData = getSpeakerData()
+
+  let person = req.params && req.params.speaker ||
+               req.pathParameters && req.pathParameters.speaker // Arc 6 transition compat
+  person = speakerData.find(s => s.id === person)
+  if (!person)
+    return // Bails to 404
+
   let {name, id, talkTitle} = person
 
   // Set up view content
@@ -14,7 +27,7 @@ module.exports = function Speaker(props) {
 <meta name="twitter:title" content="CascadiaJS 2019 | ${name} | ${talkTitle}">
 <meta name="twitter:image" content="${speakerAssetPath}${id}-social.png">
   `
-  let content = template(props)
+  let content = SpeakerTemplate({person, speakerAssetPath})
 
   let speaker = {
     title,
@@ -22,5 +35,8 @@ module.exports = function Speaker(props) {
     content,
     assetPath
   }
-  return Layout(speaker)
+  let html = Layout(speaker)
+  return {
+    html
+  }
 }
