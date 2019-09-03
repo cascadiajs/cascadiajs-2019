@@ -6,7 +6,7 @@ let Layout = require('@architect/views/layout')
 /**
  * Speaker view
  */
-module.exports = function Speaker(req) {
+module.exports = function Speaker (req) {
   let {assetPath, speakerAssetPath} = getAssetPaths()
   let speakerData = getSpeakerData()
 

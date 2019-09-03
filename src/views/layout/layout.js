@@ -1,4 +1,4 @@
-module.exports = function layoutTemplate (props) {
+module.exports = function mainLayout (props) {
   let {title, header, assetPath, content} = props
 
   return `

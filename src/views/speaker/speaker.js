@@ -1,4 +1,4 @@
-module.exports = function speakerTemplate (props) {
+module.exports = function SpeakerTemplate (props) {
   let {person, speakerAssetPath} = props
   let {name, id, location, company, talkTitle, abstract} = person
 

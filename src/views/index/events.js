@@ -1,6 +1,6 @@
 let eventsData = require('./events.json')
 
-module.exports = function events () {
+module.exports = function Events () {
   let events = []
   eventsData.forEach(event => {
     let {date, eventName, link} = event

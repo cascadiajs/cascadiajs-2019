@@ -1,4 +1,4 @@
-module.exports = function indexTemplate (props) {
+module.exports = function IndexTemplate (props) {
   let {events, speakers, assetPath, daysRemaining} = props
 
   return `
