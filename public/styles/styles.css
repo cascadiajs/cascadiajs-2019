@@ -275,9 +275,12 @@ a.cta:hover {
 	margin-bottom: 8px;
 }
 
-#speaker-list .speaker .no-image {
+#speaker-list .speaker a, #speaker-list .speaker img, #speaker-list .speaker .no-image {
 	height: 150px;
 	width: 150px;
+}
+
+#speaker-list .speaker .no-image {
 	background-color:#000;
 }
 
