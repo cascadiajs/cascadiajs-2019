@@ -1,8 +1,8 @@
-let arc = require("@architect/functions")
-let handler = require("@architect/shared/handler")
+let arc = require('@architect/functions')
+let Speaker = require('@architect/views/speaker')
+let NotFound = require('@architect/views/404')
 
-function route(req, res) {
-	handler(req, res)
-}
-
-exports.handler = arc.http(route)
+/**
+ * Speaker view
+ */
+exports.handler = arc.http.async(Speaker, NotFound)

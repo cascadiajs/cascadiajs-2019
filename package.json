@@ -4,18 +4,20 @@
   "description": "Begin app",
   "scripts": {
     "lint": "eslint src --ignore-pattern node_modules --fix",
-    "test": "NODE_ENV=testing tape test/*-test.js | tap-spec",
-    "start": "NODE_ENV=testing ARC_LOCAL=1 npx sandbox"
+    "build": "node build/update-speakers",
+    "test": "PORT=6666 CI=true NODE_ENV=testing tape test/*-test.js | tap-spec",
+    "start": "NODE_ENV=testing npx sandbox"
   },
   "dependencies": {
-    "@architect/architect": "latest",
-    "@begin/data": "latest",
-    "tiny-json-http": "latest"
+    "@architect/architect": "LTS"
   },
   "devDependencies": {
+    "@architect/hydrate": "^1.3.2",
+    "@begin/data": "^1.1.2",
     "aws-sdk": "^2.504.0",
     "eslint": "^6.1.0",
     "tap-spec": "^5.0.0",
-    "tape": "^4.11.0"
+    "tape": "^4.11.0",
+    "tiny-json-http": "^7.1.2"
   }
 }

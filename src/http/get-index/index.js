@@ -1,8 +1,11 @@
-let arc = require("@architect/functions")
-let handler = require("@architect/shared/handler")
+let arc = require('@architect/functions')
+let Index = require('@architect/views/index')
+let Page = require('@architect/views/page')
+let NotFound = require('@architect/views/404')
 
-function route(req, res) {
-	handler(req, res)
-}
-
-exports.handler = arc.http(route)
+/**
+ * Index & page views
+ * - This root function handles the main index view, and...
+ * - Anything not specifically caught by explicitly defined paths (i.e. `GET /speakers/:speaker`)
+ */
+exports.handler = arc.http.async(Index, Page, NotFound)
