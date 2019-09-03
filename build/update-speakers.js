@@ -15,7 +15,7 @@ async function updateSpeakers () {
     // Set up endpoint
     let speakerEndpoint = isLocal && !process.env.CI
       ? 'http://localhost:4444/api/'
-      : process.env.SPEAKER_ENDPOINT + 'cascadiajs-2019'
+      : process.env.SPEAKER_ENDPOINT
     console.log(`Polling speaker endpoint: ${speakerEndpoint}`)
     let event = 'cascadiajs-2019'
     let url = speakerEndpoint + event
