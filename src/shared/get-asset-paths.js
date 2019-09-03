@@ -13,7 +13,7 @@ module.exports = function getAssetPaths () {
   // TODO maybe use dummy image(s) in this case?
   let speakerAssetPath = isLocal
     ? 'http://localhost:4444/_static/2019'
-    : process.env.SPEAKER_ASSETS
+    : process.env.SPEAKER_ASSETS + '/2019'
   let paths = {
     assetPath,
     speakerAssetPath
