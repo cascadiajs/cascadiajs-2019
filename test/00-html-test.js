@@ -18,7 +18,7 @@ test('sandbox.start', async t => {
 test('get /', t => {
   t.plan(1)
   tiny.get({
-    url: 'http://localhost:3333'
+    url: 'http://localhost:6666'
   },
   function win (err, result) {
     if (err) {
@@ -33,7 +33,7 @@ test('get /', t => {
 test('get /', t => {
   t.plan(1)
   tiny.get({
-    url: 'http://localhost:3333'
+    url: 'http://localhost:6666'
   }).then(function win (result) {
     t.ok(true, 'got result', console.log(result.toString().substring(50) + '...'))
   }).catch(function fail (err) {
@@ -45,7 +45,7 @@ test('get /', t => {
 test('get /', async t => {
   t.plan(1)
   try {
-    var url = 'http://localhost:3333'
+    var url = 'http://localhost:6666'
     var result = await tiny.get({url})
     t.ok(true, 'got result',console.log(result.toString().substring(50) + '...'))
   } catch (e) {
