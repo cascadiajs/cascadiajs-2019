@@ -36,6 +36,7 @@ module.exports = function mainLayout (props) {
       <header>
         <nav>
           <a href="/"><i class="fas fa-home"></i>Home</a>
+          <a href="/tickets"><i class="fas fa-ticket-alt"></i>Tickets</a>
           <a href="/why-cascadiajs"><i class="fas fa-heart-square"></i>Why CascadiaJS?</a>
           <a href="/scholarships"><i class="fas fa-user-graduate"></i>Scholarships</a>
           <a href="/sponsor"><i class="fas fa-hand-holding-seedling"></i>Sponsor Us</a>
