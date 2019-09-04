@@ -25,7 +25,7 @@ module.exports = function Speaker (req) {
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@cascadiajs">
 <meta name="twitter:title" content="CascadiaJS 2019 | ${name} | ${talkTitle}">
-<meta name="twitter:image" content="${speakerAssetPath}${id}-social.png">
+<meta name="twitter:image" content="${speakerAssetPath}/${id}-social.png">
   `
   let content = SpeakerTemplate({person, speakerAssetPath})
 
