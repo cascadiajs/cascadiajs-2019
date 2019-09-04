@@ -6,7 +6,9 @@ Want to learn GraphQL but you’re not sure where to get started? Get a solid fo
 
 In this course, we're going to learn GraphQL, a special way to ask internet servers questions. We are going to learn how to ask these servers all sorts of questions at once and allow them to provide all of the answers in a single response. Then we'll build our own GraphQL servers with Node.js that can answer questions that originate with any client. On the second day, we’ll build a client-side application with Apollo Client and React.
 
-<a class="cta" href="https://fizbuz.com/signup?placeID=PLoz9mrq5pvw8xvvnomxq71kjlngx406&forwardUrl=https%3A%2F%2Fti.to%2Fevent-loop%2Fcascadiajs-2019%2Fwith%2Fnfb9f7-vxei%2C2jsnjwraibu%2Cdarlfcbexuy%2Coxxgtirrr5o%2Cgxtdhvhs2s8%2Cqzjnfesyonm%2Ccip51mg0glk%2C5atc3qhk-60">Buy a Combo Ticket (Conference + Workshop)</a>
+<a class="cta" href="https://fizbuz.com/signup?placeID=PLoz9mrq5pvw8xvvnomxq71kjlngx406&forwardUrl=https%3A%2F%2Fti.to%2Fevent-loop%2Fcascadiajs-2019%2Fwith%2Fnfb9f7-vxei%2C2jsnjwraibu%2Cdarlfcbexuy%2Coxxgtirrr5o%2Cgxtdhvhs2s8%2Cqzjnfesyonm%2Ccip51mg0glk%2C5atc3qhk-60">Buy a Combo Conference + Workshop Ticket ($1800)</a>
+
+<a class="cta" href="https://ti.to/event-loop/cascadiajs-2019/with/bzxvsgelm1w">Buy a Standalone Workshop Ticket ($1200)</a>
 
 ## Course Outline
 
