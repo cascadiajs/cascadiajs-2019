@@ -5,7 +5,6 @@
 
 This site is powered by Begin, an app platform and framework for building serverless applications on AWS.
 
-
 ## Running this site locally
 
 - Initialize the repo: `npm i`
