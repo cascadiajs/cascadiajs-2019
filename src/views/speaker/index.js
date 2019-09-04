@@ -21,7 +21,7 @@ module.exports = function Speaker (req) {
   // Set up view content
   let title = `${name} | ${talkTitle}`
   let header = `
-<meta property="og:image" content="${speakerAssetPath}${id}-social.png" />
+<meta property="og:image" content="${speakerAssetPath}/${id}-social.png" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@cascadiajs">
 <meta name="twitter:title" content="CascadiaJS 2019 | ${name} | ${talkTitle}">
