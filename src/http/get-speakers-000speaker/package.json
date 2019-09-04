@@ -1,6 +1,6 @@
 {
   "name": "begin-app-get-speakers-000speaker",
   "dependencies": {
-    "@architect/functions": "latest"
+    "@architect/functions": "^3.3.8"
   }
 }

@@ -1,7 +1,7 @@
 {
 	"name": "begin-app-get-index",
 	"dependencies": {
-		"@architect/functions": "^3.3.7",
+		"@architect/functions": "^3.3.8",
 		"marked": "^0.7.0"
 	}
 }
