@@ -11,14 +11,17 @@ async function updateSpeakers () {
 
     let env = process.env.NODE_ENV
     let isLocal = env === 'testing' || process.env.ARC_LOCAL || !env
+    let endpointStage = process.env.BEGIN_ENV === 'staging'
+      ? '-staging'
+      : ''
 
     // Set up endpoint
     let speakerEndpoint = isLocal && !process.env.CI
       ? 'http://localhost:4444/api/'
-      : process.env.SPEAKER_ENDPOINT
-    console.log(`Polling speaker endpoint: ${speakerEndpoint}`)
+      : `https://create-4jr${endpointStage}.begin.app/api/`
     let event = 'cascadiajs-2019'
     let url = speakerEndpoint + event
+    console.log(`Polling speaker endpoint: ${url}`)
 
     // Set up authorization token and get data
     let headers = {
