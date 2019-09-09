@@ -55,7 +55,7 @@ module.exports = function IndexTemplate (props) {
     <section id="venue">
       <h2>Venue</h2>
       <p>
-        CascadiaJS 2019 will be held and the historic and newly renovated
+        CascadiaJS 2019 will be held at the historic and newly renovated
         <a href="https://townhallseattle.org/">Town Hall Seattle</a>
         <br/>
         <br/>

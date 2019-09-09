@@ -1,4 +1,4 @@
-# Growing Your Network
+# Grow Your Network
 
 ![family photo](${STATIC}/images/2018-group.jpg)
 
@@ -13,4 +13,4 @@ Over the course of 2 days, you'll hear 20 amazing talks by experts and their fie
 
 Whether you're looking for a job or just looking to meet folks who share your passion for GatsbyJS, CascadiaJS 2019 will help you grow your network!
 
-<a class="cta" href="https://fizbuz.com/signup?placeID=PLoz9mrq5pvw8xvvnomxq71kjlngx406&forwardUrl=https%3A%2F%2Fti.to%2Fevent-loop%2Fcascadiajs-2019%2Fwith%2Fnfb9f7-vxei%2C2jsnjwraibu%2Cdarlfcbexuy%2Coxxgtirrr5o%2Cgxtdhvhs2s8%2Cqzjnfesyonm%2Ccip51mg0glk%2C5atc3qhk-60">Buy a Ticket</a>
+<a class="cta" href="/tickets">Buy a Ticket</a>

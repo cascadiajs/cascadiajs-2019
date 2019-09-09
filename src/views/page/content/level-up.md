@@ -1,4 +1,4 @@
-# Why You Should Attend CascadiaJS 2019
+# Level Up Your Career
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/l0jV-Mc2I68" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
@@ -17,8 +17,6 @@ Over the course of 2 days, you'll hear 20 amazing talks by experts and their fie
 
 In between and around these talks we will create lots of opportunities for you to meet people and connect, including scheduling frequent breaks between talks, catering meals at the venue and organizing several social evening social events.
 
-If you want to attend, but aren't sure you can justify the time and expense, we've written up a handy guide to reviewing the [ROI of Attending](/roi) and even have a [Boss Letter Template](/boss-letter) that you can use when emailing your manager. 
-
-We hope this information is useful and we’re excited to see you at CascadiaJS in November!
+Whether you're looking for a job or just looking to meet folks who share your passion for GatsbyJS, CascadiaJS 2019 is the perfect place to learn new skills, meet great people and level up your career!
 
 <a class="cta" href="/tickets">Buy a Ticket</a>

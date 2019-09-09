@@ -8,7 +8,7 @@ In order to best plan your stay, here is a rough schedule of events. We will con
 
 * Mon: React Workshop
 * Tue: GraphQL Workshop
-* Wed: GraphQL Workshop / Hacker Bus / Speaker Dinner / Pre-Conference Mixer
+* Wed: GraphQL Workshop / Speaker Dinner / Pre-Conference Mixer
 * Thu: Day One Talks / Opening Party
 * Fri: Day Two Talks / Closing Party
 * Sat: Farewell Brunch / TBD activities
@@ -22,11 +22,21 @@ If you are traveling to the United States from another country, **PLEASE** ensur
 * [US Via Waiver Program](https://www.dhs.gov/visa-waiver-program)
 * [Canadian Requiring Visas](https://ca.usembassy.gov/visas/do-i-need-a-visa/)
 
-## Hacker Bus
+## Bus / Train
 
-For attendees visting from Vanouver, BC or Portland, OR we will be running a Hacker Bus. The buses are one-way and will be scheduled to arrive in Seattle, WA on Nov 6 at 3pm. 
+Traveling to Cascadia is always more fun with friends! While we are not organizing an "official" Hacker Bus or Train this year, we have identified a couple of great bus and train options that will get you into Seattle on November 6th in plenty of time for all of the fun events we are planning.
 
-[More information and booking for the Hacker Bus](/hacker-bus)
+### Departing Vancouver, BC
+
+* [Bolt Bus](https://www.boltbus.com) (Schedule 9949)
+* Departs 11:30am, Arrives at 3:30pm 
+
+### Departing Portland, OR
+
+* [Amtrak Cascades](https://tickets.amtrak.com/itd/amtrak) (#504)
+* Departs noon, arrives at 3:30pm
+
+Please check-out the #getting-to-cascadia channel in Slack to coordinate meeting up and traveling with your fellow Cascadians!
 
 ## Flying
 

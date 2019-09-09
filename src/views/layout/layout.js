@@ -61,6 +61,7 @@ module.exports = function mainLayout (props) {
             <div id="stackshare"></div>
             <a href="https://www.meetup.com/ReactJS-Vancouver-Meetup/"><img src="${assetPath}/images/sponsors/react-vancouver.png" alt="React Vancouver logo"/></a>
             <a href="http://seattlejs.com/"><img src="${assetPath}/images/sponsors/seattlejs.svg" alt="SeattleJS logo"/></a>
+            <a href="http://begin.com/"><img src="${assetPath}/images/sponsors/begin.svg" alt="Begin logo"/></a>
           </section>
         </section>
         <section id="footer-info">
