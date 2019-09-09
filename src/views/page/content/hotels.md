@@ -24,3 +24,5 @@ Instructions on how to book at the group rate and what the deadlines are below.
 * [11 minute walk](https://goo.gl/maps/1jTNpnt2r3ZbNEsr9) to Conference Venue
 * Deadline to book at the group rate is <span class="exclaim">Oct 16</span>
 * Reservations may be made [online](https://www.hyatt.com/en-US/group-booking/SEARS/G-CASD)
+
+If you have *any* issues, please contact: Rylie Sedustine (+1.206.859.6543, rylie.sedustine@hyatt.com).
