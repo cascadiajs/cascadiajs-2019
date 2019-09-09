@@ -198,36 +198,6 @@ If you'd like to support our event or have any questions, please email carter@ca
     </tr>
     <tr>
       <td class="tierCol">Community</td>
-      <td><i class="fas fa-feather"></i> <a href="#birds">Birds of a Feather</a></td>
-      <td>$2500</td>
-      <td class="qCol">10</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td class="tierCol">Community</td>
-      <td><i class="fas fa-bus"></i> <a href="#bus">Hacker Bus</a></td>
-      <td>$1500</td>
-      <td class="qCol">2</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td class="tierCol">Community</td>
       <td><i class="fas fa-hand-holding-heart"></i> <a href="#scholarships">Scholarships</a></td>
       <td>$1500</td>
       <td class="qCol">unlimited</td>
@@ -283,14 +253,6 @@ This is perfect if you're bring your team to the event and have an open job that
 <h2 id="captions"><i class="fas fa-closed-captioning"></i> Captioning</h2>
 
 We will be live captioning all 24 talks for the hearing impaired. Your logo will be included on the site we use to display the captioning as well as the videos that we produce and upload to YouTube. 
-
-<h2 id="birds"><i class="fas fa-feather"></i> Birds of a Feather</h2>
-
-We will be setting-up "interest areas" throughout the venue where folks who share an interest (ReactJS, GraphQL, etc) can congregate and meet one another. We are looking for companies who are heavily involved in a technical space (i.e. NoSQL) to staff these areas,  facilitate introductions and moderate conversations. If your company's product or engineering team has deep expertise in a technical topic of interest to our attendees, this is a great option for you. 
-
-<h2 id="bus"><i class="fas fa-bus"></i> Hacker Bus</h2>
-
-We are chartering buses to bring developers to Seattle down from Vancouver, BC and up from Portland, OR! Help folks travel to Seattle in style, make some new friends and enjoy submitting PR's on the Wi-Fi buses.
 
 <h2 id="scholarships"><i class="fas fa-hand-holding-heart"></i> Scholarships</h2>
 
