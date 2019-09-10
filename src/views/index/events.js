@@ -1,24 +1,29 @@
-let eventsData = require('./events.json')
+let eventsData = require("./events.json");
 
-module.exports = function Events () {
-  let events = []
+module.exports = function Events() {
+  let events = [];
   eventsData.forEach(event => {
-    let {date, eventName, link} = event
-    // Only show events from this or last month
-    let now = new Date()
-    if (now.getMonth() - date.split('/')[0] >= 1) return
+    let { date, eventName, link } = event;
+    let now = new Date();
+    // Only show events from this or next month
+    let monthDelta = Number(date.split("/")[0]) - now.getMonth() - 1;
+    // Only show events for running 30 days range
+    let dayDelta = 30 * monthDelta + Number(date.split("/")[1]) - now.getDate();
 
-    link = link ? `<a href="${link}">` : ''
+    if (monthDelta < 0 || monthDelta > 1) return;
+    if (dayDelta > 30) return;
+
+    link = link ? `<a href="${link}">` : "";
     let item = `
 <tr>
   <td>${date}</td>
   <td>
-    ${link}${eventName}${link ? '</a>' : ''}
+    ${link}${eventName}${link ? "</a>" : ""}
   </td>
 </tr>
-    `
-    events.push(item)
-  })
+    `;
+    events.push(item);
+  });
 
-  return events.join('\n')
-}
+  return events.join("\n");
+};
