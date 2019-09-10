@@ -25,4 +25,6 @@ Instructions on how to book at the group rate and what the deadlines are below.
 * Deadline to book at the group rate is <span class="exclaim">Oct 16</span>
 * Reservations may be made [online](https://www.hyatt.com/en-US/group-booking/SEARS/G-CASD)
 
-If you have *any* issues, please contact: Rylie Sedustine (+1.206.859.6543, rylie.sedustine@hyatt.com).
+If you have *any* issues, please call: 1-800-233-1234
+
+If you can't get your issues resolved, please contact us in Slack (#getting-to-cascadia) and we'll sort it out!
