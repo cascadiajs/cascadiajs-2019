@@ -111,8 +111,7 @@ module.exports = function IndexTemplate (props) {
         </div>
         <div class="item">
           <h3>Nov 6</h3>
-          <p>Hacker Bus</p>
-          <p>Mentor Mixer</p>
+          <p><a title="professional mixer before the conference" href="/mentor-mixer">Mentor Mixer</a></p>
         </div>
         <div class="item">
           <h3>Nov 7-8</h3>
@@ -120,7 +119,7 @@ module.exports = function IndexTemplate (props) {
         </div>
         <div class="item">
           <h3>Nov 9-10</h3>
-          <p>Weekend Fun Times</p>
+          <p><a title="weekend fun times after the conference" href="/weekend">Weekend Fun Times</a></p>
         </div>
       </div>
     </section>
