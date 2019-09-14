@@ -7,7 +7,7 @@ module.exports = function getAssetPaths () {
   let env = process.env.NODE_ENV
   let isLocal = env === 'testing' || process.env.ARC_LOCAL || !env
   let assetPath = isLocal
-    ? 'http://localhost:3333/_static'
+    ? `http://localhost:${process.env.PORT || '3333'}/_static`
     : process.env.BEGIN_STATIC_ORIGIN
   // Speaker asssets will 404 when working locally without access to the private speaker repo
   // TODO maybe use dummy image(s) in this case?
