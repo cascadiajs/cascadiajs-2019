@@ -1,4 +1,4 @@
-/*let test = require('tape')
+let test = require('tape')
 let tiny = require('tiny-json-http')
 let sandbox = require('@architect/architect').sandbox
 let url = 'http://localhost:6666'
@@ -56,4 +56,3 @@ test('sandbox.close', t=> {
   end()
   t.pass('sandbox shut down')
 })
-*/
