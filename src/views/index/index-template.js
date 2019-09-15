@@ -43,6 +43,12 @@ module.exports = function IndexTemplate (props) {
         <a class="cta" href="/tickets">Buy Tickets</a>
       </p>
     </section>
+    <section id="metrics">
+      <div class="metric">${daysRemaining} days</div>
+      <div class="metric-tag">until CascadiaJS!</div>
+      <div class="metric">8</div>
+      <div class="metric-tag">scholarships funded!</div>
+    </section>
     <section class="filler">
       <img src="${assetPath}/images/filler-photo-01.jpg" alt="Speaker at CascadiaJS 2018"/>
     </section>
@@ -138,12 +144,6 @@ module.exports = function IndexTemplate (props) {
           ${events}
         </tbody>
       </table>
-    </section>
-    <section id="metrics">
-      <div class="metric">${daysRemaining} days</div>
-      <div class="metric-tag">until CascadiaJS!</div>
-      <div class="metric">2</div>
-      <div class="metric-tag">scholarships funded!</div>
     </section>
     <section class="filler">
       <img src="${assetPath}/images/filler-photo-02.jpg" alt="Speaker at CascadiaJS 2018"/>
