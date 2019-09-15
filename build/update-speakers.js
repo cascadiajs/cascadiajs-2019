@@ -37,7 +37,7 @@ async function updateSpeakers () {
     fs.writeFileSync(join(shared, `${event}.json`), speakerData)
 
     // Hydrate it to functions
-    hydrate.shared(err => {
+    hydrate.shared({}, err => {
       if (err) throw Error(err)
       else console.log(`Successfully updated ${event} speaker list!`)
     })
