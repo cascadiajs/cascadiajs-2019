@@ -12,21 +12,29 @@ const fetchFromApi = async () => {
 
 module.exports = async function getSpeakerData () {
   let attendees
+  let attendeeData
   let table = 'data'
   let key = 'cascadiajs2019'
 
   try {
     console.log('reading from DB')
     attendees = await data.get({table, key})
+    attendeeData = attendees && attendees.attendeeData
+    if (!attendeeData)
+      attendeeData = await fetchFromApi()
+    if (!attendeeData)
+      throw Error('no attendees found')
+    else {
+      let epoch = Date.now() / 1000
+      let ttl = epoch + (60*5) // 5 minutes
+      console.log('writing to DB')
+      attendees = await data.set({table, key, ttl, attendeeData})
+      attendeeData = attendees.attendeeData
+      return attendeeData
+    }
   }
   catch (err) {
     console.log(err)
-    attendees = await fetchFromApi()
-    let ttl = Date.now() + (60*5) // 5 minutes
-    console.log('writing to DB')
-    await data.set({table, key, ttl, attendees})
+    throw Error(err)
   }
-
-  return attendees
-
 }
