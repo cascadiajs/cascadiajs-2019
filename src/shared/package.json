@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@begin/data": "^1.1.4"
+    "@begin/data": "^1.1.4",
+    "tiny-json-http": "^7.1.2"
   }
 }
