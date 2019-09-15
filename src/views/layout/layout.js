@@ -1,5 +1,6 @@
 module.exports = function mainLayout (props) {
   let {title, header, assetPath, content, attendees} = props
+  attendees = attendees || 'ATTENDEES COMING SOON!'
 
   return `
 <!doctype html>
