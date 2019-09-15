@@ -8,14 +8,12 @@ let Layout = require('@architect/views/layout')
 /**
  * Index view
  */
-module.exports = function Index (req) {
+module.exports = async function Index (req) {
   if (req.path === '/') {
     let {assetPath, speakerAssetPath} = getAssetPaths()
     let speakerData = getSpeakerData()
-
     // Calculate days remaining until the event!
     let daysRemaining = Math.round(((new Date('11/7/2019')).getTime() - Date.now())/ 1000 / 60 / 60 / 24)
-
     // Set up view content
     let events = Events() || 'COMING SOON!'
     let speakers = Speakers({speakerData, speakerAssetPath}) || 'COMING SOON!'
@@ -25,7 +23,7 @@ module.exports = function Index (req) {
       content,
       assetPath
     }
-    let html = Layout(index)
+    let html = await Layout(index)
     return {
       html
     }
