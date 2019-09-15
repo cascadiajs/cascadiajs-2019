@@ -190,7 +190,7 @@ a.cta:hover {
 
 /* Landing page styles */
 
-#landing section {
+#landing section, footer #attendees {
 	padding: 16px;
 	margin-bottom: 8px;
 }
@@ -207,7 +207,7 @@ a.cta:hover {
 	background-color: #b9debc;
 }
 
-#landing #venue {
+#landing #venue, footer #attendees {
 	background-color: #FFD101;
 }
 
@@ -331,6 +331,19 @@ a.cta:hover {
 	margin-top:0;
 }
 
+#attendee-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+  	justify-content: center;
+}
+
+.attendee {
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+}
+
 /* Mailchimp embed styles */
 
 #mce-EMAIL {
@@ -426,6 +439,10 @@ a.cta:hover {
 		grid-template-rows: 100%;
 		grid-template-columns: 3fr 2fr 1fr;
 		grid-gap: 8px;
+	}
+	
+	footer #attendees {
+		margin: 8px;
 	}
 
 	#footer-sponsors section {
