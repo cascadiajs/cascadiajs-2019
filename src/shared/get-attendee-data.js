@@ -17,24 +17,27 @@ module.exports = async function getSpeakerData () {
   let key = 'cascadiajs2019'
 
   try {
-    console.log('reading from DB')
+    console.log('Reading attendees from Begin Data')
     attendees = await data.get({table, key})
     attendeeData = attendees && attendees.attendeeData
-    if (!attendeeData)
+    if (!attendeeData) {
+      console.log('attendees not in DB, fetching from API')
       attendeeData = await fetchFromApi()
-    if (!attendeeData)
-      throw Error('no attendees found')
-    else {
       let epoch = Date.now() / 1000
       let ttl = epoch + (60*5) // 5 minutes
-      console.log('writing to DB')
+      console.log(`Writing attendees to Begin Data and caching for 5 minutes`)
       attendees = await data.set({table, key, ttl, attendeeData})
       attendeeData = attendees.attendeeData
-      return attendeeData
+    }
+
+    if (!attendeeData) {
+      throw Error('ERROR: failed to get attendees from DB or API')
     }
   }
   catch (err) {
     console.log(err)
     throw Error(err)
   }
+
+  return attendeeData
 }
