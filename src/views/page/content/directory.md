@@ -2,7 +2,7 @@
 
 For the first time, we are rolling-out a Conference Directory for CascadiaJS! The purpose of the Directory is to help attendees connect with one another. The directory will display who's coming to CascadiaJS 2019 and support filtering based on things like "lives in Vancouver, BC" or "builds apps using VueJS".
 
-## How do I get listed in the Directory?
+## Q: How do I get listed in the Directory?
 
 When you purchase a ticket to CascadiaJS 2019, you'll have the option of creating a [Fizbuz](https://fizbuz.com) account. Fizbuz is a professional network designed for developers, and we're partnering with Fizbuz to help attendees connect with one another. 
 
@@ -26,3 +26,15 @@ If you'd rather not be listed in the Conference Directory, you have two options:
 3. Click "un-publish" for your profile
 
 ![marking a Fizbuz profile private](${STATIC}/images/fizbuz-unpublish.png)
+
+## Q: Where does this data come from?
+
+The CascadiaJS 2019 website is written in Node.js, hosted on [Begin](https://begin.com) and the [source code](https://github.com/cascadiajs/cascadiajs-2019) is available on Github. The Node.js application makes use of a Fizbuz GraphQL API to retreive information about the folks that are attendeeing CascadiaJS 2019. 
+
+Here is a sample `curl` command: 
+
+```
+curl https://fizbuz.com/graphql \
+  -d "query={accountsByPlaceID(placeID:\"PLxxx\"){name,nickname,image}}"
+```
+
