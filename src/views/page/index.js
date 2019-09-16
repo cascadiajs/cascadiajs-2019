@@ -9,7 +9,7 @@ let Layout = require('@architect/views/layout')
 /**
  * Page view
  */
-module.exports = function Page (req) {
+module.exports = async function Page (req) {
   let page = req.path.substr(1)
   let doc = join(__dirname, 'content', `${page}.md`)
   if (!exists(doc))
@@ -28,7 +28,7 @@ module.exports = function Page (req) {
     content,
     assetPath
   }
-  let html = Layout(page)
+  let html = await Layout(page)
   return {
     html
   }

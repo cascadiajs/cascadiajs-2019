@@ -6,7 +6,7 @@ let Layout = require('@architect/views/layout')
 /**
  * Speaker view
  */
-module.exports = function Speaker (req) {
+module.exports = async function Speaker (req) {
   let {assetPath, speakerAssetPath} = getAssetPaths()
   let speakerData = getSpeakerData()
 
@@ -35,7 +35,7 @@ module.exports = function Speaker (req) {
     content,
     assetPath
   }
-  let html = Layout(speaker)
+  let html = await Layout(speaker)
   return {
     html
   }
