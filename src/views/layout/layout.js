@@ -55,6 +55,7 @@ module.exports = function mainLayout (props) {
           <section id="sponsors-silver">
             <a href="https://saucelabs.com"><img src="${assetPath}/images/sponsors/sauce-labs.png" alt="Sauce Labs logo"/></a>
             <a href="https://formidable.com"><img src="${assetPath}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
+            <a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="${assetPath}/images/sponsors/microsoft.svg" alt="Microsoft logo"/></a>
           </section>
           <section id="sponsors-community">
             <a href="https://egghead.io"><img src="${assetPath}/images/sponsors/egghead.png" alt="Egghead.io logo"/></a>
