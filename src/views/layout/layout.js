@@ -70,6 +70,7 @@ module.exports = function mainLayout (props) {
           <div id="attendee-list">
             ${attendees}
           </div>
+          <p><a href="/directory">Conference Directory FAQ</a></p>
         </section>
         <section id="footer-info">
             <section id="footer-core-info">
