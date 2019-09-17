@@ -6,21 +6,35 @@ For the first time, we are rolling-out a Conference Directory for CascadiaJS! Th
 
 When you purchase a ticket to CascadiaJS 2019, you'll have the option of creating a [Fizbuz](https://fizbuz.com) account. Fizbuz is a professional network designed for developers, and we're partnering with Fizbuz to help attendees connect with one another. 
 
-All Fizbuz profiles are default private. Once you're happy with your profile, go and ahead and publish it. Publishing your profile is all you need to do to get listed in the Conference Directory. 
+![Fizbuz signup via CascadiaJS](${STATIC}/images/fizbuz-cascadiajs.png)
+
+If you choose to create an account, you're all set! Your profile will automatically be associated with CascadiaJS 2019 and you'll show up in our Conference Directory.
+
+## Q: What if I didn't create a Fizbuz account when I bought my ticket?
+
+No problem!
+
+1. [Create](https://fizbuz.com/signup) a Fizbuz account
+2. Click on "edit" for Experiences
+3. Click "Add Experience"
+4. Enter the following information and click "Insert Experience"
+
+![Fizbuz add CascadiaJS](${STATIC}/images/fizbuz-add-cascadiajs.png)
 
 ## Q: How do I get un-listed?
 
 If you'd rather not be listed in the Conference Directory, you have two options:
 
-1) Mark your attendance at CascadiaJS 2019 as private
+1) Mark your CascadiaJS 2019 Experience as private
 
 1. [Log-in](https://fizbuz.com/login) to your Fizbuz account
 2. Click on "edit" for Experiences
-3. Flip "published" to off and "save"
+3. Click on "edit" for CascadiaJS 2019
+4. Flip "published" to off and click "Update Experience"
 
 ![editing a Fizbuz Experience](${STATIC}/images/fizbuz-exp-edit.png)
 
-2) Mark your Fizbuz profile as private
+2) Mark your entire Fizbuz profile as private
 
 1. [Log-in](https://fizbuz.com/login) to your Fizbuz account
 3. Click "un-publish" for your profile
@@ -38,3 +52,4 @@ curl https://fizbuz.com/graphql \
   -d "query={accountsByPlaceID(placeID:\"PLxxx\"){name,nickname,image}}"
 ```
 
+We're going to be adding more ways to find and connect with folks in the future, including filtering by technical skills (i.e. JavaScript) and location (i.e. Portland, OR). Stay tuned!
