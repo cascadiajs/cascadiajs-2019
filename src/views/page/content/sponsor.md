@@ -125,7 +125,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-tshirt"></i> <a href="#booth">Booth</a></td>
       <td>$5k</td>
-      <td class="qCol">1 (3 SOLD)</td>
+      <td class="qCol">SOLD</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -155,7 +155,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-user-graduate"></i> <a href="#mixer">Mentor Mixer</a></td>
       <td>$5k</td>
-      <td class="qCol">1</td>
+      <td class="qCol">SOLD</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -170,7 +170,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-handshake"></i> <a href="#team">Meet the Team</a></td>
       <td>$5k</td>
-      <td class="qCol">10</td>
+      <td class="qCol">5</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
