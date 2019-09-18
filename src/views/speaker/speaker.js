@@ -13,9 +13,7 @@ module.exports = function SpeakerTemplate (props) {
         <p>${location}</p>
         <h4>Company</h4>
         <p>${company}</p>
-        ${url ? `<h4>Website</h4><p><a href="${url}">${url.split("://")[1]}</a>` : ``}
-        
-        <p>
+        ${url && `<h4>Website</h4><p><a href="${url}">${url.split("://")[1]}</a></p>`}
       </div>
     </div>
     <h2>Talk: ${talkTitle}</h2>

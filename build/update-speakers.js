@@ -21,14 +21,14 @@ async function updateSpeakers () {
       : `https://create-4jr${endpointStage}.begin.app/api/`
     let event = 'cascadiajs-2019'
     let url = speakerEndpoint + event
-    console.log(`Polling speaker endpoint: ${url}`)
+    console.log(`Fetching from speaker endpoint: ${url}`)
 
     // Set up authorization token and get data
     let headers = {
       Authorization: `Basic ${Buffer.from(secret).toString('base64')}`
     }
     let speakerData = await tiny.get({url, headers})
-    console.log('Got speaker data')
+    console.log('Got speaker data', speakerData.body)
 
     // Write it
     speakerData = JSON.stringify(speakerData.body)
