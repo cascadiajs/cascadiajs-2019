@@ -15,7 +15,10 @@ module.exports = function Speakers ({speakerData, speakerAssetPath}) {
   <a href="/speakers/${id}"><img src="${speakerAssetPath}/${id}.jpg" alt="photo of ${name}"/></a>
   <div class="speaker-info">
     <div class="speaker-name">${name}</div>
-    <div class="speaker-misc">${company}<br/>${location}</div>
+    <div class="speaker-misc">
+      ${company}<br/>
+      ${location}
+    </div>
   </div>
 </div>
 `
