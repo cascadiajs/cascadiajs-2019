@@ -12,4 +12,6 @@ We'll share ticketing links soon, but right now they're hoping some of the amazi
 * Levels: From Beginner to Intermediate
 * Restrictions: Kids can be on Linux, ChromeOS, MacOS, or Windows, so curriculum should not require installation of software.
 
+If you'd like to teach a workshop, email gregb@seattlecoderdojo.com.
+
 More info coming soon!
