@@ -125,6 +125,7 @@ module.exports = function IndexTemplate (props) {
         </div>
         <div class="item">
           <h3>Nov 9-10</h3>
+          <p><a title="kids coding with Seattle Coder Dojo" href="/kids-coding">Kids Coding</a></p>
           <p><a title="weekend fun times after the conference" href="/weekend">Weekend Fun Times</a></p>
         </div>
       </div>
