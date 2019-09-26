@@ -83,7 +83,7 @@ module.exports = function mainLayout (props) {
                 <h2>Stay Connected</h2>
                 <ul id="connect-list">
                   <li><a href="http://eepurl.com/dPmCkT">Sign-up for our Newsletter</a></li>
-                  <li><a href="https://join.slack.com/t/cascadiajs/shared_invite/enQtMzcyMjkzMDk0NjQwLTc3YmJiMTk0NTZjNDBjMzg2YTMxNDA4Njk3YTgyZWY0MGM4NjVhZTI0YTUzYTRmYzRlNThhNTIxOGNkMDU1ZGU">Join us on Slack</a></li>
+                  <li><a href="https://join.slack.com/t/cascadiajs/shared_invite/enQtNzYzMzYxMTc0OTc5LWM0ZDZiZDc5MDgwMmFkODdlZTdiMGE3NjFhYTZmNWVkMWEwMDcxNWE0Nzg5YTcwOGQzZDk0Y2M3ZWRmN2QwNzU">Join us on Slack</a></li>
                   <li><a href="https://twitter.com/cascadiajs">Follow us on Twitter</a></li>
                   <li><a href="https://github.com/cascadiajs/cascadiajs-2019/">Send us a PR on Github</a></li>
                 </ul>
