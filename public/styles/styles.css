@@ -204,7 +204,7 @@ a.cta:hover {
 	width: 100%;
 }
 
-#landing #tickets, #landing #events, #landing #email, #landing #designed-by, #landing #organizers {
+#landing #tickets, #landing #events, #landing #email, #landing #designed-by {
 	background-color: #b9debc;
 }
 
@@ -216,7 +216,7 @@ a.cta:hover {
 	background-color: #FF9966;
 }
 
-#landing #week {
+#landing #week, #landing #organizers  {
 	background-color: #e6e8f5;
 }
 
@@ -341,7 +341,7 @@ a.cta:hover {
 }
 
 #organizer-list .organizer-info {
-	background-color: #0d29ff;
+	background-color: #020800;
 	flex: 1;
 	padding: 8px;
 	display: flex;
@@ -358,7 +358,7 @@ a.cta:hover {
 #organizer-list .organizer-misc {
 	font-family: rift-soft;
 	font-size: 1em;
-	color: #b9debc;
+	color: #fff;
 }
 
 #speaker .speaker-info {
