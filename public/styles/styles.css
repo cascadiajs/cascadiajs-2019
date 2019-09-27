@@ -204,7 +204,7 @@ a.cta:hover {
 	width: 100%;
 }
 
-#landing #tickets, #landing #events, #landing #email, #landing #designed-by {
+#landing #tickets, #landing #events, #landing #email, #landing #designed-by, #landing #organizers {
 	background-color: #b9debc;
 }
 
@@ -319,6 +319,48 @@ a.cta:hover {
 	color: #b9debc;
 }
 
+#organizer-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+  	justify-content: center;
+}
+
+#organizer-list .organizer {
+	height: 300px;
+	width: 150px;
+	display:flex;
+	flex-direction: column;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+#organizer-list .organizer a, #organizer-list .organizer img {
+	height: 150px;
+	width: 150px;
+}
+
+#organizer-list .organizer-info {
+	background-color: #0d29ff;
+	flex: 1;
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+#organizer-list .organizer-name {
+	font-family: rift-soft;
+	font-size: 1.6em;
+	color: #fff;
+	flex-grow: 1
+}
+
+#organizer-list .organizer-misc {
+	font-family: rift-soft;
+	font-size: 1em;
+	color: #b9debc;
+}
+
 #speaker .speaker-info {
 	display: flex;
 }
@@ -331,6 +373,9 @@ a.cta:hover {
 #speaker .speaker-more p {
 	margin-top:0;
 }
+
+
+
 
 #attendee-list {
 	display: flex;

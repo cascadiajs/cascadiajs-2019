@@ -1,5 +1,5 @@
 module.exports = function IndexTemplate (props) {
-  let {events, speakers, assetPath, daysRemaining} = props
+  let {events, speakers, organizers, assetPath, daysRemaining} = props
 
   return `
 <div id="landing">
@@ -70,6 +70,12 @@ module.exports = function IndexTemplate (props) {
         Seattle, WA<br/>
         98101
       </p>
+    </section>
+    <section id="organizers">
+      <h2>Organizers</h2>
+      <div id="organizer-list">
+        ${organizers}
+      </div>
     </section>
   </div>
   <div id="main">

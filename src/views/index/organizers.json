@@ -1,0 +1,92 @@
+[
+    {
+      "id": "carter-rabasa",
+      "name": "Carter Rabasa",
+      "location": "Seattle, WA",
+      "pronouns": "he/him",
+      "twitter": "crtr0",
+      "company": "Fizbuz",
+      "role": "Lead Organizer"
+    },
+    {
+        "id": "carrie-rabasa",
+        "name": "Carrie Rabasa",
+        "location": "Seattle, WA",
+        "pronouns": "she/her",
+        "twitter": "",
+        "company": "",
+        "role": "Lead Designer"
+      },
+    {
+        "id": "marcy-sutton",
+        "name": "Marcy Sutton",
+        "location": "Bellingham, WA",
+        "pronouns": "she/her",
+        "twitter": "",
+        "company": "",
+        "role": "New Speakers"
+      },
+      {
+        "id": "brenden-niedermeyer",
+        "name": "Brenden Niedermeyer",
+        "location": "Seattle, WA",
+        "pronouns": "he/him",
+        "twitter": "",
+        "company": "",
+        "role": "New Speakers"
+      },
+      {
+        "id": "gabi-dombrowski",
+        "name": "Gabi Dombrowski",
+        "location": "Kansas City, MO",
+        "pronouns": "she/her",
+        "twitter": "",
+        "company": "",
+        "role": "Mentor Mixer"
+      },
+      {
+        "id": "samantha-klemm",
+        "name": "Samantha Klemm",
+        "location": "Seattle, WA",
+        "pronouns": "she/her/hers",
+        "twitter": "",
+        "company": "",
+        "role": "Social Events"
+      },
+      {
+        "id": "jim-liu",
+        "name": "Jim Liu",
+        "location": "Seattle, WA",
+        "pronouns": "he/him",
+        "twitter": "",
+        "company": "",
+        "role": "Community Liason"
+      },
+      {
+        "id": "heidi-laursen",
+        "name": "Heidi Laursen",
+        "location": "Seattle, WA",
+        "pronouns": "she/her",
+        "twitter": "",
+        "company": "",
+        "role": "Speaker Wrangler"
+      },
+      {
+        "id": "jessica-west",
+        "name": "Jessica West",
+        "location": "Seattle, WA",
+        "pronouns": "she/her",
+        "twitter": "",
+        "company": "",
+        "role": "CFP Review"
+      },
+      {
+        "id": "greg-bulmash",
+        "name": "Greg Bulmash",
+        "location": "Seattle, WA",
+        "pronouns": "he/him",
+        "twitter": "",
+        "company": "",
+        "role": "Kids Coding"
+      }
+]
