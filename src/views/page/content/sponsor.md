@@ -252,7 +252,7 @@ This is perfect if you're bring your team to the event and have an open job that
 
 <h2 id="captions"><i class="fas fa-closed-captioning"></i> Captioning</h2>
 
-We will be live captioning all 24 talks for the hearing impaired. Your logo will be included on the site we use to display the captioning as well as the videos that we produce and upload to YouTube. 
+We will be live captioning all 24 talks. Your logo will be included on the site we use to display the captioning as well as the videos that we produce and upload to YouTube. 
 
 <h2 id="scholarships"><i class="fas fa-hand-holding-heart"></i> Scholarships</h2>
 
