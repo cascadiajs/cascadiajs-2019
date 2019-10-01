@@ -143,13 +143,9 @@ table#sponsorships th, table#sponsorships td {
 	white-space: nowrap;
 }
 
-table#sponsorships span.check {
-	writing-mode: vertical-rl;
-	text-orientation: sideways;
-	white-space: nowrap;
-}
 
-.tierCol, .qCol {
+
+table#sponsorships .check, table#sponsorships .tierCol, table#sponsorships .qCol {
 	display: none;
 }
 
@@ -191,7 +187,7 @@ a.cta:hover {
 
 /* Landing page styles */
 
-#landing section, footer #attendees {
+#landing section, footer #attendees, footer #organizers {
 	padding: 16px;
 	margin-bottom: 8px;
 }
@@ -216,7 +212,7 @@ a.cta:hover {
 	background-color: #FF9966;
 }
 
-#landing #week, #landing #organizers  {
+#landing #week, #organizers  {
 	background-color: #e6e8f5;
 }
 
@@ -327,8 +323,8 @@ a.cta:hover {
 }
 
 #organizer-list .organizer {
-	height: 300px;
-	width: 150px;
+	height: 350px;
+	width: 200px;
 	display:flex;
 	flex-direction: column;
 	margin-right: 8px;
@@ -336,8 +332,8 @@ a.cta:hover {
 }
 
 #organizer-list .organizer a, #organizer-list .organizer img {
-	height: 150px;
-	width: 150px;
+	height: 200px;
+	width: 200px;
 }
 
 #organizer-list .organizer-info {
@@ -468,9 +464,16 @@ a.cta:hover {
 		padding: 10px;
 	}
 
-  	.tierCol, .qCol {
+	table#sponsorships th.check span {
+		writing-mode: vertical-rl;
+		text-orientation: sideways;
+		white-space: nowrap;
+	}
+
+	table#sponsorships .check, table#sponsorships .tierCol, table#sponsorships .qCol {
     	display: table-cell;
-  	}
+	}
+	  
 	#tickets th, #tickets td {
 		font-size: 1vw;
 	}
@@ -487,7 +490,7 @@ a.cta:hover {
 		grid-gap: 8px;
 	}
 	
-	footer #attendees {
+	footer #attendees, footer #organizers {
 		margin: 8px;
 	}
 

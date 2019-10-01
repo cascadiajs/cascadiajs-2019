@@ -1,5 +1,5 @@
 module.exports = function mainLayout (props) {
-  let {title, header, assetPath, content, attendees} = props
+  let {title, header, assetPath, content, attendees, organizers} = props
   attendees = attendees || 'ATTENDEES COMING SOON!'
 
   return `
@@ -65,6 +65,12 @@ module.exports = function mainLayout (props) {
             <a href="http://seattlejs.com/"><img src="${assetPath}/images/sponsors/seattlejs.svg" alt="SeattleJS logo"/></a>
             <a href="http://begin.com/"><img src="${assetPath}/images/sponsors/begin.svg" alt="Begin logo"/></a>
           </section>
+        </section>
+        <section id="organizers">
+          <h2>Organizers</h2>
+          <div id="organizer-list">
+            ${organizers}
+          </div>
         </section>
         <section id="attendees">
           <h2>Who's Coming?</h2>
