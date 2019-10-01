@@ -15,7 +15,7 @@ The Scholarship Program is open to everyone who meets these requirements:
 
 ## How it works
 
-- Apply for a scholarship
+- Apply for a scholarship by October 25
 - If you meet the requirements above, you will be offered a scholarship ticket for the discounted rate of $99
 - If you cannot afford that, that's ok! Please submit your application, and we'll be in touch.
 
