@@ -33,16 +33,16 @@ If you'd like to support our event or have any questions, please email carter@ca
       <th class="tierCol">Tier</th>
       <th>Sponsorship</th>
       <th>Price</th>
-      <th class="qCol">Quantity</th>
-      <th><span class="check">Tickets</span></th>
-      <th><span class="check">Website</span></th>
-      <th><span class="check">Tweets</span></th>
-      <th><span class="check">Videos</span></th>
-      <th><span class="check">Booth</span></th>
-      <th><span class="check">Job Posting</span></th>
-      <th><span class="check">Meeting Space</span></th>
-      <th><span class="check">Email Copy</span></th>
-      <th><span class="check">On Stage</span></th>
+      <th class="qCol">Available</th>
+      <th class="check"><span>Tickets</span></th>
+      <th class="check"><span>Website</span></th>
+      <th class="check"><span>Tweets</span></th>
+      <th class="check"><span>Videos</span></th>
+      <th class="check"><span>Booth</span></th>
+      <th class="check"><span>Job Posting</span></th>
+      <th class="check"><span>Meeting Space</span></th>
+      <th class="check"><span>Email Copy</span></th>
+      <th class="check"><span>On Stage</span></th>
     </tr>
   </thead>
   <tbody>
@@ -51,168 +51,155 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td><i class="fas fa-university"></i> <a href="#venue">Venue</a></td>
       <td>$20k</td>
       <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
       <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day One Track</a></td>
       <td>$10k</td>
       <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
       <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day Two Track</a></td>
       <td>$10k</td>
       <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
       <td class="tierCol">Gold</td>
       <td><i class="fas fa-gamepad"></i> <a href="#party">Opening Party</a></td>
       <td>$10k</td>
       <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
-      <td class="tierCol">Gold</td>
+      <td class="check" class="tierCol">Gold</td>
       <td><i class="fas fa-gamepad"></i> <a href="#party">Closing Party</a></td>
       <td>$10k</td>
       <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-tshirt"></i> <a href="#booth">Booth</a></td>
       <td>$5k</td>
       <td class="qCol">SOLD</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td class="tierCol">Silver</td>
-      <td><i class="fas fa-coffee-togo"></i> <a href="#coffee">Coffee</a></td>
-      <td>$6k</td>
-      <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
     <tr>
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-user-graduate"></i> <a href="#mixer">Mentor Mixer</a></td>
       <td>$5k</td>
       <td class="qCol">SOLD</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
     <tr>
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-handshake"></i> <a href="#team">Meet the Team</a></td>
       <td>$5k</td>
-      <td class="qCol">5</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
+      <td class="qCol">3 (1 SOLD)</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
     <tr>
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-closed-captioning"></i> <a href="#captions">Captioning</a></td>
       <td>$3k</td>
       <td class="qCol">SOLD</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
     <tr>
       <td class="tierCol">Community</td>
       <td><i class="fas fa-hand-holding-heart"></i> <a href="#scholarships">Scholarships</a></td>
       <td>$1500</td>
       <td class="qCol">unlimited</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
   </tbody>
 </table>
+
+![sponsor areas at Town Hall Seattle](${STATIC}/images/cascadiajs2019-sponsor-townhall.png)
 
 
 <h2 id="venue"><i class="fas fa-university"></i> Venue</h2>
