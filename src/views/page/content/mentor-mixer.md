@@ -4,6 +4,6 @@ In order to make sure that our scholarship recipients and other members of our c
 
 Stay tuned for more information about this event and instructions on how to RSVP.
 
-## Sponsored By... You?
+## Sponsored By DocuSign
 
-We are still looking for a company to sponsor this event. Please reach out if you think your company can support this important event!
+We could not put on this event without the financial and volunteer support of DocuSign! 
