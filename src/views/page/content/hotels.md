@@ -12,7 +12,7 @@ Instructions on how to book at the group rate and what the deadlines are below.
 * Standard room
 * [3 minute walk](https://goo.gl/maps/xddzzLR9ktfqQopx7) to Conference Venue
 * 50% off overnight parking
-* Deadline to book at the group rate is <span class="exclaim">Oct 4</span>
+* Deadline to book at the group rate is <span class="exclaim">Oct 9</span>
 * Reservations may be made [online](https://book.passkey.com/go/cascadiajs) or by calling 888-233-9527
 
 ## Hyatt Regency
