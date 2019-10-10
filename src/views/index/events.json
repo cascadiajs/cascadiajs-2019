@@ -487,8 +487,13 @@
   },
   {
     "date": "10/10",
-    "eventName": "SeattleJS Monthly meetup",
-    "link": "https://www.meetup.com/seattlejs/events/clmbzqyznbnb/"
+    "eventName": "Seattle TypeScript",
+    "link": "https://www.meetup.com/seattle-ts/events/264757065/"
+  },
+  {
+    "date": "10/10",
+    "eventName": "PDXnode",
+    "link": "https://www.meetup.com/pdxnode/events/mldsxqyznbnb/"
   },
   {
     "date": "10/10",
