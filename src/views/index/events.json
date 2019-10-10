@@ -330,7 +330,6 @@
     "eventName": "Breaking into Software & Web Development",
     "link": "https://www.meetup.com/Learn-Code-Seattle/events/264702899/"
   },
-
   {
     "date": "9/17",
     "eventName": "Front End PDX",
@@ -341,7 +340,6 @@
     "eventName": "SeattleJS Hackers",
     "link": "https://www.meetup.com/seattlejshackers/events/263813998/"
   },
-
   {
     "date": "9/17",
     "eventName": "Intro to Python: The Tech Academy Seattle",
@@ -508,6 +506,11 @@
     "link": "https://www.meetup.com/Front-End-PDX/events/vrtxgryznbtb/"
   },
   {
+    "date": "10/16",
+    "eventName": "Portland JS Admirers",
+    "link": "https://www.meetup.com/Portland-JavaScript-Admirers/events/265345535/"
+  },
+  {
     "date": "10/17",
     "eventName": "Lightning talk - React Native Portland",
     "link": "https://www.meetup.com/React-Native-Portland/events/fqnhzqyzmbzb/"
@@ -533,6 +536,11 @@
     "link": "https://www.meetup.com/Ember-js-Seattle-Meetup/events/cwmcnpyzmbjc/"
   },
   {
+    "date": "10/24",
+    "eventName": "Seattle Software Crafters",
+    "link": "https://www.meetup.com/seattle-software-craftsmanship/events/nhjtqqyznbgc/"
+  },
+  {
     "date": "10/28",
     "eventName": "Free Code Camp PDX Hangout",
     "link": "https://www.meetup.com/Free-Code-Camp-Portland/events/zxvcsqyzmbvb/"
@@ -542,7 +550,6 @@
     "eventName": "BellevueJS",
     "link": "https://www.meetup.com/BellevueJS/events/llvkklyznbmc/"
   },
-
   {
     "date": "11/2",
     "eventName": "Mentorship Saturdays Portland",
@@ -559,6 +566,11 @@
     "link": "https://www.meetup.com/Free-Code-Camp-Portland/events/zxvcsqyzmbvb/"
   },
   {
+    "date": "11/13",
+    "eventName": "Seattle Software Crafters",
+    "link": "https://www.meetup.com/seattle-software-craftsmanship/events/smtwhryzpbrb/"
+  },
+  {
     "date": "11/14",
     "eventName": "PDXnode",
     "link": "https://www.meetup.com/pdxnode/events/mldsxqyzpbsb/"
@@ -568,7 +580,6 @@
     "eventName": "SeattleJS Monthly meetup",
     "link": "https://www.meetup.com/seattlejs/events/clmbzqyznbnb/"
   },
-
   {
     "date": "11/19",
     "eventName": "Front End PDX",
