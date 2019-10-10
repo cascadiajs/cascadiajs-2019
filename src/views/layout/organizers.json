@@ -60,7 +60,7 @@
         "pronouns": "he/him",
         "twitter": "",
         "company": "",
-        "role": "Community Liason"
+        "role": "Community Liaison"
       },
       {
         "id": "heidi-laursen",
@@ -88,5 +88,14 @@
         "twitter": "",
         "company": "",
         "role": "Kids Coding"
+      },
+      {
+        "id": "glenn-block",
+        "name": "Glenn Block",
+        "location": "Seattle, WA",
+        "pronouns": "he/him",
+        "twitter": "",
+        "company": "",
+        "role": "Mentor Mixer"
       }
 ]
