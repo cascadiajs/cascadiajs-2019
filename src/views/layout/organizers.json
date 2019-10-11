@@ -97,5 +97,14 @@
         "twitter": "",
         "company": "",
         "role": "Mentor Mixer"
+      },
+      {
+        "id": "mikeal-rogers",
+        "name": "Mikeal Rogers",
+        "location": "San Francisco, CA",
+        "pronouns": "he/him",
+        "twitter": "",
+        "company": "",
+        "role": "Open Source Liaison"
       }
 ]
