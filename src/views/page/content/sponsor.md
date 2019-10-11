@@ -50,7 +50,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Platinum</td>
       <td><i class="fas fa-university"></i> <a href="#venue">Venue</a></td>
       <td>$20k</td>
-      <td class="qCol">1</td>
+      <td class="qCol">SOLD</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
@@ -65,7 +65,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day One Track</a></td>
       <td>$10k</td>
-      <td class="qCol">1</td>
+      <td class="qCol">SOLD</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
@@ -155,7 +155,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-handshake"></i> <a href="#team">Meet the Team</a></td>
       <td>$5k</td>
-      <td class="qCol">3 (1 SOLD)</td>
+      <td class="qCol">2 (2 SOLD)</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
