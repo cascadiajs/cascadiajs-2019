@@ -202,7 +202,11 @@ If you'd like to support our event or have any questions, please email carter@ca
 ![sponsor areas at Town Hall Seattle](${STATIC}/images/cascadiajs2019-sponsor-townhall.png)
 
 
-<h2 id="venue"><i class="fas fa-university"></i> Venue</h2>
+<div id="sponsorship-options">
+
+<h2 id="venue"><i class="fas fa-university"></i> Venue (SOLD)</h2>
+
+![AWS logo](${STATIC}/images/sponsors/aws.svg)
 
 The highest level of visibility that we offer. Your company will be considered the
 foundational partner in putting on CascadiaJS 2019. We would not be in a position to rent
@@ -217,33 +221,59 @@ stay.
 
 <h2 id="party"><i class="fas fa-gamepad"></i> Opening / Closing Parties</h2>
 
-Following each day of talks we put on a really fun social event for our attendees. Last year we rented out Cinerama and Living Computers and the feedback on those events was amazing. We only offer a single sponsorship for each event, so we'll work closely with your team to craft an amazing experience.
+Following each day of talks we put on a really fun social event for our attendees.
 
-<h2 id="booth"><i class="fas fa-tshirt"></i> Booth</h2>
+The Opening Party will be held at the conference venue (Town Hall Seattle) and include catered dinner and drinks.
+
+The Closing Party will be held at Optimism Brewing where we will celebrate the end of another CascadiaJS with karaoke and games!
+
+<h2 id="booth"><i class="fas fa-tshirt"></i> Booth (SOLD)</h2>
+
+![twilio logo](${STATIC}/images/sponsors/twilio.svg)
+
+![sauce labs logo](${STATIC}/images/sponsors/saucelabs.svg)
+
+![moovweb logo](${STATIC}/images/sponsors/moovweb.svg)
 
 Set-up a booth to showcase your product to our attendees. We'll make sure you're set-up with
 power and Wi-Fi and are located in high traffic areas as folks make their way around the
 event.  
 
-<h2 id="coffee"><i class="fas fa-coffee-togo"></i> Coffee</h2>
+<h2 id="mixer"><i class="fas fa-user-graduate"></i> Mentor Mixer (SOLD)</h2>
 
-An upgraded form of our Booth sponsorship, except you are located next to the Espresso Cart!
-
-<h2 id="mixer"><i class="fas fa-user-graduate"></i> Mentor Mixer</h2>
+![docusign logo](${STATIC}/images/sponsors/docusign.svg)
 
 The evening before the conference we will organize a mixer that pairs our scholarship recipients with our amazing network of technical mentors. Last year this functioned as the culmination of our Scholarship Program where we connected our ~50 scholarship recipients to mentors who helped them understand how they could get the most out of the CascadiaJS experience. It was considered by many of our scholarship recipients and mentors to be the best part of the conference.
 
 <h2 id="team"><i class="fas fa-handshake"></i> Meet the Team</h2>
 
+![Zulily logo](${STATIC}/images/sponsors/zulily.svg)
+
 This is perfect if you're bring your team to the event and have an open job that you're hiring for. Comes with a job posting, a block of 4 tickets, 20% off any additional tickets and access to private meeting rooms where we will help you book time to meet any of our attendees who are interested in your position.
 
-<h2 id="captions"><i class="fas fa-closed-captioning"></i> Captioning</h2>
+<h2 id="captions"><i class="fas fa-closed-captioning"></i> Captioning (SOLD)</h2>
+
+![microsoft logo](${STATIC}/images/sponsors/microsoft.svg)
 
 We will be live captioning all 24 talks. Your logo will be included on the site we use to display the captioning as well as the videos that we produce and upload to YouTube. 
 
 <h2 id="scholarships"><i class="fas fa-hand-holding-heart"></i> Scholarships</h2>
 
+![heroku logo](${STATIC}/images/sponsors/heroku.svg)
+
+![codezilla logo](${STATIC}/images/sponsors/codezilla.svg)
+
+![egghead logo](${STATIC}/images/sponsors/egghead.png)
+
+![facebook logo](${STATIC}/images/sponsors/facebook.svg)
+
+![mozilla logo](${STATIC}/images/sponsors/mozilla.svg)
+
+![stripe logo](${STATIC}/images/sponsors/stripe.svg)
+
 Help us fund 50 scholarships to CascadiaJS this year! Each Scholarship purchased comes with 1 complimentary ticket to the conference for the sponsor.
+
+</div>
 
 <h2 id="faq">FAQ</h2>
 

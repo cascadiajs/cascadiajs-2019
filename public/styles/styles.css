@@ -83,13 +83,18 @@ nav a:hover {
 	padding: 8px;
 }
 
-#footer-sponsors section {
-	background-color: #fff;
+#footer-community {
+	margin: 8px;
 }
 
-#footer-sponsors section a {
+#footer-sponsors section, #footer-community {
+	background-color: #fff;
+	padding: 8px;
+}
+
+#footer-sponsors section a, #footer-community a {
 	display: block;
-	margin: 8px;
+	margin: 24px;
 }
 
 #footer-info {
@@ -149,6 +154,9 @@ table#sponsorships .check, table#sponsorships .tierCol, table#sponsorships .qCol
 	display: none;
 }
 
+#sponsorship-options img {
+	height: 100px;
+}
 
 #tickets th, #tickets td {
 	text-align: left;
@@ -486,8 +494,20 @@ a.cta:hover {
 	#footer-sponsors {
 		display: grid;
 		grid-template-rows: 100%;
-		grid-template-columns: 3fr 2fr 1fr;
+		grid-template-columns: 4fr 3fr 2fr;
 		grid-gap: 8px;
+	}
+
+	#footer-community {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		margin: 8px;
+	}
+
+	#footer-community img {
+		height: 50px;
 	}
 	
 	footer #attendees, footer #organizers {
