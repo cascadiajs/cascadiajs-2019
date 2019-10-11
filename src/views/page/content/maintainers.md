@@ -43,5 +43,5 @@ const complete = () => {
     })
     check()
 }
-Papa.parse('${STATIC}/maintainers.csv', { header: true, download: true, step, complete })
+Papa.parse('/_static/maintainers.csv', { header: true, download: true, step, complete })
 </script>
