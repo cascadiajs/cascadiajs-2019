@@ -282,9 +282,11 @@ Help us fund 50 scholarships to CascadiaJS this year! Each Scholarship purchased
 <pre>
 Town Hall Seattle
 c/o CascadiaJS Conference
-1118 8th Ave
+1119 8th Ave
 Seattle, WA 98101
 </pre>
+
+NOTE: We *highly recommend* shipping via UPS not FedEx as we have had multiple problems with FexEx shipments in recent weeks.
 
 <h3 id="parking">Is there parking at the venue?</h3
 
