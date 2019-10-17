@@ -65,7 +65,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day One Track</a></td>
       <td>$10k</td>
-      <td class="qCol">SOLD</td>
+      <td class="qCol">$10k</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
