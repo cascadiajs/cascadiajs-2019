@@ -224,7 +224,7 @@ Each sponsorship comes with a dedicated space at the venue to set-up as you like
 
 The Opening Party will be held at the conference venue (Town Hall Seattle) and will feature food, drinks and music following the first day of the conference. Your company will have the ability to brand this experience and you will be able to provide custom copy to be included in an email to all attendees prior to Day One.
 
-<h2 id="closing"><i class="fas fa-gamepad"></i> Opening Party</h2>
+<h2 id="closing"><i class="fas fa-gamepad"></i> Closing Party</h2>
 
 ![Optimism Brewing](${STATIC}/images/optimism.jpg)
 
