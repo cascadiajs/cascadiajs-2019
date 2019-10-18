@@ -154,7 +154,11 @@ table#sponsorships .check, table#sponsorships .tierCol, table#sponsorships .qCol
 	display: none;
 }
 
-#sponsorship-options img {
+a[href$=".pdf"]:before {
+	background: url('../images/document-pdf-text.png') no-repeat;
+  }
+
+#sponsorship-options img[src$=".svg"] {
 	height: 100px;
 }
 

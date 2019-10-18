@@ -64,8 +64,8 @@ If you'd like to support our event or have any questions, please email carter@ca
     <tr>
       <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day One Track</a></td>
-      <td>$10k</td>
-      <td class="qCol">$10k</td>
+      <td>$6k</td>
+      <td class="qCol">1</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
@@ -79,7 +79,7 @@ If you'd like to support our event or have any questions, please email carter@ca
     <tr>
       <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day Two Track</a></td>
-      <td>$10k</td>
+      <td>$6k</td>
       <td class="qCol">1</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
@@ -93,8 +93,8 @@ If you'd like to support our event or have any questions, please email carter@ca
     </tr>
     <tr>
       <td class="tierCol">Gold</td>
-      <td><i class="fas fa-gamepad"></i> <a href="#party">Opening Party</a></td>
-      <td>$10k</td>
+      <td><i class="fas fa-gamepad"></i> <a href="#opening">Opening Party</a></td>
+      <td>$6k</td>
       <td class="qCol">1</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
@@ -108,8 +108,8 @@ If you'd like to support our event or have any questions, please email carter@ca
     </tr>
     <tr>
       <td class="check" class="tierCol">Gold</td>
-      <td><i class="fas fa-gamepad"></i> <a href="#party">Closing Party</a></td>
-      <td>$10k</td>
+      <td><i class="fas fa-gamepad"></i> <a href="#closing">Closing Party</a></td>
+      <td>$6k</td>
       <td class="qCol">1</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
@@ -155,7 +155,7 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-handshake"></i> <a href="#team">Meet the Team</a></td>
       <td>$5k</td>
-      <td class="qCol">2 (2 SOLD)</td>
+      <td class="qCol">SOLD</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
@@ -199,9 +199,6 @@ If you'd like to support our event or have any questions, please email carter@ca
   </tbody>
 </table>
 
-![sponsor areas at Town Hall Seattle](${STATIC}/images/cascadiajs2019-sponsor-townhall.png)
-
-
 <div id="sponsorship-options">
 
 <h2 id="venue"><i class="fas fa-university"></i> Venue (SOLD)</h2>
@@ -217,15 +214,21 @@ out Town Hall Seattle without your support.
 Your company will be associated with the 12 awesome talks being given on either Day One
 or Day Two of the conference. Your support makes it possible for us to fly in subject
 matter experts from all over the world and take care of their lodging in Seattle during their
-stay. 
+stay.
 
-<h2 id="party"><i class="fas fa-gamepad"></i> Opening / Closing Parties</h2>
+Each sponsorship comes with a dedicated space at the venue to set-up as you like for Day One (or Two). Your logo will also be displayed on the speaker's podium for the day you are sponsoring and you will be able to provide custom copy to be included in an email to all attendees prior to your day.
 
-Following each day of talks we put on a really fun social event for our attendees.
+<h2 id="opening"><i class="fas fa-gamepad"></i> Opening Party</h2>
 
-The Opening Party will be held at the conference venue (Town Hall Seattle) and include catered dinner and drinks.
+![Town Hall](${STATIC}/images/townhall.jpg)
 
-The Closing Party will be held at Optimism Brewing where we will celebrate the end of another CascadiaJS with karaoke and games!
+The Opening Party will be held at the conference venue (Town Hall Seattle) and will feature food, drinks and music following the first day of the conference. Your company will have the ability to brand this experience and you will be able to provide custom copy to be included in an email to all attendees prior to Day One.
+
+<h2 id="closing"><i class="fas fa-gamepad"></i> Opening Party</h2>
+
+![Optimism Brewing](${STATIC}/images/optimism.jpg)
+
+The Closing Party will be held at Optimism Brewing where we will celebrate the end of another CascadiaJS with karaoke and games! Your company will have the ability to brand this experience and you will be able to provide custom copy to be included in an email to all attendees prior to Day Two.
 
 <h2 id="booth"><i class="fas fa-tshirt"></i> Booth (SOLD)</h2>
 
@@ -263,7 +266,7 @@ We will be live captioning all 24 talks. Your logo will be included on the site 
 
 ![codezilla logo](${STATIC}/images/sponsors/codezilla.svg)
 
-![egghead logo](${STATIC}/images/sponsors/egghead.png)
+![egghead logo](${STATIC}/images/sponsors/eggheadio.svg)
 
 ![facebook logo](${STATIC}/images/sponsors/facebook.svg)
 

@@ -46,7 +46,7 @@ module.exports = function IndexTemplate (props) {
     <section id="metrics">
       <div class="metric">${daysRemaining} days</div>
       <div class="metric-tag">until CascadiaJS!</div>
-      <div class="metric">8</div>
+      <div class="metric">19</div>
       <div class="metric-tag">scholarships funded!</div>
     </section>
     <section class="filler">
