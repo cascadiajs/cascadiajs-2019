@@ -65,7 +65,7 @@ module.exports = function mainLayout (props) {
           </section>
         </section>
         <section id="footer-community">    
-          <a href="https://egghead.io"><img src="${assetPath}/images/sponsors/egghead.png" alt="Egghead.io logo"/></a>
+          <a href="https://egghead.io"><img src="${assetPath}/images/sponsors/eggheadio.svg" alt="Egghead.io logo"/></a>
           <a href="#"><img src="${assetPath}/images/sponsors/heroku.svg" alt="heroku logo"/></a>
           <a href="https://stripe.com/jobs"><img src="${assetPath}/images/sponsors/stripe.svg" alt="stripe logo"/></a>
           <a href="#"><img src="${assetPath}/images/sponsors/mozilla.svg" alt="mozilla logo"/></a>
