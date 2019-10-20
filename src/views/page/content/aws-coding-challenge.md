@@ -4,7 +4,9 @@
 
 ## Submission Instructions
 
-You are welcome to submit your answers in whatever format works for you.  Codepen, or just a Zip file containing your code are all fine.  There are total 3 questions.
+You are welcome to submit your answers in whatever format works for you.  Codepen, or just a Zip file containing your code are all fine.  There are total 3 questions. 
+
+The deadline to submit is <span class="exclaim">Thursday, October 31st</span>.
 
 ## JS Algorithms and Performance
 

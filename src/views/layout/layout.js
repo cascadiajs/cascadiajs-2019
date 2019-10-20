@@ -38,10 +38,11 @@ module.exports = function mainLayout (props) {
         <nav>
           <a href="/"><i class="fas fa-home"></i>Home</a>
           <a href="/tickets"><i class="fas fa-ticket-alt"></i>Tickets</a>
-          <a href="/why-cascadiajs"><i class="fas fa-heart-square"></i>Why CascadiaJS?</a>
+          <a href="/schedule"><i class="fas fa-calendar"></i>Schedule</a>
+          <a href="/why-cascadiajs"><i class="fas fa-heart-square"></i>About</a>
           <a href="/scholarships"><i class="fas fa-user-graduate"></i>Scholarships</a>
           <a href="/sponsor"><i class="fas fa-hand-holding-seedling"></i>Sponsor Us</a>
-          <a href="/travel"><i class="fas fa-suitcase"></i>Travel Info</a>
+          <a href="/travel"><i class="fas fa-suitcase"></i>Travel</a>
           <a href="/accessibility"><i class="fab fa-accessible-icon"></i>Accessibility</a>
           <a href="/code-of-conduct"><i class="fas fa-dove"></i>Code of Conduct</a>
         </nav>
@@ -55,23 +56,24 @@ module.exports = function mainLayout (props) {
           <section id="sponsors-gold">
             <a href="https://fizbuz.com"><img src="${assetPath}/images/sponsors/fizbuz.svg" alt="Fizbuz logo"/></a>
             <a href="https://formidable.com"><img src="${assetPath}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
+            <a href="https://heroku.com"><img src="${assetPath}/images/sponsors/heroku.svg" alt="heroku logo"/></a>
           </section>
           <section id="sponsors-silver">
             <a href="https://saucelabs.com"><img src="${assetPath}/images/sponsors/saucelabs.svg" alt="Sauce Labs logo"/></a>
             <a href="https://developer.microsoft.com/en-us/advocates/index.html"><img src="${assetPath}/images/sponsors/microsoft.svg" alt="Microsoft logo"/></a>
-            <a href="#"><img src="${assetPath}/images/sponsors/moovweb.svg" alt="moovweb logo"/></a>
-            <a href="#"><img src="${assetPath}/images/sponsors/twilio.svg" alt="twilio logo"/></a>
-            <a href="#"><img src="${assetPath}/images/sponsors/docusign.svg" alt="docusign logo"/></a>
+            <a href="https://www.moovweb.com"><img src="${assetPath}/images/sponsors/moovweb.svg" alt="moovweb logo"/></a>
+            <a href="https://twilio.com"><img src="${assetPath}/images/sponsors/twilio.svg" alt="twilio logo"/></a>
+            <a href="https://docusign.com"><img src="${assetPath}/images/sponsors/docusign.svg" alt="docusign logo"/></a>
+            <a href="https://auth0.com"><img src="${assetPath}/images/sponsors/auth0.svg" alt="auth0 logo"/></a>
           </section>
         </section>
         <section id="footer-community">    
           <a href="https://egghead.io"><img src="${assetPath}/images/sponsors/eggheadio.svg" alt="Egghead.io logo"/></a>
-          <a href="#"><img src="${assetPath}/images/sponsors/heroku.svg" alt="heroku logo"/></a>
           <a href="https://stripe.com/jobs"><img src="${assetPath}/images/sponsors/stripe.svg" alt="stripe logo"/></a>
-          <a href="#"><img src="${assetPath}/images/sponsors/mozilla.svg" alt="mozilla logo"/></a>
-          <a href="#"><img src="${assetPath}/images/sponsors/codezilla.svg" alt="codezilla logo"/></a>
+          <a href="https://mozilla.com"><img src="${assetPath}/images/sponsors/mozilla.svg" alt="mozilla logo"/></a>
+          <a href="https://www.codezilla.nl"><img src="${assetPath}/images/sponsors/codezilla.svg" alt="codezilla logo"/></a>
           <a href="http://begin.com/"><img src="${assetPath}/images/sponsors/begin.svg" alt="Begin logo"/></a>
-          <a href="#"><img src="${assetPath}/images/sponsors/surge.svg" alt="surge logo"/></a>
+          <a href="https://surge.sh"><img src="${assetPath}/images/sponsors/surge.svg" alt="surge logo"/></a>
           <a href="http://seattlejs.com/"><img src="${assetPath}/images/sponsors/seattlejs.svg" alt="SeattleJS logo"/></a>
           <a href="https://stackshare.io"><img src="${assetPath}/images/sponsors/stackshare.svg" alt="StackShare logo"/></a>
           <a href="https://www.meetup.com/ReactJS-Vancouver-Meetup/"><img src="${assetPath}/images/sponsors/react-vancouver.png" alt="React Vancouver logo"/></a>

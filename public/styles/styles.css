@@ -506,6 +506,14 @@ a.cta:hover {
 		grid-gap: 8px;
 	}
 
+	#sponsors-gold {
+		text-align: center;
+	}
+	
+	#sponsors-gold img {
+		max-height: 200px;
+	}
+
 	#footer-community {
 		display: flex;
 		flex-wrap: wrap;
