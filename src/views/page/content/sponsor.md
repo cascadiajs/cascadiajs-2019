@@ -199,8 +199,6 @@ If you'd like to support our event or have any questions, please email carter@ca
   </tbody>
 </table>
 
-<div id="sponsorship-options">
-
 <h2 id="venue"><i class="fas fa-university"></i> Venue (SOLD)</h2>
 
 ![AWS logo](${STATIC}/images/sponsors/aws.svg)
@@ -276,8 +274,6 @@ We will be live captioning all 24 talks. Your logo will be included on the site 
 
 Help us fund 50 scholarships to CascadiaJS this year! Each Scholarship purchased comes with 1 complimentary ticket to the conference for the sponsor.
 
-</div>
-
 <h2 id="faq">FAQ</h2>
 
 <h3 id="shipping">What is the shipping address for swag and booth kits?</h3>
@@ -298,7 +294,6 @@ No, there is no parking at Town Hall Seattle. Here is a link to [transit and par
 <h3 id="setup">When can sponsors arrive to setup?</h3>
 
 Sponsors may arrive both days at 7am to set-up. Doors open at 8am. Sponsors will need to have their gear packed and removed from the venue by 5pm on Friday, November 7.
-
 
 <h3 id="schedule">What is the event schedule?</h3>
 

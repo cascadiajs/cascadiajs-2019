@@ -46,6 +46,10 @@ blockquote {
 	color: #777;
 }
 
+pre code {
+	white-space: pre-wrap;    
+}
+
 #root {
 	display: grid;
 	min-height: 100%;
@@ -158,7 +162,7 @@ a[href$=".pdf"]:before {
 	background: url('../images/document-pdf-text.png') no-repeat;
   }
 
-#sponsorship-options img[src$=".svg"] {
+#page img[src$=".svg"] {
 	height: 100px;
 }
 
