@@ -330,7 +330,6 @@
     "eventName": "Breaking into Software & Web Development",
     "link": "https://www.meetup.com/Learn-Code-Seattle/events/264702899/"
   },
-
   {
     "date": "9/17",
     "eventName": "Front End PDX",
@@ -341,7 +340,6 @@
     "eventName": "SeattleJS Hackers",
     "link": "https://www.meetup.com/seattlejshackers/events/263813998/"
   },
-
   {
     "date": "9/17",
     "eventName": "Intro to Python: The Tech Academy Seattle",
@@ -468,6 +466,11 @@
     "link": "https://www.meetup.com/Mentorship-Saturdays/events/264316270/"
   },
   {
+    "date": "10/8",
+    "eventName": "Angular Seattle",
+    "link": "https://www.meetup.com/Angular-Seattle/events/265033152/"
+  },
+  {
     "date": "10/9",
     "eventName": "Mob Programming By Example",
     "link": "https://www.meetup.com/seattle-software-craftsmanship/events/ghjvxqyznbmb/"
@@ -484,8 +487,13 @@
   },
   {
     "date": "10/10",
-    "eventName": "SeattleJS Monthly meetup",
-    "link": "https://www.meetup.com/seattlejs/events/clmbzqyznbnb/"
+    "eventName": "Seattle TypeScript",
+    "link": "https://www.meetup.com/seattle-ts/events/264757065/"
+  },
+  {
+    "date": "10/10",
+    "eventName": "PDXnode",
+    "link": "https://www.meetup.com/pdxnode/events/mldsxqyznbnb/"
   },
   {
     "date": "10/10",
@@ -501,6 +509,11 @@
     "date": "10/15",
     "eventName": "Front End PDX",
     "link": "https://www.meetup.com/Front-End-PDX/events/vrtxgryznbtb/"
+  },
+  {
+    "date": "10/16",
+    "eventName": "Portland JS Admirers",
+    "link": "https://www.meetup.com/Portland-JavaScript-Admirers/events/265345535/"
   },
   {
     "date": "10/17",
@@ -528,6 +541,11 @@
     "link": "https://www.meetup.com/Ember-js-Seattle-Meetup/events/cwmcnpyzmbjc/"
   },
   {
+    "date": "10/24",
+    "eventName": "Seattle Software Crafters",
+    "link": "https://www.meetup.com/seattle-software-craftsmanship/events/nhjtqqyznbgc/"
+  },
+  {
     "date": "10/28",
     "eventName": "Free Code Camp PDX Hangout",
     "link": "https://www.meetup.com/Free-Code-Camp-Portland/events/zxvcsqyzmbvb/"
@@ -537,7 +555,11 @@
     "eventName": "BellevueJS",
     "link": "https://www.meetup.com/BellevueJS/events/llvkklyznbmc/"
   },
-
+  {
+    "date": "10/29",
+    "eventName": "Donut.js October",
+    "link": "https://donutjs.club/"
+  },
   {
     "date": "11/2",
     "eventName": "Mentorship Saturdays Portland",
@@ -554,6 +576,11 @@
     "link": "https://www.meetup.com/Free-Code-Camp-Portland/events/zxvcsqyzmbvb/"
   },
   {
+    "date": "11/13",
+    "eventName": "Seattle Software Crafters",
+    "link": "https://www.meetup.com/seattle-software-craftsmanship/events/smtwhryzpbrb/"
+  },
+  {
     "date": "11/14",
     "eventName": "PDXnode",
     "link": "https://www.meetup.com/pdxnode/events/mldsxqyzpbsb/"
@@ -563,7 +590,6 @@
     "eventName": "SeattleJS Monthly meetup",
     "link": "https://www.meetup.com/seattlejs/events/clmbzqyznbnb/"
   },
-
   {
     "date": "11/19",
     "eventName": "Front End PDX",
@@ -578,6 +604,11 @@
     "date": "11/26",
     "eventName": "BellevueJS",
     "link": "https://www.meetup.com/BellevueJS/events/llvkklyzpbjc/"
+  },
+  {
+    "date": "11/26",
+    "eventName": "Donut.js October",
+    "link": "https://donutjs.club/"
   },
   {
     "date": "11/28",

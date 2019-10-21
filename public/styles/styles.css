@@ -46,6 +46,10 @@ blockquote {
 	color: #777;
 }
 
+pre code {
+	white-space: pre-wrap;    
+}
+
 #root {
 	display: grid;
 	min-height: 100%;
@@ -83,13 +87,18 @@ nav a:hover {
 	padding: 8px;
 }
 
-#footer-sponsors section {
-	background-color: #fff;
+#footer-community {
+	margin: 8px;
 }
 
-#footer-sponsors section a {
+#footer-sponsors section, #footer-community {
+	background-color: #fff;
+	padding: 8px;
+}
+
+#footer-sponsors section a, #footer-community a {
 	display: block;
-	margin: 8px;
+	margin: 24px;
 }
 
 #footer-info {
@@ -108,6 +117,7 @@ nav a:hover {
 	font-family: rift-soft;
 	font-size: 2.5em;
 	color: #e6e8f5;
+	margin: 0 0 16px 0;
 }
 
 ul#past-confs, ul#connect-list {
@@ -142,16 +152,19 @@ table#sponsorships th, table#sponsorships td {
 	white-space: nowrap;
 }
 
-table#sponsorships span.check {
-	writing-mode: vertical-rl;
-	text-orientation: sideways;
-	white-space: nowrap;
-}
 
-.tierCol, .qCol {
+
+table#sponsorships .check, table#sponsorships .tierCol, table#sponsorships .qCol {
 	display: none;
 }
 
+a[href$=".pdf"]:before {
+	background: url('../images/document-pdf-text.png') no-repeat;
+  }
+
+#page img[src$=".svg"] {
+	height: 100px;
+}
 
 #tickets th, #tickets td {
 	text-align: left;
@@ -190,7 +203,7 @@ a.cta:hover {
 
 /* Landing page styles */
 
-#landing section, footer #attendees {
+#landing section, footer #attendees, footer #organizers {
 	padding: 16px;
 	margin-bottom: 8px;
 }
@@ -215,7 +228,7 @@ a.cta:hover {
 	background-color: #FF9966;
 }
 
-#landing #week {
+#landing #week, #organizers  {
 	background-color: #e6e8f5;
 }
 
@@ -318,6 +331,48 @@ a.cta:hover {
 	color: #b9debc;
 }
 
+#organizer-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+  	justify-content: center;
+}
+
+#organizer-list .organizer {
+	height: 350px;
+	width: 200px;
+	display:flex;
+	flex-direction: column;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+#organizer-list .organizer a, #organizer-list .organizer img {
+	height: 200px;
+	width: 200px;
+}
+
+#organizer-list .organizer-info {
+	background-color: #020800;
+	flex: 1;
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+#organizer-list .organizer-name {
+	font-family: rift-soft;
+	font-size: 1.6em;
+	color: #fff;
+	flex-grow: 1
+}
+
+#organizer-list .organizer-misc {
+	font-family: rift-soft;
+	font-size: 1em;
+	color: #fff;
+}
+
 #speaker .speaker-info {
 	display: flex;
 }
@@ -330,6 +385,9 @@ a.cta:hover {
 #speaker .speaker-more p {
 	margin-top:0;
 }
+
+
+
 
 #attendee-list {
 	display: flex;
@@ -422,9 +480,16 @@ a.cta:hover {
 		padding: 10px;
 	}
 
-  	.tierCol, .qCol {
+	table#sponsorships th.check span {
+		writing-mode: vertical-rl;
+		text-orientation: sideways;
+		white-space: nowrap;
+	}
+
+	table#sponsorships .check, table#sponsorships .tierCol, table#sponsorships .qCol {
     	display: table-cell;
-  	}
+	}
+	  
 	#tickets th, #tickets td {
 		font-size: 1vw;
 	}
@@ -437,11 +502,31 @@ a.cta:hover {
 	#footer-sponsors {
 		display: grid;
 		grid-template-rows: 100%;
-		grid-template-columns: 3fr 2fr 1fr;
+		grid-template-columns: 4fr 3fr 2fr;
 		grid-gap: 8px;
 	}
+
+	#sponsors-gold {
+		text-align: center;
+	}
 	
-	footer #attendees {
+	#sponsors-gold img {
+		max-height: 200px;
+	}
+
+	#footer-community {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		margin: 8px;
+	}
+
+	#footer-community img {
+		height: 50px;
+	}
+	
+	footer #attendees, footer #organizers {
 		margin: 8px;
 	}
 

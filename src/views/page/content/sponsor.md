@@ -33,16 +33,16 @@ If you'd like to support our event or have any questions, please email carter@ca
       <th class="tierCol">Tier</th>
       <th>Sponsorship</th>
       <th>Price</th>
-      <th class="qCol">Quantity</th>
-      <th><span class="check">Tickets</span></th>
-      <th><span class="check">Website</span></th>
-      <th><span class="check">Tweets</span></th>
-      <th><span class="check">Videos</span></th>
-      <th><span class="check">Booth</span></th>
-      <th><span class="check">Job Posting</span></th>
-      <th><span class="check">Meeting Space</span></th>
-      <th><span class="check">Email Copy</span></th>
-      <th><span class="check">On Stage</span></th>
+      <th class="qCol">Available</th>
+      <th class="check"><span>Tickets</span></th>
+      <th class="check"><span>Website</span></th>
+      <th class="check"><span>Tweets</span></th>
+      <th class="check"><span>Videos</span></th>
+      <th class="check"><span>Booth</span></th>
+      <th class="check"><span>Job Posting</span></th>
+      <th class="check"><span>Meeting Space</span></th>
+      <th class="check"><span>Email Copy</span></th>
+      <th class="check"><span>On Stage</span></th>
     </tr>
   </thead>
   <tbody>
@@ -50,172 +50,158 @@ If you'd like to support our event or have any questions, please email carter@ca
       <td class="tierCol">Platinum</td>
       <td><i class="fas fa-university"></i> <a href="#venue">Venue</a></td>
       <td>$20k</td>
-      <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="qCol">SOLD</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
       <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day One Track</a></td>
-      <td>$10k</td>
+      <td>$6k</td>
       <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
       <td class="tierCol">Gold</td>
       <td><i class="fas fa-users-class"></i> <a href="#track">Day Two Track</a></td>
-      <td>$10k</td>
+      <td>$6k</td>
       <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
       <td class="tierCol">Gold</td>
-      <td><i class="fas fa-gamepad"></i> <a href="#party">Opening Party</a></td>
-      <td>$10k</td>
+      <td><i class="fas fa-gamepad"></i> <a href="#opening">Opening Party</a></td>
+      <td>$6k</td>
       <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
-      <td class="tierCol">Gold</td>
-      <td><i class="fas fa-gamepad"></i> <a href="#party">Closing Party</a></td>
-      <td>$10k</td>
+      <td class="check" class="tierCol">Gold</td>
+      <td><i class="fas fa-gamepad"></i> <a href="#closing">Closing Party</a></td>
+      <td>$6k</td>
       <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
     </tr>
     <tr>
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-tshirt"></i> <a href="#booth">Booth</a></td>
       <td>$5k</td>
       <td class="qCol">SOLD</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td class="tierCol">Silver</td>
-      <td><i class="fas fa-coffee-togo"></i> <a href="#coffee">Coffee</a></td>
-      <td>$6k</td>
-      <td class="qCol">1</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
     <tr>
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-user-graduate"></i> <a href="#mixer">Mentor Mixer</a></td>
       <td>$5k</td>
       <td class="qCol">SOLD</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
     <tr>
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-handshake"></i> <a href="#team">Meet the Team</a></td>
       <td>$5k</td>
-      <td class="qCol">5</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
+      <td class="qCol">SOLD</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
     <tr>
       <td class="tierCol">Silver</td>
       <td><i class="fas fa-closed-captioning"></i> <a href="#captions">Captioning</a></td>
       <td>$3k</td>
       <td class="qCol">SOLD</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
     <tr>
       <td class="tierCol">Community</td>
       <td><i class="fas fa-hand-holding-heart"></i> <a href="#scholarships">Scholarships</a></td>
       <td>$1500</td>
       <td class="qCol">unlimited</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check">✅</td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
+      <td class="check"></td>
     </tr>
   </tbody>
 </table>
 
+<h2 id="venue"><i class="fas fa-university"></i> Venue (SOLD)</h2>
 
-<h2 id="venue"><i class="fas fa-university"></i> Venue</h2>
+![AWS logo](${STATIC}/images/sponsors/aws.svg)
 
 The highest level of visibility that we offer. Your company will be considered the
 foundational partner in putting on CascadiaJS 2019. We would not be in a position to rent
@@ -226,35 +212,65 @@ out Town Hall Seattle without your support.
 Your company will be associated with the 12 awesome talks being given on either Day One
 or Day Two of the conference. Your support makes it possible for us to fly in subject
 matter experts from all over the world and take care of their lodging in Seattle during their
-stay. 
+stay.
 
-<h2 id="party"><i class="fas fa-gamepad"></i> Opening / Closing Parties</h2>
+Each sponsorship comes with a dedicated space at the venue to set-up as you like for Day One (or Two). Your logo will also be displayed on the speaker's podium for the day you are sponsoring and you will be able to provide custom copy to be included in an email to all attendees prior to your day.
 
-Following each day of talks we put on a really fun social event for our attendees. Last year we rented out Cinerama and Living Computers and the feedback on those events was amazing. We only offer a single sponsorship for each event, so we'll work closely with your team to craft an amazing experience.
+<h2 id="opening"><i class="fas fa-gamepad"></i> Opening Party</h2>
 
-<h2 id="booth"><i class="fas fa-tshirt"></i> Booth</h2>
+![Town Hall](${STATIC}/images/townhall.jpg)
+
+The Opening Party will be held at the conference venue (Town Hall Seattle) and will feature food, drinks and music following the first day of the conference. Your company will have the ability to brand this experience and you will be able to provide custom copy to be included in an email to all attendees prior to Day One.
+
+<h2 id="closing"><i class="fas fa-gamepad"></i> Closing Party</h2>
+
+![Optimism Brewing](${STATIC}/images/optimism.jpg)
+
+The Closing Party will be held at Optimism Brewing where we will celebrate the end of another CascadiaJS with karaoke and games! Your company will have the ability to brand this experience and you will be able to provide custom copy to be included in an email to all attendees prior to Day Two.
+
+<h2 id="booth"><i class="fas fa-tshirt"></i> Booth (SOLD)</h2>
+
+![twilio logo](${STATIC}/images/sponsors/twilio.svg)
+
+![sauce labs logo](${STATIC}/images/sponsors/saucelabs.svg)
+
+![moovweb logo](${STATIC}/images/sponsors/moovweb.svg)
 
 Set-up a booth to showcase your product to our attendees. We'll make sure you're set-up with
 power and Wi-Fi and are located in high traffic areas as folks make their way around the
 event.  
 
-<h2 id="coffee"><i class="fas fa-coffee-togo"></i> Coffee</h2>
+<h2 id="mixer"><i class="fas fa-user-graduate"></i> Mentor Mixer (SOLD)</h2>
 
-An upgraded form of our Booth sponsorship, except you are located next to the Espresso Cart!
-
-<h2 id="mixer"><i class="fas fa-user-graduate"></i> Mentor Mixer</h2>
+![docusign logo](${STATIC}/images/sponsors/docusign.svg)
 
 The evening before the conference we will organize a mixer that pairs our scholarship recipients with our amazing network of technical mentors. Last year this functioned as the culmination of our Scholarship Program where we connected our ~50 scholarship recipients to mentors who helped them understand how they could get the most out of the CascadiaJS experience. It was considered by many of our scholarship recipients and mentors to be the best part of the conference.
 
 <h2 id="team"><i class="fas fa-handshake"></i> Meet the Team</h2>
 
+![Zulily logo](${STATIC}/images/sponsors/zulily.svg)
+
 This is perfect if you're bring your team to the event and have an open job that you're hiring for. Comes with a job posting, a block of 4 tickets, 20% off any additional tickets and access to private meeting rooms where we will help you book time to meet any of our attendees who are interested in your position.
 
-<h2 id="captions"><i class="fas fa-closed-captioning"></i> Captioning</h2>
+<h2 id="captions"><i class="fas fa-closed-captioning"></i> Captioning (SOLD)</h2>
 
-We will be live captioning all 24 talks for the hearing impaired. Your logo will be included on the site we use to display the captioning as well as the videos that we produce and upload to YouTube. 
+![microsoft logo](${STATIC}/images/sponsors/microsoft.svg)
+
+We will be live captioning all 24 talks. Your logo will be included on the site we use to display the captioning as well as the videos that we produce and upload to YouTube. 
 
 <h2 id="scholarships"><i class="fas fa-hand-holding-heart"></i> Scholarships</h2>
+
+![heroku logo](${STATIC}/images/sponsors/heroku.svg)
+
+![codezilla logo](${STATIC}/images/sponsors/codezilla.svg)
+
+![egghead logo](${STATIC}/images/sponsors/eggheadio.svg)
+
+![facebook logo](${STATIC}/images/sponsors/facebook.svg)
+
+![mozilla logo](${STATIC}/images/sponsors/mozilla.svg)
+
+![stripe logo](${STATIC}/images/sponsors/stripe.svg)
 
 Help us fund 50 scholarships to CascadiaJS this year! Each Scholarship purchased comes with 1 complimentary ticket to the conference for the sponsor.
 
@@ -265,9 +281,11 @@ Help us fund 50 scholarships to CascadiaJS this year! Each Scholarship purchased
 <pre>
 Town Hall Seattle
 c/o CascadiaJS Conference
-1118 8th Ave
+1119 8th Ave
 Seattle, WA 98101
 </pre>
+
+NOTE: We *highly recommend* shipping via UPS not FedEx as we have had multiple problems with FexEx shipments in recent weeks.
 
 <h3 id="parking">Is there parking at the venue?</h3
 
@@ -276,7 +294,6 @@ No, there is no parking at Town Hall Seattle. Here is a link to [transit and par
 <h3 id="setup">When can sponsors arrive to setup?</h3>
 
 Sponsors may arrive both days at 7am to set-up. Doors open at 8am. Sponsors will need to have their gear packed and removed from the venue by 5pm on Friday, November 7.
-
 
 <h3 id="schedule">What is the event schedule?</h3>
 

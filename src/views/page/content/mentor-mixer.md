@@ -1,9 +1,18 @@
 # Mentor Mixer
 
-In order to make sure that our scholarship recipients and other members of our community who are new to tech get the most out of their CascadiaJS experience, we are organizing a pre-conference Mentor Mixer. Conference attendees who are new to tech or feel like they would benefit by being connected to mentors should feel free to attend. This event will take place in the evening and will feature a mix of some short talks and plenty of time to network and meet people.
+![The Riveter](${STATIC}/images/theriveter.jpg)
 
-Stay tuned for more information about this event and instructions on how to RSVP.
+New to tech? Or maybe experienced and also searching for someone who can mentor you and help you grow? Come join us at our pre-conference Mentor Mixer! We'll have a Flash Mentoring hour where you'll rotate around to connect with potential mentors and fellow CascadiaJS attendees, as well as a networking hour. Come prepared with any questions you might have about career advice or how to get the most out of the CascadiaJS conference.
 
-## Sponsored By... You?
+- 5:30pm: Event Kickoff
+- 6:00pm - 7:00pm: Flash Mentoring Rotations
+- 7:00pm - 8:00pm: Networking Hour
+- 8:15pm: Closing Remarks
 
-We are still looking for a company to sponsor this event. Please reach out if you think your company can support this important event!
+The event is open to all attendees of CascadiaJS 2019. Please look for an email on how to RSVP.
+
+## Sponsored By DocuSign
+
+![DocuSign](${STATIC}/images/sponsors/docusign.svg)
+
+We could not put on this event without the financial and volunteer support of [DocuSign](https://www.docusign.com/)!
