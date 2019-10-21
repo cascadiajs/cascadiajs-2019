@@ -129,8 +129,6 @@ ul#past-confs>li, ul#connect-list>li {
 	padding-bottom: 10px;
 }
 
-
-
 #page {
 	background-color: #fff;
 	margin: 8px;
@@ -509,7 +507,7 @@ a.cta:hover {
 	#sponsors-gold {
 		text-align: center;
 	}
-	
+
 	#sponsors-gold img {
 		max-height: 200px;
 	}
