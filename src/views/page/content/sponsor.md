@@ -246,6 +246,8 @@ The Closing Party will be held at Optimism Brewing where we will celebrate the e
 
 ![moovweb logo](${STATIC}/images/sponsors/moovweb.svg)
 
+![auth0 logo](${STATIC}/images/sponsors/auth0.svg)
+
 Set-up a booth to showcase your product to our attendees. We'll make sure you're set-up with
 power and Wi-Fi and are located in high traffic areas as folks make their way around the
 event.  
