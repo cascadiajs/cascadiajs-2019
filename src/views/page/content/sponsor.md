@@ -63,9 +63,9 @@ If you'd like to support our event or have any questions, please email carter@ca
     </tr>
     <tr>
       <td class="tierCol">Gold</td>
-      <td><i class="fas fa-users-class"></i> <a href="#track">Day One Track</a></td>
+      <td><i class="fas fa-users-class"></i> <a href="#dayone">Day One Track</a></td>
       <td>$6k</td>
-      <td class="qCol">1</td>
+      <td class="qCol">SOLD</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
@@ -78,9 +78,9 @@ If you'd like to support our event or have any questions, please email carter@ca
     </tr>
     <tr>
       <td class="tierCol">Gold</td>
-      <td><i class="fas fa-users-class"></i> <a href="#track">Day Two Track</a></td>
+      <td><i class="fas fa-users-class"></i> <a href="#daytwo">Day Two Track</a></td>
       <td>$6k</td>
-      <td class="qCol">1</td>
+      <td class="qCol">SOLD</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
       <td class="check">✅</td>
@@ -207,20 +207,30 @@ The highest level of visibility that we offer. Your company will be considered t
 foundational partner in putting on CascadiaJS 2019. We would not be in a position to rent
 out Town Hall Seattle without your support.
 
-<h2 id="track"><i class="fas fa-users-class"></i> Day One / Day Two Tracks</h2>
+<h2 id="dayone"><i class="fas fa-users-class"></i> Day One Track</h2>
 
-Your company will be associated with the 12 awesome talks being given on either Day One
-or Day Two of the conference. Your support makes it possible for us to fly in subject
-matter experts from all over the world and take care of their lodging in Seattle during their
+![Formidable logo](${STATIC}/images/sponsors/formidable.svg)
+
+Your company will be associated with the 10 awesome talks being given on Day One of the conference. Your support makes it possible for us to fly in subject matter experts from all over the world and take care of their lodging in Seattle during their
 stay.
 
-Each sponsorship comes with a dedicated space at the venue to set-up as you like for Day One (or Two). Your logo will also be displayed on the speaker's podium for the day you are sponsoring and you will be able to provide custom copy to be included in an email to all attendees prior to your day.
+The sponsorship comes with a dedicated space at the venue to set-up a booth. Your logo will also be displayed on stage Day One and you will be able to provide custom copy to be included in an email to all attendees prior to Day One.
 
 <h2 id="opening"><i class="fas fa-gamepad"></i> Opening Party</h2>
 
 ![Town Hall](${STATIC}/images/townhall.jpg)
 
 The Opening Party will be held at the conference venue (Town Hall Seattle) and will feature food, drinks and music following the first day of the conference. Your company will have the ability to brand this experience and you will be able to provide custom copy to be included in an email to all attendees prior to Day One.
+
+
+<h2 id="daytwo"><i class="fas fa-users-class"></i> Day Two Track</h2>
+
+![Fizbuz logo](${STATIC}/images/sponsors/fizbuz.svg)
+
+Your company will be associated with the 10 awesome talks being given on Day Two of the conference. Your support makes it possible for us to fly in subject matter experts from all over the world and take care of their lodging in Seattle during their
+stay.
+
+The sponsorship comes with a dedicated space at the venue to set-up a booth. Your logo will also be displayed on stage Day Two and you will be able to provide custom copy to be included in an email to all attendees prior to Day Two.
 
 <h2 id="closing"><i class="fas fa-gamepad"></i> Closing Party</h2>
 

@@ -30,6 +30,14 @@ All host remarks and Main Stage talks will be live-captioned by  [White Coat Cap
 
 Town Hall is also ADA accessible for speakers and staff. All backstage and back-of-house areas are accessible for all bodies. 
 
+## Child Care
+
+We are working on providing limited child care on-site. If you require child care in order to attend the conference, please make sure to reach out to us before you purchase tickets. Space is limited.
+
+## Mother's Room
+
+There is a dedicated Mother's Room that will be available for mothers who need a private place to nurse.
+
 ## Economic Accommodations
 
 If financial circumstances prevent you from attending CascadiaJS 2019 then please take advantage of our [Scholarship Program](/scholarships). 
