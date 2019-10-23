@@ -51,12 +51,13 @@ module.exports = function mainLayout (props) {
       <footer>
         <section id="footer-sponsors">
           <section id="sponsors-platinum">
-            <a href="https://aws.amazon.com"><img src="${assetPath}/images/sponsors/aws.svg" alt="aws logo"/></a>
+            <a href="https://www.amazon.jobs/en/jobs/920890/frontend-engineer"><img src="${assetPath}/images/sponsors/aws.svg" alt="aws logo"/></a>
           </section>
           <section id="sponsors-gold">
             <a href="https://fizbuz.com"><img src="${assetPath}/images/sponsors/fizbuz.svg" alt="Fizbuz logo"/></a>
             <a href="https://formidable.com"><img src="${assetPath}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
             <a href="https://heroku.com"><img src="${assetPath}/images/sponsors/heroku.svg" alt="heroku logo"/></a>
+            <a href="https://opensource.facebook.com/"><img src="${assetPath}/images/sponsors/fboss.svg" alt="Facebook Open Source logo"/></a>
           </section>
           <section id="sponsors-silver">
             <a href="https://saucelabs.com"><img src="${assetPath}/images/sponsors/saucelabs.svg" alt="Sauce Labs logo"/></a>
