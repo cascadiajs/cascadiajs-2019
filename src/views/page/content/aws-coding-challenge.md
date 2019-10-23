@@ -59,7 +59,7 @@ Examples:
 ```1000 => "One thousand"
 1000000 => "One million"
 1545120 => "One million, five hundred and forty-five thousand, one hundred and twenty"
-9999999.99 => "Nine hundred and ninety-nine million, nine hundred and ninety-nine thousand, nine hundred and ninety-nine and 99/100"
+999999999.99 => "Nine hundred and ninety-nine million, nine hundred and ninety-nine thousand, nine hundred and ninety-nine and 99/100"
 245.13 => "Two hundred and forty-five and 13/100"
 ```
 
