@@ -13,6 +13,9 @@ module.exports = async function Page (req) {
   let page = req.path.substr(1)
   let doc = join(__dirname, 'content', `${page}.md`)
   if (!exists(doc))
+    doc = join(__dirname, 'content', `${page}.html`)
+
+  if (!exists(doc))
     return // Bails to 404
 
   let {assetPath} = getAssetPaths()
@@ -20,6 +23,7 @@ module.exports = async function Page (req) {
   // Set up view content
   doc = read(doc).toString()
                  .replace(/\$\{STATIC\}/g, assetPath)
+
   let title = doc.split('\n')[0].replace('# ', '')
   let content = `<div id="page">${md(doc)}</div>`
 
