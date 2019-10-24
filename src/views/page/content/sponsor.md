@@ -1,3 +1,5 @@
+<div id="sponsor-page">
+
 # Sponsor CascadiaJS 2019
 
 The most important thing we do as a conference is bring developers together to meet, build relationships and learn from one another. Many of the attendees who come to CascadiaJS do so because they are trying to learn new skills, become better engineers, build their professional network or find a new job. For companies that are hiring or building products for developers, sponsoring CascadiaJS is a great way to connect with these folks.
@@ -310,3 +312,5 @@ Sponsors may arrive both days at 7am to set-up. Doors open at 8am. Sponsors will
 <h3 id="schedule">What is the event schedule?</h3>
 
 The schedule for the conference will be posted on the website one week before the event.
+
+</div>

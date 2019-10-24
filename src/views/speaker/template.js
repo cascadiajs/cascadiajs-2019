@@ -2,8 +2,8 @@ module.exports = function SpeakerTemplate (props) {
   let {person, speakerAssetPath} = props
   let {name, id, location, company, talkTitle, abstract, url} = person
 
-  return `
-<div id="page">
+  return /*html*/`
+<div class="default page">
   <section id="speaker">
     <h1>${name}</h1>
     <div class="speaker-info">

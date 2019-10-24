@@ -1,6 +1,6 @@
 let getAssetPaths = require('@architect/shared/get-asset-paths')
 let getSpeakerData = require('@architect/shared/get-speaker-data')
-let SpeakerTemplate = require('./speaker')
+let Template = require('./template')
 let Layout = require('@architect/views/layout')
 
 /**
@@ -27,7 +27,7 @@ module.exports = async function Speaker (req) {
 <meta name="twitter:title" content="CascadiaJS 2019 | ${name} | ${talkTitle}">
 <meta name="twitter:image" content="${speakerAssetPath}/${id}-social.png">
   `
-  let content = SpeakerTemplate({person, speakerAssetPath})
+  let content = Template({person, speakerAssetPath})
 
   let speaker = {
     title,

@@ -2,7 +2,7 @@ module.exports = function mainLayout (props) {
   let {title, header, assetPath, content, attendees, organizers} = props
   attendees = attendees || 'ATTENDEES COMING SOON!'
 
-  return `
+  return /*html*/`
 <!doctype html>
 <html lang=en>
   <head>

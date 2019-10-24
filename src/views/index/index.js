@@ -2,7 +2,7 @@ let getAssetPaths = require('@architect/shared/get-asset-paths')
 
 let Events = require('./events')
 let Speakers = require('../components/speakers')
-let IndexTemplate = require('./index-template')
+let Template = require('./template')
 let Layout = require('@architect/views/layout')
 
 /**
@@ -16,7 +16,7 @@ module.exports = async function Index (req) {
     // Set up view content
     let events = Events() || 'COMING SOON!'
     let speakers = Speakers() || 'COMING SOON!'
-    let content = IndexTemplate({events, speakers, assetPath, daysRemaining})
+    let content = Template({events, speakers, assetPath, daysRemaining})
 
     let index = {
       content,

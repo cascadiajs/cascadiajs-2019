@@ -1,0 +1,116 @@
+[
+    {
+        "start": "2019-11-07T09:45:00-07:00",
+        "end": "2019-11-07T10:10:00-07:00",
+        "location": "main",
+        "speaker": "saimon-sharif"
+    },
+    {
+        "start": "2019-11-07T10:15:00-07:00",
+        "end": "2019-11-07T10:40:00-07:00",
+        "location": "main",
+        "speaker": "aaron-turner"
+    },
+    {
+        "start": "2019-11-07T11:10:00-07:00",
+        "end": "2019-11-07T11:35:00-07:00",
+        "location": "main",
+        "speaker": "claudius-mbemba"
+    },
+    {
+        "start": "2019-11-07T11:40:00-07:00",
+        "end": "2019-11-07T12:05:00-07:00",
+        "location": "main",
+        "speaker": "christian-nunciato"
+    },
+    {
+        "start": "2019-11-07T12:10:00-07:00",
+        "end": "2019-11-07T12:35:00-07:00",
+        "location": "main",
+        "speaker": "trivikram-kamat"
+    },
+    {
+        "start": "2019-11-07T11:10:00-07:00",
+        "end": "2019-11-07T11:20:00-07:00",
+        "location": "lightning",
+        "speaker": "ishan-anand"
+    },
+    {
+        "start": "2019-11-07T11:25:00-07:00",
+        "end": "2019-11-07T11:35:00-07:00",
+        "location": "lightning",
+        "speaker": "dale-sande"
+    },
+    {
+        "start": "2019-11-07T11:40:00-07:00",
+        "end": "2019-11-07T11:50:00-07:00",
+        "location": "lightning",
+        "speaker": "kyle-jacobson"
+    },
+    {
+        "start": "2019-11-07T11:55:00-07:00",
+        "end": "2019-11-07T12:05:00-07:00",
+        "location": "lightning",
+        "speaker": "vincent-sanders"
+    },
+    {
+        "start": "2019-11-07T14:00:00-07:00",
+        "end": "2019-11-07T14:25:00-07:00",
+        "location": "main",
+        "speaker": "yuraima-estevez"
+    },
+    {
+        "start": "2019-11-07T14:30:00-07:00",
+        "end": "2019-11-07T14:55:00-07:00",
+        "location": "main",
+        "speaker": "lisa-backer"
+    },
+    {
+        "start": "2019-11-07T15:00:00-07:00",
+        "end": "2019-11-07T15:25:00-07:00",
+        "location": "main",
+        "speaker": "johnny-ray-austin"
+    },
+    {
+        "start": "2019-11-07T14:00:00-07:00",
+        "end": "2019-11-07T14:10:00-07:00",
+        "location": "lightning",
+        "speaker": "noah-adams"
+    },
+    {
+        "start": "2019-11-07T14:15:00-07:00",
+        "end": "2019-11-07T14:25:00-07:00",
+        "location": "lightning",
+        "speaker": "simon-korzunov"
+    },
+    {
+        "start": "2019-11-07T14:30:00-07:00",
+        "end": "2019-11-07T14:40:00-07:00",
+        "location": "lightning",
+        "speaker": "gilad-gray"
+    },
+    {
+        "start": "2019-11-07T14:45:00-07:00",
+        "end": "2019-11-07T14:55:00-07:00",
+        "location": "lightning",
+        "speaker": "beryle-egerter"
+    },
+    {
+        "start": "2019-11-07T15:55:00-07:00",
+        "end": "2019-11-07T16:20:00-07:00",
+        "location": "main",
+        "speaker": "eran-hammer"
+    },
+    {
+        "start": "2019-11-07T16:25:00-07:00",
+        "end": "2019-11-07T16:50:00-07:00",
+        "location": "main",
+        "speaker": "ginger-chien"
+    },
+    {
+        "start": "2019-11-07T16:55:00-07:00",
+        "end": "2019-11-07T17:20:00-07:00",
+        "location": "main",
+        "speaker": "jerome-hardaway"
+    }
+]

@@ -105,7 +105,7 @@ module.exports = function IndexTemplate (props) {
     </section>
     <section id="week">
       <h2>Week of CascadiaJS</h2>
-      <div id="schedule">
+      <div id="week-schedule">
         <div class="item">
           <h3>Nov 4</h3>
           <p><a href="/workshop-reactjs" title="React training by Formidable, the premier JavaScript consultancy trusted by engineers.">ReactJS Workshop</a></p>

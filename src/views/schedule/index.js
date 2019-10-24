@@ -1,17 +1,17 @@
 let getAssetPaths = require('@architect/shared/get-asset-paths')
-let Speakers = require('../components/speakers')
+let Schedule = require('../components/schedule')
 let Template = require('./template')
 let Layout = require('@architect/views/layout')
 
 /**
- * Speakers view
+ * Schedule view
  */
 module.exports = async function Index (req) {
-  if (req.path === '/speakers') {
+  if (req.path === '/schedule') {
     let {assetPath} = getAssetPaths()
     // Set up view content
-    let speakers = Speakers() || 'COMING SOON!'
-    let content = Template({speakers, assetPath})
+    let schedule = Schedule({assetPath}) || 'COMING SOON!'
+    let content = Template({schedule, assetPath})
 
     let index = {
       content,
@@ -22,5 +22,5 @@ module.exports = async function Index (req) {
       html
     }
   }
-  else return // Hand off to page view
+  else return // Hand off to next view
 }
