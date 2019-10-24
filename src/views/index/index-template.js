@@ -1,7 +1,7 @@
 module.exports = function IndexTemplate (props) {
   let {events, speakers, assetPath, daysRemaining} = props
 
-  return `
+  return /*html*/`
 <div id="landing">
   <div id="left">
     <section id="tickets">

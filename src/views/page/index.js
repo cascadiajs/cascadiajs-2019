@@ -7,7 +7,7 @@ let getAssetPaths = require('@architect/shared/get-asset-paths')
 let Layout = require('@architect/views/layout')
 
 /**
- * Page view
+ * Page view: catchall for all other pages, authored either in markdown or HTML
  */
 module.exports = async function Page (req) {
   let page = req.path.substr(1)

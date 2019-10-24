@@ -1,21 +1,16 @@
 let {assetPath} = require('@architect/shared/get-asset-paths')()
-
-let Events = require('./events')
 let Speakers = require('../components/speakers')
-let IndexTemplate = require('./index-template')
+let SpeakersTemplate = require('./speakers-template')
 let Layout = require('@architect/views/layout')
 
 /**
- * Index view
+ * Speakers view
  */
 module.exports = async function Index (req) {
-  if (req.path === '/') {
-    // Calculate days remaining until the event!
-    let daysRemaining = Math.round(((new Date('11/7/2019')).getTime() - Date.now())/ 1000 / 60 / 60 / 24)
+  if (req.path === '/speakers') {
     // Set up view content
-    let events = Events() || 'COMING SOON!'
     let speakers = Speakers() || 'COMING SOON!'
-    let content = IndexTemplate({events, speakers, assetPath, daysRemaining})
+    let content = SpeakersTemplate({speakers, assetPath})
 
     let index = {
       content,
