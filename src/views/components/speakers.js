@@ -1,7 +1,9 @@
-let {speakerData} = require('@architect/shared/get-speaker-data')()
-let {speakerAssetPath} = require('@architect/shared/get-asset-paths')()
+let getSpeakerData = require('@architect/shared/get-speaker-data')
+let getAssetPaths = require('@architect/shared/get-asset-paths')
 
 module.exports = function Speakers () {
+  let {speakerAssetPath} = getAssetPaths()
+  let speakerData = getSpeakerData()
   let speakers = []
   speakerData.forEach((speaker, index) => {
     let {id, name, location, reveal, company, pixelated, ignore} = speaker
