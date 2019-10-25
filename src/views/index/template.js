@@ -39,7 +39,7 @@ module.exports = function IndexTemplate (props) {
       </div>
     </section>
     <section class="schedule">
-      <h2>Schedule</h2>
+      <h2>Conference Schedule</h2>
       <div>
         ${schedule}
       </div>
