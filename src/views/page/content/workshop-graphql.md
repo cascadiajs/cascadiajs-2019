@@ -14,8 +14,8 @@ In this course, we're going to learn GraphQL, a special way to ask internet serv
 
 <pre>
 <a href="https://www.spacesworks.com/seattle/pioneer-square/">Spaces - Pioneer Square</a>
-450 Alaskan Way South
 95 South Jackson Street
+Seattle, WA 98104
 </pre>
 
 ## Course Outline

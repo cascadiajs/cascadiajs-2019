@@ -15,7 +15,7 @@ The Scholarship Program is open to everyone who meets these requirements:
 
 ## How it works
 
-- Apply for a scholarship by October 25
+- Apply for a scholarship by <span class="exclaim">October 25</a>
 - If you meet the requirements above, you will be offered a scholarship ticket for the discounted rate of $99
 - If you cannot afford that, that's ok! Please submit your application, and we'll be in touch.
 
@@ -33,4 +33,4 @@ Yes! We plan on hosting an exclusive mixer for Scholars where they will get to m
 
 Please help us in our outreach efforts. Take a moment to share this post with relevant people or organizations. We hope this Scholarship Program can enable you to join us and contribute to our community!
 
-<a class="cta" href="https://cascadiajs.typeform.com/to/GrPvrj">Apply Now</a>
+<a class="cta nope" href="#">Applications Closed</a>

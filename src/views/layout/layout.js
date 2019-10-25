@@ -41,7 +41,7 @@ module.exports = function mainLayout (props) {
           <a href="/schedule"><i class="fas fa-calendar"></i>Schedule</a>
           <a href="/speakers"><i class="fas fa-microphone"></i>Speakers</a>
           <a href="/why-cascadiajs"><i class="fas fa-heart-square"></i>About</a>
-          <a href="/scholarships"><i class="fas fa-user-graduate"></i>Scholarships</a>
+          <!--a href="/scholarships"><i class="fas fa-user-graduate"></i>Scholarships</a-->
           <a href="/sponsor"><i class="fas fa-hand-holding-seedling"></i>Sponsor Us</a>
           <a href="/travel"><i class="fas fa-suitcase"></i>Travel</a>
           <a href="/accessibility"><i class="fab fa-accessible-icon"></i>Accessibility</a>

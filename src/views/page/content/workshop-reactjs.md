@@ -18,8 +18,8 @@ This workshop is for developers who are familiar with base React JS components, 
 
 <pre>
 <a href="https://www.spacesworks.com/seattle/pioneer-square/">Spaces - Pioneer Square</a>
-450 Alaskan Way South
 95 South Jackson Street
+Seattle, WA 98104
 </pre>
 
 ## Agenda

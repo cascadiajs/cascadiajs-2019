@@ -439,12 +439,12 @@ a.cta:hover {
 	margin-bottom: 16px;
 }
 
-.schedule .entry .what .item a, #schedule .entry .what .item a:visited {
+.schedule a, .schedule a:visited {
 	color: #fff;
 	text-decoration: none;
 }
 
-.schedule .entry .what .item a:hover {
+.schedule a:hover {
 	text-decoration: underline;
 }
 

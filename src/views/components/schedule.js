@@ -262,5 +262,17 @@ module.exports = function Schedule ({assetPath}) {
                 </div>
             </div>
         </section>
+        <section id="daytwo">
+            <h3>November 9</h3>
+            <div class="entry">
+                <div class="when">10:00</div>
+                <div class="what">
+                    <div>
+                        <div class="item"><i class="fas fa-egg-fried"></i> Farewell Brunch</div>
+                        <div class="byline">Join us for brunch before you leave Cascadia!</div>
+                    </div>
+                </div>
+            </div>
+        </section>
     `
 }
