@@ -37,7 +37,7 @@ module.exports = function mainLayout (props) {
       <header>
         <nav>
           <a href="/"><i class="fas fa-home"></i>Home</a>
-          <a href="/tickets"><i class="fas fa-ticket-alt"></i>Tickets</a>
+          <!--a href="/tickets"><i class="fas fa-ticket-alt"></i>Tickets</a-->
           <a href="/schedule"><i class="fas fa-calendar"></i>Schedule</a>
           <a href="/speakers"><i class="fas fa-microphone"></i>Speakers</a>
           <a href="/why-cascadiajs"><i class="fas fa-heart-square"></i>About</a>

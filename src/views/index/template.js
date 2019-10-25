@@ -8,7 +8,8 @@ module.exports = function IndexTemplate (props) {
       <div id="logo"><img src="${assetPath}/images/cjs-sunbreak-logo.svg" alt="CascadiaJS 2019 logo"/></div>
       <div id="tagline">
         <h1>CascadiaJS features 2 tracks of 37 amazing speakers discussing the cutting-edge of JavaScript, web development and engineering culture over the course of 2 days.</h1>
-      </div>
+        <a class="cta" href="/tickets">Buy Tickets</a>
+        </div>
     </section>
     <section id="week">
       <h2>Week of CascadiaJS</h2>
