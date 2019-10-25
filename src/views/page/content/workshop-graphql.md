@@ -10,6 +10,14 @@ In this course, we're going to learn GraphQL, a special way to ask internet serv
 
 <a class="cta" href="https://ti.to/event-loop/cascadiajs-2019/with/bzxvsgelm1w">Buy a Standalone Workshop Ticket ($1200)</a>
 
+## Venue
+
+<pre>
+<a href="https://www.spacesworks.com/seattle/pioneer-square/">Spaces - Pioneer Square</a>
+450 Alaskan Way South
+95 South Jackson Street
+</pre>
+
 ## Course Outline
 
 - GraphQL Query Language
