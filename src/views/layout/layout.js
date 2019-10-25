@@ -10,7 +10,7 @@ module.exports = function mainLayout (props) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CascadiaJS 2019 | ${title}</title>
     ${header ? header : ''}
-    <link rel="stylesheet" href="https://unpkg.com/normalize.css@^7.0.0">
+    <link rel="stylesheet" href="${assetPath}/styles/normalize.css">
     <link rel="stylesheet" href="https://use.typekit.net/cnx1fnn.css">
     <script src="https://kit.fontawesome.com/439d39b111.js"></script>
     <link rel="stylesheet" href="${assetPath}/styles/styles.css">
@@ -39,6 +39,7 @@ module.exports = function mainLayout (props) {
           <a href="/"><i class="fas fa-home"></i>Home</a>
           <a href="/tickets"><i class="fas fa-ticket-alt"></i>Tickets</a>
           <a href="/schedule"><i class="fas fa-calendar"></i>Schedule</a>
+          <a href="/speakers"><i class="fas fa-microphone"></i>Speakers</a>
           <a href="/why-cascadiajs"><i class="fas fa-heart-square"></i>About</a>
           <a href="/scholarships"><i class="fas fa-user-graduate"></i>Scholarships</a>
           <a href="/sponsor"><i class="fas fa-hand-holding-seedling"></i>Sponsor Us</a>

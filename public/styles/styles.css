@@ -201,6 +201,14 @@ a.cta:hover {
 
 /* Landing page styles */
 
+#landing #hero #tagline {
+	line-height: 2.4em;
+}
+
+#landing #hero #tagline h1 {
+	color: #0d29ff;
+}
+
 #landing section, footer #attendees, footer #organizers {
 	padding: 16px;
 	margin-bottom: 8px;
@@ -214,7 +222,7 @@ a.cta:hover {
 	width: 100%;
 }
 
-#landing #tickets, #landing #events, #landing #email, #landing #designed-by {
+#landing #tickets, #landing #events, #landing #email, #landing #designed-by, #landing #hero {
 	background-color: #b9debc;
 }
 
@@ -234,21 +242,6 @@ a.cta:hover {
 	background-color: #1D48A4;
 	color: #FF9966;
 	text-align: center;
-}
-
-#landing #hero {
-	background-repeat: no-repeat;
-	background-position: center; 
-	background-size: auto;
-	text-align: center;
-}
-
-#landing #tagline {
-	background-color: #0d29ff;
-	color: #e6e8f5;
-	padding: 8px;
-	font-size: 2.8vw;
-	line-height: 5vw;
 }
 
 #events-list td {
@@ -398,9 +391,8 @@ a.cta:hover {
 }
 
 .schedule {
-	margin: 8px;
 	padding: 16px;
-	background-color: #232721 !important;
+	background-color: #232721;
 	color: #fff;
 
 }
@@ -415,7 +407,7 @@ a.cta:hover {
 	margin: 0 5px 0 5px;
 }
 
-.schedule h2 {
+.schedule h3 {
 	margin-bottom: 0;
 	border-bottom: 1px solid #4e524d;
 }
@@ -435,7 +427,7 @@ a.cta:hover {
 	color: #ffd101;
 	font-size: 1.75em;
 	margin-bottom: 8px;
-	vertical-align: top;
+	line-height: 0.8em;
 }
 
 .schedule .entry .what .item {
@@ -459,6 +451,10 @@ a.cta:hover {
 
 .schedule .entry .what .mainstage {
 	padding-right: 16px;
+}
+
+#dayone, #daytwo {
+	margin-bottom: 20px;
 }
 
 /* Mailchimp embed styles */
@@ -500,12 +496,34 @@ a.cta:hover {
 
 @media only screen and (min-width: 768px) {
 	#landing {
-		display: grid;
+		/*display: grid;
 		min-height: 100%;
 		grid-template-rows: 100%;
 		grid-template-columns: 1fr 2fr 1fr;
-		grid-gap: 8px;
-		padding: 8px;
+		grid-gap: 8px;*/
+		margin: 8px;
+	}
+
+	#landing #hero {
+		display: flex;
+		align-items: center;
+	}
+	
+	#landing #hero #logo {
+		flex: 0 0 300px;
+		padding: 16px;
+		margin-left:100px;
+		text-align: right;
+	}
+	
+	#landing #hero #logo img {
+		height: 300px;
+		width: 300px;
+	}
+
+	#landing #hero #tagline {
+		padding-left:20px;
+		margin-right:100px;
 	}
 
 	.page {

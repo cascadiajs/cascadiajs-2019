@@ -112,5 +112,113 @@
         "end": "2019-11-07T17:20:00-07:00",
         "location": "main",
         "speaker": "jerome-hardaway"
+    },
+    {
+        "start": "2019-11-08T09:30:00-07:00",
+        "end": "2019-11-08T09:55:00-07:00",
+        "location": "main",
+        "speaker": "dominik-kundel"
+    },
+    {
+        "start": "2019-11-08T10:00:00-07:00",
+        "end": "2019-11-08T10:25:00-07:00",
+        "location": "main",
+        "speaker": "jasper-schulte"
+    },
+    {
+        "start": "2019-11-08T10:55:00-07:00",
+        "end": "2019-11-08T11:20:00-07:00",
+        "location": "main",
+        "speaker": "kinuko-yasuda"
+    },
+    {
+        "start": "2019-11-08T11:25:00-07:00",
+        "end": "2019-11-08T11:50:00-07:00",
+        "location": "main",
+        "speaker": "isabela-moreira"
+    },
+    {
+        "start": "2019-11-08T11:55:00-07:00",
+        "end": "2019-11-08T12:20:00-07:00",
+        "location": "main",
+        "speaker": "divya-sasidharan"
+    },
+    {
+        "start": "2019-11-08T10:55:00-07:00",
+        "end": "2019-11-08T12:05:00-07:00",
+        "location": "lightning",
+        "speaker": "hannah-ingham"
+    },
+    {
+        "start": "2019-11-08T11:10:00-07:00",
+        "end": "2019-11-08T11:20:00-07:00",
+        "location": "lightning",
+        "speaker": "brea-gaudioso"
+    },
+    {
+        "start": "2019-11-08T11:25:00-07:00",
+        "end": "2019-11-08T12:25:00-07:00",
+        "location": "lightning",
+        "speaker": "tre-tuna"
+    },
+    {
+        "start": "2019-11-08T11:40:00-07:00",
+        "end": "2019-11-08T12:40:00-07:00",
+        "location": "lightning",
+        "speaker": "daniel-lemay"
+    },
+    {
+        "start": "2019-11-08T13:40:00-07:00",
+        "end": "2019-11-08T14:05:00-07:00",
+        "location": "main",
+        "speaker": "samantha-siow"
+    },
+    {
+        "start": "2019-11-08T14:10:00-07:00",
+        "end": "2019-11-08T14:35:00-07:00",
+        "location": "main",
+        "speaker": "ej-mason"
+    },
+    {
+        "start": "2019-11-08T14:40:00-07:00",
+        "end": "2019-11-08T15:05:00-07:00",
+        "location": "main",
+        "speaker": "daria-caraway"
+    },
+    {
+        "start": "2019-11-08T13:40:00-07:00",
+        "end": "2019-11-08T13:50:00-07:00",
+        "location": "lightning",
+        "speaker": "geoff-cox"
+    },
+    {
+        "start": "2019-11-08T13:55:00-07:00",
+        "end": "2019-11-08T14:05:00-07:00",
+        "location": "lightning",
+        "speaker": "jim-liu"
+    },
+    {
+        "start": "2019-11-08T14:10:00-07:00",
+        "end": "2019-11-08T14:20:00-07:00",
+        "location": "lightning",
+        "speaker": "injoong-yoon"
+    },
+    {
+        "start": "2019-11-08T14:25:00-07:00",
+        "end": "2019-11-08T14:35:00-07:00",
+        "location": "lightning",
+        "speaker": "guillaume-peugniez"
+    },
+    {
+        "start": "2019-11-08T15:30:00-07:00",
+        "end": "2019-11-07T15:55:00-07:00",
+        "location": "main",
+        "speaker": "charlie-gerard"
+    },
+    {
+        "start": "2019-11-08T16:00:00-07:00",
+        "end": "2019-11-08T16:25:00-07:00",
+        "location": "main",
+        "speaker": "brian-holt"
     }
 ]
