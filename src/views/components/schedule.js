@@ -27,7 +27,7 @@ module.exports = function Schedule ({assetPath}) {
                         <div class="item"><i class="fas fa-door-open"></i> Doors open at Town Hall.</div>
                         <div class="byline">Register in the lobby. Venue sponsored by
                             <a href="https://www.amazon.jobs/en/jobs/920890/frontend-engineer">
-                                <img src="${assetPath}/images/sponsors/aws.svg" alt="aws logo"/>
+                                <img height="50px" src="${assetPath}/images/sponsors/aws-white.svg" alt="aws logo"/>
                             </a>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ module.exports = function Schedule ({assetPath}) {
                         <div class="location">Great Hall - Level 3</div>
                         <div class="item">Opening Ceremonies</div>
                         <div class="byline">Day One Talks brought to you by
-                            <a href="https://formidable.com"><img src="${assetPath}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
+                            <a href="https://formidable.com"><img src="${assetPath}/images/sponsors/formidable-white.svg" height="25px" alt="Formidable logo"/></a>
                         </div>
                         ${printTalk("main", "2019-11-07T09:45:00-07:00")}
                         ${printTalk("main", "2019-11-07T10:15:00-07:00")}
@@ -52,6 +52,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="what">
                     <div>
                         <div class="item"><i class="fas fa-coffee"></i> Coffee Break</div>
+                        <div class="byline">Take a break, get some coffee, submit that PR you've been working on.</div>
                     </div>
                 </div>
             </div>
@@ -105,6 +106,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="what">
                     <div>
                         <div class="item"><i class="fas fa-coffee"></i> Coffee Break</div>
+                        <div class="byline">Take a break, get some coffee, type up on some notes these awesome talks.</div>
                     </div>
                 </div>
             </div>
@@ -147,7 +149,7 @@ module.exports = function Schedule ({assetPath}) {
                         <div class="item"><i class="fas fa-door-open"></i> Doors open at Town Hall.</div>
                         <div class="byline">Register in the lobby. Venue sponsored by
                             <a href="https://www.amazon.jobs/en/jobs/920890/frontend-engineer">
-                                <img src="${assetPath}/images/sponsors/aws.svg" alt="aws logo"/>
+                                <img src="${assetPath}/images/sponsors/aws-white.svg" height="50px" alt="aws logo"/>
                             </a>
                         </div>
                     </div>
@@ -160,7 +162,7 @@ module.exports = function Schedule ({assetPath}) {
                         <div class="location">Great Hall - Level 3</div>
                         <div class="item">Opening Ceremonies</div>
                         <div class="byline">Day Two Talks brought to you by
-                            <a href="https://fizbuz.com"><img src="${assetPath}/images/sponsors/fizbuz.svg" alt="Fizbuz logo"/></a>
+                            <a href="https://fizbuz.com"><img src="${assetPath}/images/sponsors/fizbuz-white.svg" height="25px" alt="Fizbuz logo"/></a>
                         </div>
                         ${printTalk("main", "2019-11-08T09:30:00-07:00")}
                         ${printTalk("main", "2019-11-08T10:00:00-07:00")}
@@ -172,6 +174,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="what">
                     <div>
                         <div class="item"><i class="fas fa-coffee"></i> Coffee Break</div>
+                        <div class="byline">Take a break, get some coffee, chat with an engineering manager about their team.</div>
                     </div>
                 </div>
             </div>
@@ -225,6 +228,8 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="what">
                     <div>
                         <div class="item"><i class="fas fa-coffee"></i> Coffee Break</div>
+                        <div class="byline">Take a break, get some coffee, make reservations for dinner with your new friends.</div>
+
                     </div>
                 </div>
             </div>

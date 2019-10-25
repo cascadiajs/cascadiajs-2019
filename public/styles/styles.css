@@ -402,7 +402,6 @@ a.cta:hover {
 }
 
 .schedule .entry img[src$=".svg"] {
-	height: 40px;
 	vertical-align: middle;
 	margin: 0 5px 0 5px;
 }
@@ -437,7 +436,7 @@ a.cta:hover {
 
 .schedule .entry .what .byline {
 	color: #939598;
-	margin-bottom: 8px;
+	margin-bottom: 16px;
 }
 
 .schedule .entry .what .item a, #schedule .entry .what .item a:visited {
