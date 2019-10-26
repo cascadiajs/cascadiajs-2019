@@ -68,7 +68,7 @@ module.exports = function Schedule ({assetPath}) {
                     <div class="lightning">
                         <div class="location">Forum - Level 1</div>
                         ${printTalk("lightning", "2019-11-07T11:10:00-07:00")}
-                        ${printTalk("lightning", "2019-11-07T11:25:00-07:00")}
+                        <!--  EMPTY SLOT -->
                         ${printTalk("lightning", "2019-11-07T11:40:00-07:00")}
                         ${printTalk("lightning", "2019-11-07T11:55:00-07:00")}
                     </div>
