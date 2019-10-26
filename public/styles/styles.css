@@ -456,6 +456,18 @@ a.cta:hover {
 	margin-bottom: 20px;
 }
 
+#getting-started {
+	background-color: #ccc;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+#getting-started img {
+	height: 25px;
+	margin-left:10px;
+	vertical-align: middle;
+}
+
 /* Mailchimp embed styles */
 
 #mce-EMAIL {

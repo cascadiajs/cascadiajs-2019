@@ -40,6 +40,7 @@ module.exports = function mainLayout (props) {
           <!--a href="/tickets"><i class="fas fa-ticket-alt"></i>Tickets</a-->
           <a href="/schedule"><i class="fas fa-calendar"></i>Schedule</a>
           <a href="/speakers"><i class="fas fa-microphone"></i>Speakers</a>
+          <a href="/getting-started"><i class="fas fa-play"></i>Quickstart</a>
           <a href="/why-cascadiajs"><i class="fas fa-heart-square"></i>About</a>
           <!--a href="/scholarships"><i class="fas fa-user-graduate"></i>Scholarships</a-->
           <a href="/sponsor"><i class="fas fa-hand-holding-seedling"></i>Sponsor Us</a>
@@ -57,7 +58,7 @@ module.exports = function mainLayout (props) {
           <section id="sponsors-gold">
             <a href="https://fizbuz.com"><img src="${assetPath}/images/sponsors/fizbuz.svg" alt="Fizbuz logo"/></a>
             <a href="https://formidable.com"><img src="${assetPath}/images/sponsors/formidable.svg" alt="Formidable logo"/></a>
-            <a href="https://heroku.com"><img src="${assetPath}/images/sponsors/heroku.svg" alt="heroku logo"/></a>
+            <a href="/getting-started"><img src="${assetPath}/images/sponsors/heroku.svg" alt="heroku logo"/></a>
             <a href="https://opensource.facebook.com/"><img src="${assetPath}/images/sponsors/fboss.svg" alt="Facebook Open Source logo"/></a>
           </section>
           <section id="sponsors-silver">

@@ -1,5 +1,5 @@
 module.exports = function SpeakerTemplate (props) {
-  let {person, speakerAssetPath} = props
+  let {person, assetPath, speakerAssetPath, gettingStartedItem} = props
   let {name, id, location, company, talkTitle, abstract, url} = person
 
   return /*html*/`
@@ -18,6 +18,12 @@ module.exports = function SpeakerTemplate (props) {
     </div>
     <h2>Talk: ${talkTitle}</h2>
     <div class="abstract">${abstract}</div>
+  </section>
+  <section id="getting-started">
+    <p><i>And now a message from our sponsors</i> ✨</p>
+    <p>Just getting started with JavaScript? Here's a ${gettingStartedItem.type} from our friends at <a href="/getting-started"><img src="${assetPath}/images/sponsors/heroku.svg"/></a></p>
+    <p><a href="${gettingStartedItem.url}">${gettingStartedItem.title}</a></p>
+    
   </section>
 </div>
 `

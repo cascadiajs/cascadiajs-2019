@@ -1,0 +1,52 @@
+[
+    {
+        "type": "guide",
+        "title": "Getting started with Node.js",
+        "url": "https://devcenter.heroku.com/articles/getting-started-with-nodejs"
+    },
+    {
+        "type": "podcast",
+        "title": "Code[ish] #16 / Accessibility in Web Standards",
+        "url": "https://www.heroku.com/podcasts/codeish/16-accessibility-in-web-standards"
+    },
+    {
+        "type": "podcast",
+        "title": "Code[ish] #19 / Securing the Web with Let's Encrypt",
+        "url": "https://www.heroku.com/podcasts/codeish/19-securing-the-web-with-lets-encrypt"
+    },
+    {
+        "type": "podcast",
+        "title": "Code[ish] #20 / Becoming a Junior Developer",
+        "url": "https://www.heroku.com/podcasts/codeish/20-becoming-a-junior-developer"
+    },
+    {
+        "type": "podcast",
+        "title": "Code[ish] #35 / Bringing Open Source to Work",
+        "url": "https://www.heroku.com/podcasts/codeish/35-bringing-open-source-to-work"
+    },
+    {
+        "type": "podcast",
+        "title": "Code[ish] #38 / Building with Web Components",
+        "url": "https://www.heroku.com/podcasts/codeish/38-building-with-web-components"
+    },
+    {
+        "type": "tutorial",
+        "title": "Best Practices for Node.js Development",
+        "url": "https://devcenter.heroku.com/articles/node-best-practices"
+    },
+    {
+        "type": "tutorial",
+        "title": "How to Make a Progressive Web App From Your Existing Website",
+        "url": "https://blog.heroku.com/how-to-make-progressive-web-app"
+    },
+    {
+        "type": "tutorial",
+        "title": "Using WebSockets with Node.js",
+        "url": "https://devcenter.heroku.com/articles/node-websockets"
+    },
+    {
+        "type": "tutorial",
+        "title": "Scaling an Express.js Application with Memcache",
+        "url": "https://devcenter.heroku.com/articles/expressjs-memcache"
+    }
+]
