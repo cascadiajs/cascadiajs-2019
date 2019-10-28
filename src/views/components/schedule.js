@@ -269,7 +269,11 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="what">
                     <div>
                         <div class="item"><i class="fas fa-egg-fried"></i> Farewell Brunch</div>
-                        <div class="byline">Join us for brunch before you leave Cascadia!</div>
+                        <div class="byline">
+                            Join us for brunch before you leave Cascadia! Many of us will be meeting
+                            up at Daniel's Broiler downtown. Please make sure you 
+                            <a href="https://www.schwartzbros.com/locations/daniels-broiler-downtown/">make a reservation</a>!
+                        </div>
                     </div>
                 </div>
             </div>
