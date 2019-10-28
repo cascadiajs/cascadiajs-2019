@@ -46,7 +46,7 @@ blockquote {
 	color: #777;
 }
 
-pre code {
+pre, pre code {
 	white-space: pre-wrap;    
 }
 
