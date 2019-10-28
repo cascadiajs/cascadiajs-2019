@@ -1,4 +1,4 @@
-# Travelling to CascadiaJS
+# Traveling to CascadiaJS
 
 For those of you who do not live in Seattle, we have you covered! Please check out this travel guide for more information about how to get to Seattle and where to stay while you are here.
 
@@ -8,11 +8,10 @@ In order to best plan your stay, here is a rough schedule of events. We will con
 
 * Mon: React Workshop
 * Tue: GraphQL Workshop
-* Wed: GraphQL Workshop / Speaker Dinner / Pre-Conference Mixer
+* Wed: GraphQL Workshop / Speaker Dinner / Mentor Mixer
 * Thu: Day One Talks / Opening Party
 * Fri: Day Two Talks / Closing Party
-* Sat: Farewell Brunch / TBD activities
-* Sun: TBD activities
+* Sat: Farewell Brunch
 
 ## Crossing the Border to the United States
 
