@@ -2,11 +2,17 @@ let data = require('@begin/data')
 const tiny = require('tiny-json-http')
 
 const fetchFromApi = async () => {
-  let url = 'https://fizbuz.com/graphql'
-  let data = {query: '{accountsByPlaceID(placeID:"PLoz9mrq5pvw8xvvnomxq71kjlngx406"){name,nickname,image}}'}
-  //console.log('calling API')
-  let attendeeData = await tiny.post({url, data})
-  // should probably cache this data some kind of smart way (5 minutes or so)
+  let attendeeData
+  if (process.env.NODE_ENV !== 'testing') {
+    let url = 'https://fizbuz.com/graphql'
+    let data = {query: '{accountsByPlaceID(placeID:"PLoz9mrq5pvw8xvvnomxq71kjlngx406"){name,nickname,image}}'}
+    attendeeData = await tiny.post({url, data})
+  }
+  else {
+    // make local dev without Internet access better
+    attendeeData = {body: {data: {accountsByPlaceID: []}}}
+  }
+
   return attendeeData.body.data.accountsByPlaceID
 }
 
@@ -36,7 +42,8 @@ module.exports = async function getSpeakerData () {
   }
   catch (err) {
     console.log(err)
-    throw Error(err)
+    // if we fail to fetch from the API, just return an empty array
+    attendeeData = []
   }
 
   return attendeeData

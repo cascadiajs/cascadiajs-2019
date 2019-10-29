@@ -51,7 +51,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="when">10:45</div>
                 <div class="what">
                     <div>
-                        <div class="item"><i class="fas fa-coffee"></i> Coffee Break</div>
+                        <div class="item"><i class="fas fa-coffee"></i> Coffee Break by <a href="https://www.tougocoffee.com"><img src="${assetPath}/images/tougo-white.png" height="50px"/></a></div>
                         <div class="byline">Take a break, get some coffee, submit that PR you've been working on.</div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="when">15:30</div>
                 <div class="what">
                     <div>
-                        <div class="item"><i class="fas fa-coffee"></i> Coffee Break</div>
+                        <div class="item"><i class="fas fa-coffee"></i> Coffee Break by <a href="https://www.tougocoffee.com"><img src="${assetPath}/images/tougo-white.png" height="50px"/></a></div>
                         <div class="byline">Take a break, get some coffee, type up on some notes these awesome talks.</div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="when">10:30</div>
                 <div class="what">
                     <div>
-                        <div class="item"><i class="fas fa-coffee"></i> Coffee Break</div>
+                        <div class="item"><i class="fas fa-coffee"></i> Coffee Break by <a href="https://www.tougocoffee.com"><img src="${assetPath}/images/tougo-white.png" height="50px"/></a></div>
                         <div class="byline">Take a break, get some coffee, chat with an engineering manager about their team.</div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="when">15:10</div>
                 <div class="what">
                     <div>
-                        <div class="item"><i class="fas fa-coffee"></i> Coffee Break</div>
+                        <div class="item"><i class="fas fa-coffee"></i> Coffee Break by <a href="https://www.tougocoffee.com"><img src="${assetPath}/images/tougo-white.png" height="50px"/></a></div>
                         <div class="byline">Take a break, get some coffee, make reservations for dinner with your new friends.</div>
 
                     </div>

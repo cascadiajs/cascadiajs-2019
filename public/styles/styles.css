@@ -401,9 +401,9 @@ a.cta:hover {
 	display:flex;
 }
 
-.schedule .entry img[src$=".svg"] {
+.schedule .entry img {
 	vertical-align: middle;
-	margin: 0 5px 0 5px;
+	margin: 5px;
 }
 
 .schedule h3 {
