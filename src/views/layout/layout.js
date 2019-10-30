@@ -40,12 +40,13 @@ module.exports = function mainLayout (props) {
           <!--a href="/tickets"><i class="fas fa-ticket-alt"></i>Tickets</a-->
           <!--a href="/schedule"><i class="fas fa-calendar"></i>Schedule</a-->
           <a href="/speakers"><i class="fas fa-microphone"></i>Speakers</a>
-          <a href="/getting-started"><i class="fas fa-play"></i>Quickstart</a>
-          <a href="/seattle-guide"><i class="fas fa-map"></i>Seattle Guide</a>
+          <!--a href="/getting-started"><i class="fas fa-play"></i>Quickstart</a-->
+          <a href="/jobs"><i class="fas fa-laptop"></i>Jobs</a>
+          <a href="/seattle-guide"><i class="fas fa-map"></i>Directions</a>
+          <a href="/travel"><i class="fas fa-suitcase"></i>Travel</a>
           <!--a href="/why-cascadiajs"><i class="fas fa-heart-square"></i>About</a-->
           <!--a href="/scholarships"><i class="fas fa-user-graduate"></i>Scholarships</a-->
-          <a href="/sponsor"><i class="fas fa-hand-holding-seedling"></i>Sponsor Us</a>
-          <a href="/travel"><i class="fas fa-suitcase"></i>Travel</a>
+          <!--a href="/sponsor"><i class="fas fa-hand-holding-seedling"></i>Sponsor Us</a-->
           <a href="/accessibility"><i class="fab fa-accessible-icon"></i>Accessibility</a>
           <a href="/code-of-conduct"><i class="fas fa-dove"></i>Code of Conduct</a>
         </nav>
