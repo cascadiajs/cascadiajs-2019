@@ -71,6 +71,7 @@ module.exports = function mainLayout (props) {
             <a href="https://docusign.com"><img src="${assetPath}/images/sponsors/docusign.svg" alt="docusign logo"/></a>
             <a href="https://auth0.com"><img src="${assetPath}/images/sponsors/auth0.svg" alt="auth0 logo"/></a>
             <a href="https://www.zulily.com/careers"><img src="${assetPath}/images/sponsors/zulily.svg" alt="zulily logo"/></a>
+            <a href="/spaces"><img src="${assetPath}/images/sponsors/spaces.svg" alt="spaces logo"/></a>
           </section>
         </section>
         <section id="footer-community">    
