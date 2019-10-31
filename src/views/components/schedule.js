@@ -79,7 +79,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="what">
                     <div>
                         <div class="item"><i class="fas fa-sandwich"></i> Lunch Break</div>
-                        <div class="byline">Lunch will be served in the Forum, on Level 1</div>
+                        <div class="byline">Lunch will be served in the Forum, on Level 1 <a href="/menus">(MENU)</a></div>
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="what">
                     <div>
                         <div class="item"><i class="fas fa-sparkles"></i> Opening Party</div>
-                        <div class="byline">We will host the Opening Party on-site at Town Hall!</div>
+                        <div class="byline">We will host the Opening Party on-site at Town Hall! A light dinner will be served. <a href="/menus">(MENU)</a></div>
                     </div>
                 </div>
             </div>
@@ -201,7 +201,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="what">
                     <div>
                         <div class="item"><i class="fas fa-sandwich"></i> Lunch Break</div>
-                        <div class="byline">Lunch will be served in the Forum, on Level 1</div>
+                        <div class="byline">Lunch will be served in the Forum, on Level 1. <a href="/menus">(MENU)</a></div>
                     </div>
                 </div>
             </div>
