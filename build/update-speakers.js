@@ -1,3 +1,8 @@
+/**
+ * Disabled Nov 2019 - no more secrets to keep!
+ */
+
+/*
 const fs = require('fs')
 const join = require('path').join
 const hydrate = require('@architect/hydrate')
@@ -49,3 +54,4 @@ async function updateSpeakers () {
 }
 
 updateSpeakers()
+*/
