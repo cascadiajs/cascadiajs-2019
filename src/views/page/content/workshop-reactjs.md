@@ -6,9 +6,7 @@
 
 Formidable will hold a full-day React training workshop on *Monday, November 4th* prior to the conference. The workshop will cover some of the new patterns introduced in React 16 such as fragments, error boundaries, context, and hooks. More info on the workshop below!
 
-<a class="cta" href="https://fizbuz.com/signup?placeID=PLoz9mrq5pvw8xvvnomxq71kjlngx406&forwardUrl=https%3A%2F%2Fti.to%2Fevent-loop%2Fcascadiajs-2019%2Fwith%2Fnfb9f7-vxei%2C2jsnjwraibu%2Cdarlfcbexuy%2Coxxgtirrr5o%2Cgxtdhvhs2s8%2Cqzjnfesyonm%2Ccip51mg0glk%2C5atc3qhk-60">Buy a Combo Conference + Workshop Ticket ($1200)</a>
-
-<a class="cta" href="https://ti.to/event-loop/cascadiajs-2019/with/esy5m-g5vs0">Buy a Standalone Workshop Ticket ($600)</a>
+<a class="cta nope" href="#">SOLD OUT</a>
 
 ## Prerequisites
 
