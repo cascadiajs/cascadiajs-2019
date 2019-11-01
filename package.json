@@ -1,6 +1,6 @@
 {
   "name": "begin-app",
-  "version": "1.0.63",
+  "version": "1.0.64",
   "description": "Begin app",
   "scripts": {
     "lint": "eslint src --ignore-pattern node_modules --fix",
