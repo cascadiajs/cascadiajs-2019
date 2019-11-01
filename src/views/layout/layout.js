@@ -39,6 +39,7 @@ module.exports = function mainLayout (props) {
           <a href="/"><i class="fas fa-home"></i>Home</a>
           <!--a href="/tickets"><i class="fas fa-ticket-alt"></i>Tickets</a-->
           <!--a href="/schedule"><i class="fas fa-calendar"></i>Schedule</a-->
+          <a href="/venue"><i class="fas fa-home"></i>Venue</a>
           <a href="/speakers"><i class="fas fa-microphone"></i>Speakers</a>
           <!--a href="/getting-started"><i class="fas fa-play"></i>Quickstart</a-->
           <a href="/jobs"><i class="fas fa-laptop"></i>Jobs</a>
