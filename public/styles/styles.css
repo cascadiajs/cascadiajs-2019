@@ -331,7 +331,7 @@ a.cta:hover {
 
 #organizer-list .organizer {
 	height: 350px;
-	width: 200px;
+	width: 180px;
 	display:flex;
 	flex-direction: column;
 	margin-right: 8px;
@@ -339,8 +339,8 @@ a.cta:hover {
 }
 
 #organizer-list .organizer a, #organizer-list .organizer img {
-	height: 200px;
-	width: 200px;
+	height: 180px;
+	width: 180px;
 }
 
 #organizer-list .organizer-info {
@@ -391,7 +391,6 @@ a.cta:hover {
 }
 
 .schedule {
-	padding: 16px;
 	background-color: #232721;
 	color: #fff;
 
@@ -413,30 +412,31 @@ a.cta:hover {
 
 .schedule .entry .when {
 	flex: 0 0 50px;
-	padding:16px 30px 8px 0;
+	padding:16px 5px 8px 0;
 	border-right: 1px solid #4e524d;
 }
 
 .schedule .entry .what {
-	padding: 16px 0 0 16px;
+	padding: 16px 0 0 5px;
 }
 
 .schedule .entry .what .location {
 	font-family: rift-soft;
 	color: #ffd101;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	margin-bottom: 8px;
 	line-height: 0.8em;
 }
 
 .schedule .entry .what .item {
-	font-size: 1.25em;
+	font-size: 1em;
 	font-weight: 500;
 }
 
 .schedule .entry .what .byline {
 	color: #939598;
 	margin-bottom: 16px;
+	font-size: 0.75em;
 }
 
 .schedule a, .schedule a:visited {
@@ -602,9 +602,33 @@ a.cta:hover {
 		max-height: 200px;
 	}
 
+	.schedule {
+		padding: 16px;
+	}
+
+	.schedule .entry .when {
+		flex: 0 0 70px;
+		padding:16px 20px 8px 0;
+	}
+
 	.schedule .entry .what {
+		padding: 16px 0 0 20px;
 		flex: 1;
 		display: flex;
+	}
+
+
+
+	.schedule .entry .what .location {
+		font-size: 1.75em;
+	}
+
+	.schedule .entry .what .item {
+		font-size: 1.25em;
+	}
+	
+	.schedule .entry .what .byline {
+		font-size: 1em;
 	}
 
 	.schedule .entry .what .mainstage {

@@ -25,7 +25,7 @@ module.exports = function Schedule ({assetPath}) {
                 <div class="what">
                     <div class="registration">
                         <div class="item"><i class="fas fa-door-open"></i> Doors open at Town Hall.</div>
-                        <div class="byline">Register in the lobby. Venue sponsored by
+                        <div class="byline">Register in the lobby.<br/>Venue sponsored by
                             <a href="https://www.amazon.jobs/en/jobs/920890/frontend-engineer">
                                 <img height="50px" src="${assetPath}/images/sponsors/aws-white.svg" alt="aws logo"/>
                             </a>
