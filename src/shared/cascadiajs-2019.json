@@ -294,15 +294,15 @@
   {
     "id": "eran-hammer",
     "name": "Eran Hammer",
-    "location": "San Francisco, CA",
+    "location": "Los Gatos, CA",
     "talkTitle": "Fair Trade Open Source",
     "reveal": "2019-10-14T06:00:00-07:00",
     "topic": "",
     "pronouns": [],
-    "twitter": "",
+    "twitter": "eranhammer",
     "company": "Sideway, Inc",
     "track": "main",
-    "abstract": "What does “sustainable open source” means and how we can create a common vocabulary discussing it? Different people have very different motivations behind their open source work and what makes it sustainable (for them). There is no one size fits all. When we talk about sustainability we often mean fairness. The talk will propose a simple solution to measure how sustainable and fair an open source project is, based on the sum of the individual feelings of those contributing to its overall functionality.",
+    "abstract": "What does “sustainable open source” means and how we can create a common vocabulary discussing it? Different people have very different motivations behind their open source work and what makes it sustainable (for them). We'll talk a strall through the open source funding landscape and discuss what fairness means.",
     "pixelated": "798719a213cb7470078133da88af9cc5db62be21.png"
   },
   {
