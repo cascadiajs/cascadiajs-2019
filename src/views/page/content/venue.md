@@ -6,6 +6,8 @@ CascadiaJS 2019 is taking place at Town Hall Seattle, one of the most historic b
 1119 8th Ave
 Seattle, WA 98101</pre>
 
+Town Hall Seattle has a really great [planning your visit guide](https://townhallseattle.org/plan-your-visit/) that include more information about how to get their, accessibility information, etc. Please review it if you have any questions or concerns.
+
 ## Getting to the Venue
 
 We strongly encourage folks to take public transportation to the conference and to arrive as early as possible. Town Hall Seattle is located in downtown Seattle and the traffic is pretty awful during the work week. 
