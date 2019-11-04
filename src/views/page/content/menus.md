@@ -6,17 +6,19 @@ Below are the food items that will be served at CascadiaJS. Please plan accordin
 * (vg) = vegan
 * (gf) = gluten-free
 
+Items that have any kind of nut (almond, pine nut, pecan) are indicated specifically.
+
 ## Nov 7 
 
 ### Breakfast 
 
-<pre>BANANA PECAN OAT MUFFINS (v)
+<pre>BANANA PECAN OAT MUFFINS (v) (pecans)
 oat streusel topping
 
 FETA OLIVE SUNDRIED TOMATO SCONES (v)
 brushed with cream
 
-HONEY GRANOLA BARS (v)
+HONEY GRANOLA BARS (v) (almonds)
 oats, apricots, almonds, raisins, cranberries, coconut flakes, millet
 seeds</pre>
 
@@ -31,7 +33,7 @@ thyme grilled chicken breast, eggplant caponata, smoked mozzarella, lettuce, tom
 THE KIPOS (v)
 cucumber, bell peppers, grilled eggplant, arugula, kalamata olive tapenade, lemon oregano aioli, feta spread, tortilla wrap, served with tim's potato chips & a salted chocolate chip cookie
 
-MEDITERRANEAN SALAD (gf) (v)
+MEDITERRANEAN SALAD (gf) (vg)
 hummus, baba ganouj, tapenade with crudite, quinoa salad, served with a bag of tim's potato chips, and a gluten free cookie
 
 THE KIPOS with gluten-free wrap (gf) (v)
@@ -78,8 +80,8 @@ top round roast beef, mizuna, grilled red onion, horseradish boursin spread, bri
 CLUB TURKEY WRAP
 lettuce, tomato, lime avocado spread, bacon jam, colby jack, spinach tortilla wrap, served with tim's potato chips & a salted chocolate chip cookie
 
-MOZZA-BELLA (v)
-grilled portabello, heirloom tomato, fresh mozzarella, basil pesto, aracadia greens, baguette, served with tim's potato chips & a salted chocolate chip cookie
+MOZZA-BELLA (v) (pine nuts)
+grilled portabello, heirloom tomato, fresh mozzarella, basil pesto (contains pine nuts), aracadia greens, baguette, served with tim's potato chips & a salted chocolate chip cookie
 
 BOMBAY MASALA SANDWICH (vg)
 potato, cucumber, tomato, beets, coriander-mint pesto chutney, salt & pepper, scala bread, served with tim's potato chips, & vegan cookie
