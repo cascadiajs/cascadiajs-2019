@@ -35,7 +35,7 @@ MEDITERRANEAN SALAD (gf) (v)
 hummus, baba ganouj, tapenade with crudite, quinoa salad, served with a bag of tim's potato chips, and a gluten free cookie
 
 THE KIPOS with gluten-free wrap (gf) (v)
-cucumber, bell peppers, grilled eggplant, arugula, kalamata olive tapenade, lemon oregano aioli, feta spread, gluten-free wrap, served with tim's potato chips & a salted chocolate chip cookie</pre>
+cucumber, bell peppers, grilled eggplant, arugula, kalamata olive tapenade, lemon oregano aioli, feta spread, gluten-free wrap, served with tim's potato chips & a gluten free cookie</pre>
 
 ### Opening Party 
 
@@ -85,4 +85,4 @@ BOMBAY MASALA SANDWICH (vg)
 potato, cucumber, tomato, beets, coriander-mint pesto chutney, salt & pepper, scala bread, served with tim's potato chips, & vegan cookie
 
 CLUB TURKEY WRAP with gluten-free wrap (gf)
-lettuce, tomato, lime avocado spread, bacon jam, colby jack, gluten-free wrap, served with tim's potato chips & a salted chocolate chip cookie</pre>
+lettuce, tomato, lime avocado spread, bacon jam, colby jack, gluten-free wrap, served with tim's potato chips & a gluten free cookie</pre>
