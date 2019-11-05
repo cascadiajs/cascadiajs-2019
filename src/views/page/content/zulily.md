@@ -4,7 +4,7 @@ Zulily is a retailer obsessed with bringing our customers something special ever
 
 As a Software Engineer at Zulily, you are chartered with building the technology that powers the second fastest growing online retailer in history.  Our incredible growth means we face new challenges on a consistent basis.  In this position, you must explore new technologies and collaborate with other engineers to design and build world-class technical services.  Your team deploys production code rapidly to keep pace with Zulily’s changing business, you are mindful of avoiding technical debt, and you take ownership of your team's roadmap and everything you do.
 
-The Zulily Tech Team is hiring Software Engineers at all levels. We would have openings for Mid-Level (2+ years of experience), Senior Level (4+ years of experience) and Lead Level (8+ years of experience) Engineers across our Tech Teams.  
+Zulily is hiring Software Engineers at all levels. We would have openings for Mid-Level, Senior Level and Lead Level Engineers across our developer teams.  
 
 Essential Job Functions:
 - Collaborate across business teams (stakeholders) 
