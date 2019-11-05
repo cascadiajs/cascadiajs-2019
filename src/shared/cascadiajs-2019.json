@@ -436,14 +436,14 @@
     "id": "daniel-lemay",
     "name": "Daniel Lemay",
     "location": "Portland, OR",
-    "talkTitle": "Faster development with Gatsby Themes",
+    "talkTitle": "Faster development with Gatsby Themes: A Case Study with Major League Soccer",
     "reveal": "2019-10-14T06:00:00-07:00",
     "topic": "",
     "pronouns": [],
-    "twitter": "",
+    "twitter": "dslemay",
     "company": "Phase2 Technology",
     "track": "lightning",
-    "abstract": "From providing multilingual support to shared componentry, config and more, Gatsby Themes enable you to quickly spin up new sites. Discover lessons learned from using themes in production for a multi-site platform.",
+    "abstract": "From providing multilingual support to shared componentry, config and more, Gatsby Themes enable you to quickly spin up new sites. Discover lessons learned from using themes in production for a Major League Soccer multi-site platform.",
     "pixelated": "1173b7a5f8923a0c57d798473bb60aab09024cd5.png"
   },
   {
