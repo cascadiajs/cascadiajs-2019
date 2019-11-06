@@ -31,7 +31,7 @@ module.exports = async function Speaker (req) {
 
   // pick a random piece of technical content to inject
   //console.log(gettingStartedData)
-  let gettingStartedItem = gettingStartedData[Math.floor(Math.random() * gettingStartedData.length - 1)]
+  let gettingStartedItem = gettingStartedData[Math.floor(Math.random() * gettingStartedData.length)]
   //console.log(gettingStartedItem)
   let content = Template({person, assetPath, speakerAssetPath, gettingStartedItem})
 

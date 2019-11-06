@@ -1,14 +1,20 @@
 <div id="twitch-embed"></div>
 
-<p>Live Stream brought to you by</p>
-<p><a href="/getting-started"><img src="${STATIC}/images/sponsors/heroku.svg"/></a></p>
+<p>All Main Stage talks are being live streamed on Twitch! Please reference the <a href="/schedule">schedule</a> to see
+    who's coming up.</p>
+
+<p>Live Stream brought to you by Heroku! In addition to streaming our talks, they have put together an amazing <a
+        href="/getting-started">Getting Started</a>
+    on building and deploying JavaScript web applications. Check it out!</p>
+
+<p><a href="/getting-started"><img src="${STATIC}/images/sponsors/heroku.svg" /></a></p>
 
 <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
 <script type="text/javascript">
     new Twitch.Embed("twitch-embed", {
-    width: 854,
-    height: 480,
-    channel: "cascadiajs"
+        width: 854,
+        height: 480,
+        channel: "cascadiajs"
     });
 </script>
