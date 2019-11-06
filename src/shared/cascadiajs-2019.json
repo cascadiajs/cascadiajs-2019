@@ -307,16 +307,16 @@
   },
   {
     "id": "beryle-egerter",
-    "name": "Beryle Egerter",
+    "name": "Beryl Egerter",
     "location": "Seattle, WA",
-    "talkTitle": "Integration Testing Applications and Accessibility",
+    "talkTitle": "How User Centered Build Time Integration Tests Benefit You and Your Users",
     "reveal": "2019-10-14T06:00:00-07:00",
     "topic": "",
     "pronouns": [],
     "twitter": "",
     "company": "Zillow Group",
     "track": "lightning",
-    "abstract": "This talk will cover the factors and decisions that led my team to prefer integration tests for our web applications as well as how it allows us to create automated accessibility tests throughout an interaction workflow.",
+    "abstract": "This talk will cover the factors and decisions that led my team to prefer user centered build time integration tests for our web applications as well as how it allows us to create automated accessibility tests throughout an interaction workflow.",
     "pixelated": "276daa1c52d0bc12912afc927e9a7b6f441fd442.png"
   },
   {
