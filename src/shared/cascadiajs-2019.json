@@ -323,14 +323,14 @@
     "id": "kyle-jacobson",
     "name": "Kyle Jacobson",
     "location": "Seattle, WA",
-    "talkTitle": "The Bizarro Web",
+    "talkTitle": "The Bizarro Web: a World where SPAs are Scarce.",
     "reveal": "2019-10-14T06:00:00-07:00",
     "topic": "",
     "pronouns": [],
     "twitter": "",
     "company": "Hearsay Systems",
     "track": "lightning",
-    "abstract": "Now's a good time to turn a critical eye toward our single page app assumptions.",
+    "abstract": "Now's a good time to turn a critical eye toward our single page app assumptions.\nThe evolution of the web was never on an inevitable path; it was a loosely-coordinated series of decisions by standards-making bodies, browser makers, and developers that could have gone very differently. It still can.",
     "pixelated": "3dce845d37fc2dc7651fd2647301dd0bd107ada0.png"
   },
   {
