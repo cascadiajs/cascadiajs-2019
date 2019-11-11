@@ -108,7 +108,7 @@
     "id": "claudius-mbemba",
     "name": "Claudius Mbemba",
     "location": "Seattle, WA",
-    "talkTitle": "Scalable Distributed Messaging with Kafka and K8",
+    "talkTitle": "Scalable Distributed Messaging with Kafka",
     "reveal": "2019-08-27T14:00:00-07:00",
     "topic": "Scaling",
     "pronouns": [],
