@@ -195,6 +195,8 @@
     "pronouns": [],
     "twitter": "trivikram",
     "url": "https://fizbuz.com/u/trivikr",
+    "slides": "https://slides.com/trivikram/nodejs-quic-http3-cascadiajs",
+    "resources": ["https://github.com/trivikr/node-http-servers"],
     "company": "Amazon",
     "track": "main",
     "abstract": "Work is currently underway to develop an implementation of the new QUIC protocol with Node.js core. While still very experimental and new, this protocol will enable exciting new possibilities and applications. This talk will introduce the fundamentals of QUIC and the prototype implementation being developed.",
