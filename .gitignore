@@ -3,3 +3,4 @@
 build/speakers/dest/*.*
 build/speakers/source/*.*
 node_modules
+*.lock
