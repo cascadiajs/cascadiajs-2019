@@ -15,7 +15,7 @@ module.exports = function SpeakerTemplate (props) {
         <p>${company}</p>
         ${url ? `<h4>Website</h4><p><a href="${url}">${url.split("://")[1]}</a></p>` : ''}
         ${slides ? `<h4>Slides</h4><p><a href="${slides}">${slides.split("://")[1]}</a></p>` : ''}
-        ${resources ? `<h4>Resources</h4>${resources.map(r => `<p><a href="${r}">${r.split("://")[1]}</a></p>` )}` : ''}
+        ${resources ? `<h4>Resources</h4>${resources.map(r => `<p><a href="${r}">${r.split("://")[1]}</a></p>` ).join('')}` : ''}
       </div>
     </div>
     <h2>Talk: ${talkTitle}</h2>
