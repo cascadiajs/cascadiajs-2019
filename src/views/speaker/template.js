@@ -1,6 +1,6 @@
 module.exports = function SpeakerTemplate (props) {
   let {person, assetPath, speakerAssetPath, gettingStartedItem} = props
-  let {name, id, location, company, talkTitle, abstract, url} = person
+  let {name, id, location, company, talkTitle, abstract, url, slides} = person
 
   return /*html*/`
 <div class="default page">
@@ -14,6 +14,7 @@ module.exports = function SpeakerTemplate (props) {
         <h4>Company</h4>
         <p>${company}</p>
         ${url ? `<h4>Website</h4><p><a href="${url}">${url.split("://")[1]}</a></p>` : ''}
+        ${slides ? `<h4>Slides</h4><p><a href="${slides}">${slides.split("://")[1]}</a></p>` : ''}
       </div>
     </div>
     <h2>Talk: ${talkTitle}</h2>
