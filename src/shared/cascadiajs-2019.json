@@ -69,7 +69,7 @@
     "company": "Cedar AI",
     "track": "main",
     "slides": "https://github.com/isabelacmor/talks/blob/master/slides/ReusableSVGs.pdf",
-    "resources": ["https://github.com/isabelacmor/svgrobots"]
+    "resources": ["https://github.com/isabelacmor/svgrobots"],
     "abstract": "Learn how to merge your creative side with your coding side in this live-coding talk! Leveraging the practice of reusable code and React components, we’ll create SVG images and animations that can be extended, adapted, and reused throughout your app. See how a few tweaks and props injected into your standard SVG code can give you the power of composable and reusable components!",
     "pixelated": "e23f82e06f776b24c295d68896fa4a12cf1f4c9a.png"
   },
