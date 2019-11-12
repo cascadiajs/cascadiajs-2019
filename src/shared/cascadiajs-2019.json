@@ -520,6 +520,7 @@
     "twitter": "",
     "company": "Peregrine Technologies",
     "track": "lightning",
+    "slide": "https://github.com/giladgray/ejected-react-app/blob/master/cascadiajs-2019-lightning-talk.pdf",
     "abstract": "So you've ejected your create-react-app and you're free-falling through Node build code. Allow me to build you a parachute on the way down. We'll demystify the build process and reverse-engineer the webpack puzzle so you can sleep again.",
     "pixelated": "f6f9c89d6c35d6134a2812a0e60424c4ac051794.png"
   },
