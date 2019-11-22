@@ -352,8 +352,16 @@
     "topic": "",
     "pronouns": [],
     "twitter": "",
-    "company": "Hearsay Systems",
+    "company": "LiveStories",
     "track": "lightning",
+    "slides": "https://tinyurl.com/rg4u243",
+    "resources": [
+      "https://developer.mozilla.org/en-US/docs/Archive/Inner-browsing_extending_the_browser_navigation_paradigm",
+      "https://stimulusjs.org/",
+      "https://2018.cascadiajs.com/speakers/yehuda-katz/",
+      "https://github.com/w3c/csswg-drafts/issues/3688",
+      "https://github.com/jakearchibald/navigation-transitions"
+    ],
     "abstract": "Now's a good time to turn a critical eye toward our single page app assumptions.\nThe evolution of the web was never on an inevitable path; it was a loosely-coordinated series of decisions by standards-making bodies, browser makers, and developers that could have gone very differently. It still can.",
     "pixelated": "3dce845d37fc2dc7651fd2647301dd0bd107ada0.png"
   },
