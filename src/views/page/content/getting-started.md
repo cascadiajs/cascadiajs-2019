@@ -18,6 +18,10 @@ Our awesome friends at Heroku have put together a collection of articles, tutori
 
 [Code[ish] #38 / Building with Web Components](https://www.heroku.com/podcasts/codeish/38-building-with-web-components)
 
+
+[Code[ish] #44 / GraphQL's Benefits and Costs](https://www.heroku.com/podcasts/codeish/44-graphqls-benefits-and-costs)
+
+
 ### Tutorials
 
 [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
