@@ -56,6 +56,7 @@
     "company": "LEAGUE at AT&T",
     "track": "main",
     "abstract": "Leadership and staff must take intentional, self-aware personal risks to steer workplace culture toward inclusion and its economic benefits. This requires permission and a moral directive from the top to create space, incentivizing management to role model vulnerable and remarkable behaviors, giving employees opportunities to participate in and create their own inclusion activities that involve discovery and testing of personal comfort zones, and to openly reward successes.",
+    "slides": "ginger-chien.pdf",
     "pixelated": "2c41606bf59ed2b9ef12d979e89749160afa544a.png"
   },
   {
@@ -199,7 +200,9 @@
     "twitter": "trivikram",
     "url": "https://fizbuz.com/u/trivikr",
     "slides": "https://slides.com/trivikram/nodejs-quic-http3-cascadiajs",
-    "resources": ["https://github.com/trivikr/node-http-servers"],
+    "resources": [
+      "https://github.com/trivikr/node-http-servers"
+    ],
     "company": "Amazon",
     "track": "main",
     "abstract": "Work is currently underway to develop an implementation of the new QUIC protocol with Node.js core. While still very experimental and new, this protocol will enable exciting new possibilities and applications. This talk will introduce the fundamentals of QUIC and the prototype implementation being developed.",

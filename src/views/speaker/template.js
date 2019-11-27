@@ -1,6 +1,16 @@
 module.exports = function SpeakerTemplate (props) {
   let {person, assetPath, speakerAssetPath, gettingStartedItem} = props
   let {name, id, location, company, talkTitle, abstract, url, slides, resources} = person
+  let slidesUrl, slidesName
+
+  if (slides.indexOf('http') >= 0) {
+    slidesUrl = slides
+    slidesName = slides.split("://")[1]
+  }
+  else {
+    slidesUrl = `${assetPath}/${slides}`
+    slidesName = slides
+  }
 
   return /*html*/`
 <div class="default page">
@@ -14,7 +24,7 @@ module.exports = function SpeakerTemplate (props) {
         <h4>Company</h4>
         <p>${company}</p>
         ${url ? `<h4>Website</h4><p><a href="${url}">${url.split("://")[1]}</a></p>` : ''}
-        ${slides ? `<h4>Slides</h4><p><a href="${slides}">${slides.split("://")[1]}</a></p>` : ''}
+        ${slides ? `<h4>Slides</h4><p><a href="${slidesUrl}">${slidesName}</a></p>` : ''}
         ${resources ? `<h4>Resources</h4>${resources.map(r => `<p><a href="${r}">${r.split("://")[1]}</a></p>` ).join('')}` : ''}
       </div>
     </div>
