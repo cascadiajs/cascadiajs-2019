@@ -25,6 +25,7 @@ async function createImages () {
   let deviceScaleFactor = 1
 
   if (isLocal) {
+    console.log("Loading globally installed localdev puppeteer")
     let puppeteer = require(`${globalModulesPath}/puppeteer`)
     browser = await puppeteer.launch({
       defaultViewport: {
@@ -35,6 +36,7 @@ async function createImages () {
     })
   }
   else {
+    console.log("Loading AWS build of puppeteer")
     const chrome = require('chrome-aws-lambda')
     const puppeteer = require('puppeteer-core')
     browser = await puppeteer.launch({
