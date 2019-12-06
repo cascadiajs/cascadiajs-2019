@@ -4,7 +4,7 @@
   "description": "Begin app",
   "scripts": {
     "lint": "eslint src --ignore-pattern node_modules --fix",
-    "build": "#node build/update-speakers",
+    "build": "node build/create-social-sharing-images.js",
     "test": "PORT=6666 CI=true NODE_ENV=testing tape test/*-test.js | tap-spec",
     "start": "NODE_ENV=testing npx sandbox",
     "social-images": "node build/create-social-sharing-images.js"

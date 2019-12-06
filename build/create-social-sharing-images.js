@@ -1,6 +1,6 @@
+/* eslint-disable global-require */
 const join = require('path').join
 const globalModulesPath = require('global-modules')
-const puppeteer = require(`${globalModulesPath}/puppeteer`)
 const sandbox = require('@architect/sandbox')
 const getSpeakerData = require('../src/shared/get-speaker-data')
 const url = 'http://localhost:3333'
@@ -13,14 +13,43 @@ async function createImages () {
   // define destination for social sharing images
   const dest = join(__dirname, '..', 'public', 'images', 'social')
 
+  // determine environment this is running in
+
+  const env = process.env.NODE_ENV
+  const isLocal = env === 'testing' || process.env.ARC_LOCAL || !env
+
   // set-up headless browser
-  const browser = await puppeteer.launch({
-    defaultViewport: {
-      height: 576,
-      width: 798,  // wanted 768px, but images didn't turn out right, so added 30px /shrug
-      deviceScaleFactor: 1
-    }
-  })
+  let browser
+  let height = 576
+  let width = 798
+  let deviceScaleFactor = 1
+
+  if (isLocal) {
+    let puppeteer = require(`${globalModulesPath}/puppeteer`)
+    browser = await puppeteer.launch({
+      defaultViewport: {
+        height,
+        width,  // wanted 768px, but images didn't turn out right, so added 30px /shrug
+        deviceScaleFactor
+      }
+    })
+  }
+  else {
+    const chrome = require('chrome-aws-lambda')
+    const puppeteer = require('puppeteer-core')
+    browser = await puppeteer.launch({
+      args: chrome.args,
+      executablePath: await chrome.executablePath,
+      headless: chrome.headless,
+      defaultViewport: {
+        height,
+        width,
+        deviceScaleFactor,
+      },
+    })
+  }
+
+
 
   // for all speakers, generate a fresh social sharing image
 
