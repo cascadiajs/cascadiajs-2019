@@ -373,6 +373,10 @@ a.cta:hover {
 	margin-right: 16px;
 }
 
+#speaker .abstract {
+	margin-bottom:20px;
+}
+
 #speaker .speaker-more p {
 	margin-top:0;
 }
