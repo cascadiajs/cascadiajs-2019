@@ -38,7 +38,7 @@ async function createImages () {
   }
   else {
     // "trick" Puppeteer into recognizing that this as a Lambda env
-    process.env.AWS_EXECUTION_ENV = "AWS_Lambda_nodejs8.10"
+    process.env.AWS_EXECUTION_ENV = "AWS_Lambda_nodejs10.x"
     process.env.AWS_LAMBDA_FUNCTION_NAME = "..."
     // load Chromium
     const chromium = require('chrome-aws-lambda')
