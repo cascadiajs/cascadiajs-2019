@@ -43,7 +43,6 @@ module.exports = async function Speaker (req) {
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:site" content="@cascadiajs">
       <meta name="twitter:title" content="CascadiaJS 2019 | ${name} | ${talkTitle}">
-      <meta name="twitter:image" content="${assetPath}/${id}-social.png">
       `
 
     // pick a random piece of technical content to inject
