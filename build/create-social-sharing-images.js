@@ -37,11 +37,14 @@ async function createImages () {
     })
   }
   else {
+    // "trick" Puppeteer into recognizing that this as a Lambda env
+    process.env.AWS_EXECUTION_ENV = "AWS_Lambda_nodejs8.10"
+    process.env.AWS_LAMBDA_FUNCTION_NAME = "..."
+    // load Chromium
     const chromium = require('chrome-aws-lambda')
     //const puppeteer = require('puppeteer-core')
     const executablePath = await chromium.executablePath
     console.log(`Loading AWS build of puppeteer, Chrome path = ${executablePath}`)
-    console.log(process.env)
     browser = await chromium.puppeteer.launch({
       args: chromium.args,
       executablePath,
