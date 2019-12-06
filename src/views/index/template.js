@@ -1,5 +1,5 @@
 module.exports = function IndexTemplate (props) {
-  let {schedule, assetPath} = props
+  let {assetPath} = props
 
   return /*html*/`
 <div id="landing">
