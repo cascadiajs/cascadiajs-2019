@@ -1,5 +1,5 @@
 let test = require('tape')
-let arc = require('@architect/architect')
+let sandbox = require('@architect/sandbox')
 let data = require('@begin/data')
 
 test('env', t => {
@@ -16,7 +16,7 @@ test('env', t => {
 let end
 test('sandbox.start', async t=> {
   t.plan(1)
-  end = await arc.sandbox.start()
+  end = await sandbox.start()
   t.ok(true, 'started sandbox')
 })
 
