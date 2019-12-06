@@ -2,7 +2,7 @@ let getSpeakerData = require('@architect/shared/get-speaker-data')
 let getAssetPaths = require('@architect/shared/get-asset-paths')
 
 module.exports = function Speakers () {
-  let {speakerAssetPath} = getAssetPaths()
+  let {assetPath} = getAssetPaths()
   let speakerData = getSpeakerData()
   let speakers = []
   speakerData.forEach((speaker, index) => {
@@ -17,7 +17,7 @@ module.exports = function Speakers () {
     else if (revealed) {
       let item = `
 <div class="speaker">
-  <a href="/speakers/${id}"><img src="${speakerAssetPath}/${id}.jpg" alt="photo of ${name}"/></a>
+  <a href="/speakers/${id}"><img src="${assetPath}/images/speakers/${id}.jpg" alt="photo of ${name}"/></a>
   <div class="speaker-info">
     <div class="speaker-name">${name}</div>
     <div class="speaker-misc">

@@ -6,18 +6,36 @@
     "lint": "eslint src --ignore-pattern node_modules --fix",
     "build": "#node build/update-speakers",
     "test": "PORT=6666 CI=true NODE_ENV=testing tape test/*-test.js | tap-spec",
-    "start": "NODE_ENV=testing npx sandbox"
+    "start": "NODE_ENV=testing npx sandbox",
+    "create-social-images": "node build/create-social-sharing-images.js"
   },
   "dependencies": {
-    "@architect/architect": "LTS"
+    "@architect/architect": "LTS",
+    "chrome-aws-lambda": "^1.17.1",
+    "puppeteer-core": "^1.17.0"
   },
   "devDependencies": {
     "@architect/hydrate": "^1.3.2",
     "@begin/data": "^1.1.2",
     "aws-sdk": "^2.504.0",
     "eslint": "^6.1.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "puppeteer": "^2.0.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.11.0",
     "tiny-json-http": "^7.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run create-social-images"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
