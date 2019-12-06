@@ -37,15 +37,15 @@ async function createImages () {
     })
   }
   else {
-    console.log()
-    const chrome = require('chrome-aws-lambda')
-    const puppeteer = require('puppeteer-core')
-    const executablePath = await chrome.executablePath
+    const chromium = require('chrome-aws-lambda')
+    //const puppeteer = require('puppeteer-core')
+    const executablePath = await chromium.executablePath
     console.log(`Loading AWS build of puppeteer, Chrome path = ${executablePath}`)
-    browser = await puppeteer.launch({
-      args: chrome.args,
+    console.log(process.env)
+    browser = await chromium.puppeteer.launch({
+      args: chromium.args,
       executablePath,
-      headless: chrome.headless,
+      headless: chromium.headless,
       defaultViewport: {
         height,
         width,
