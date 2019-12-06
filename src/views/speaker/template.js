@@ -1,13 +1,13 @@
 module.exports = function SpeakerTemplate (props) {
   let {person, assetPath, speakerAssetPath, gettingStartedItem} = props
-  let {name, id, location, company, talkTitle, abstract, url, slides, resources} = person
+  let {name, id, location, company, talkTitle, abstract, url, slides, resources, ytID} = person
   let slidesUrl, slidesName
 
-  if (slides.indexOf('http') >= 0) {
+  if (slides && slides.indexOf('http') >= 0) {
     slidesUrl = slides
-    slidesName = slides.split("://")[1]
+    slidesName = slides.split("/")[2]
   }
-  else {
+  else if (slides) {
     slidesUrl = `${assetPath}/${slides}`
     slidesName = slides
   }
@@ -25,11 +25,15 @@ module.exports = function SpeakerTemplate (props) {
         <p>${company}</p>
         ${url ? `<h4>Website</h4><p><a href="${url}">${url.split("://")[1]}</a></p>` : ''}
         ${slides ? `<h4>Slides</h4><p><a href="${slidesUrl}">${slidesName}</a></p>` : ''}
-        ${resources ? `<h4>Resources</h4>${resources.map(r => `<p><a href="${r}">${r.split("://")[1]}</a></p>` ).join('')}` : ''}
+${resources ? `<h4>Resources</h4><p>${resources.map((r, i) => `[${i+1}] <a href="${r}">${r.split("/")[2]}</a> ` ).join('')}` : ''}
       </div>
     </div>
     <h2>Talk: ${talkTitle}</h2>
     <div class="abstract">${abstract}</div>
+    ${ytID ? `
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/${ytID}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>` : ''}
   </section>
   <section id="getting-started">
     <p><i>And now a message from our sponsors</i> ✨</p>

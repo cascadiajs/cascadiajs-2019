@@ -504,6 +504,49 @@ a.cta:hover {
 	height: 100%;
 }
 
+/* ribbon code */
+
+.corner-ribbon{
+	width: 400px;
+	background: #e43;
+	position: absolute;
+	top: 25px;
+	left: -50px;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 1px;
+	color: #f0f0f0;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon a, .corner-ribbon a:visited {
+	color: #f0f0f0;
+	text-decoration: none;
+} 
+  
+.corner-ribbon a:hover {
+	text-decoration: underline;
+} 
+/* Custom styles */
+
+.corner-ribbon.sticky{
+	position: fixed;
+}
+
+.corner-ribbon.shadow{
+	box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+  
+/* Different positions */
+
+.corner-ribbon.top-right{
+	top: 70px;
+	right: -100px;
+	left: auto;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
 
 @media only screen and (min-width: 768px) {
 	#landing {

@@ -34,6 +34,7 @@ module.exports = function mainLayout (props) {
   </head>
   <body style="background-image:url('${assetPath}/images/plaid-pattern.svg');">
     <div id="root">
+      <div class="corner-ribbon top-right sticky blue"><a href="https://2020.cascadiajs.com">Join us for CascadiaJS 2020!</a></div>
       <header>
         <nav>
           <a href="/"><i class="fas fa-home"></i>Home</a>

@@ -38,10 +38,9 @@ module.exports = function IndexTemplate (props) {
         </div>
       </div>
     </section>
-    <section class="schedule">
-      <h2>Conference Schedule</h2>
-      <div>
-        ${schedule}
+    <section class="recap">
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4bFj9aavP6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
   </div>
