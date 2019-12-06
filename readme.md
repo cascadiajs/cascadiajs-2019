@@ -12,6 +12,11 @@ This site is powered by Begin, an app platform and framework for building server
 - To lint your code: `npm run lint`
 - To run your tests: `npm t`
 
+## (Re)Generating social sharing images
+
+- Install puppeteer globally: `npm i puppeteer -g`
+- Run: `npm run social-images`
+
 
 ## Project structure
 

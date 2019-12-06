@@ -1,6 +1,7 @@
 const join = require('path').join
-const puppeteer = require('puppeteer')
-const sandbox = require('@architect/architect').sandbox
+const globalModulesPath = require('global-modules')
+const puppeteer = require(`${globalModulesPath}/puppeteer`)
+const sandbox = require('@architect/sandbox')
 const getSpeakerData = require('../src/shared/get-speaker-data')
 const url = 'http://localhost:3333'
 
