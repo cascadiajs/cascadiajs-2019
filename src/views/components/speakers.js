@@ -2,7 +2,7 @@ let getSpeakerData = require('@architect/shared/get-speaker-data')
 let getAssetPaths = require('@architect/shared/get-asset-paths')
 
 module.exports = function Speakers () {
-  let {assetPath} = getAssetPaths()
+  let {assetPath, speakerAssetPath} = getAssetPaths()
   let speakerData = getSpeakerData()
   let speakers = []
   speakerData.forEach((speaker, index) => {
@@ -45,4 +45,5 @@ module.exports = function Speakers () {
   })
 
   return speakers.join('\n')
+
 }
