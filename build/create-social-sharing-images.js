@@ -15,8 +15,9 @@ async function createImages () {
 
   // determine environment this is running in
 
-  console.log(process.env.NODE_ENV, process.env.BEGIN_ENV, process.env.CI)
-  const isLocal = process.env.BEGIN_ENV !== 'testing'
+  //console.log(process.env.NODE_ENV, process.env.BEGIN_ENV, process.env.CI)
+  const isLocal = process.env.BEGIN_ENV === 'testing'
+  //console.log(isLocal)
 
   // set-up headless browser
   let browser
