@@ -1,6 +1,6 @@
 let test = require('tape')
 let tiny = require('tiny-json-http')
-let sandbox = require('@architect/architect').sandbox
+let sandbox = require('@architect/sandbox')
 let url = 'http://localhost:6666'
 
 test('env', t => {
@@ -20,6 +20,8 @@ test('get /', t => {
   t.plan(1)
   tiny.get({url},
   function win (err, result) {
+    // TODO ↓ remove me! ↓
+    console.log(`err, result:`, err, result)
     if (err) {
       t.fail(err, err)
     } else {
