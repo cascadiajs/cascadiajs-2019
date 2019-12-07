@@ -19,7 +19,7 @@ async function createImages () {
   // set-up headless browser
   let browser
   let height = 576
-  let width = 798
+  let width = 798 // wanted 768px, but images didn't turn out right, so added 30px /shrug
   let deviceScaleFactor = 1
 
   if (isLocal) {
@@ -28,7 +28,7 @@ async function createImages () {
     browser = await puppeteer.launch({
       defaultViewport: {
         height,
-        width,  // wanted 768px, but images didn't turn out right, so added 30px /shrug
+        width,
         deviceScaleFactor
       }
     })
@@ -54,27 +54,37 @@ async function createImages () {
     })
   }
 
-
-
   // for all speakers, generate a fresh social sharing image
 
   let speakerData = getSpeakerData()
 
   // temporarily reduce array size
-  speakerData = speakerData.slice(0, 2)
-
+  speakerData = speakerData.slice(0, 10)
+  let promises = []
   for (let i in speakerData) {
     let {id} = speakerData[i]
     console.log(`Generating a screen shot for ${id}`)
-    const page = await browser.newPage()
-    await page.goto(`${url}/speakers/${id}?social`)
-    await page.screenshot({path: `${dest}/${id}.png`})
+    let _page
+    let promise = browser.newPage()
+      .then(page => _page = page)
+      .then(page => page.goto(`${url}/speakers/${id}?social`))
+      .then(() => _page)
+      .then(page => page.screenshot({path: `${dest}/${id}.png`}))
+      .then(() => console.log(`Done for: ${id}`))
+      .catch(err => console.log(err))
+
+    promises.push(promise)
   }
 
-  // shut down te browser
-  await browser.close()
-  // shut down the sandbox
-  await end()
+
+  Promise.all(promises).then(async function() {
+    console.log("Shutting down")
+    // shut down te browser
+    await browser.close()
+    // shut down the sandbox
+    await end()
+  })
+
 
 }
 
