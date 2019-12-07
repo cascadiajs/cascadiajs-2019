@@ -60,12 +60,17 @@ async function createImages () {
 
   // temporarily reduce array size
   speakerData = speakerData.slice(0, 20)
-  let promises = []
+  //let promises = []
 
+  let page = await browser.newPage()
   for (let i in speakerData) {
     let {id} = speakerData[i]
     console.log(`Generating a screen shot for ${id}`)
-    let _page
+
+    await page.goto(`${url}/speakers/${id}?social`)
+    await page.screenshot({path: `${dest}/${id}.png`})
+
+    /*let _page
     try {
       let promise = browser.newPage()
         .then(page => _page = page)
@@ -79,16 +84,16 @@ async function createImages () {
     }
     catch (err) {
       console.log(err)
-    }
+    }*/
   }
 
-  Promise.all(promises).then(async function() {
+  //Promise.all(promises).then(async function() {
     console.log("Shutting down")
     // shut down te browser
     await browser.close()
     // shut down the sandbox
     await end()
-  })
+  //})
 
 
 }
