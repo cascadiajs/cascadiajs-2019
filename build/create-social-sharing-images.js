@@ -59,7 +59,7 @@ async function createImages () {
   let speakerData = getSpeakerData()
 
   // temporarily reduce array size
-  speakerData = speakerData.slice(0, 20)
+  speakerData = speakerData.slice(0, 15)
   //let promises = []
 
   let page = await browser.newPage()
