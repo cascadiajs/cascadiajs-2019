@@ -14,10 +14,7 @@ async function createImages () {
   const dest = join(__dirname, '..', 'public', 'images', 'social')
 
   // determine environment this is running in
-
-  //console.log(process.env.NODE_ENV, process.env.BEGIN_ENV, process.env.CI)
-  const isLocal = process.env.BEGIN_ENV === 'testing'
-  //console.log(isLocal)
+  const isLocal = process.env.BEGIN_ENV === undefined
 
   // set-up headless browser
   let browser
@@ -62,6 +59,10 @@ async function createImages () {
   // for all speakers, generate a fresh social sharing image
 
   let speakerData = getSpeakerData()
+
+  // temporarily reduce array size
+  speakerData = speakerData.slice(0, 2)
+
   for (let i in speakerData) {
     let {id} = speakerData[i]
     console.log(`Generating a screen shot for ${id}`)
