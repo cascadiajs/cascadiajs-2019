@@ -59,7 +59,7 @@ async function createImages () {
   let speakerData = getSpeakerData()
 
   // temporarily reduce array size
-  speakerData = speakerData.slice(0, 15)
+  speakerData = speakerData.slice(0, 20)
   let promises = []
   for (let i in speakerData) {
     let {id} = speakerData[i]
