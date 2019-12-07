@@ -61,21 +61,26 @@ async function createImages () {
   // temporarily reduce array size
   speakerData = speakerData.slice(0, 20)
   let promises = []
+
   for (let i in speakerData) {
     let {id} = speakerData[i]
     console.log(`Generating a screen shot for ${id}`)
     let _page
-    let promise = browser.newPage()
-      .then(page => _page = page)
-      .then(page => page.goto(`${url}/speakers/${id}?social`))
-      .then(() => _page)
-      .then(page => page.screenshot({path: `${dest}/${id}.png`}))
-      .then(() => console.log(`Done for: ${id}`))
-      .catch(err => console.log(err))
+    try {
+      let promise = browser.newPage()
+        .then(page => _page = page)
+        .then(page => page.goto(`${url}/speakers/${id}?social`))
+        .then(() => _page)
+        .then(page => page.screenshot({path: `${dest}/${id}.png`}))
+        .then(() => console.log(`Done for: ${id}`))
+        .catch(err => console.log(err))
 
-    promises.push(promise)
+      promises.push(promise)
+    }
+    catch (err) {
+      console.log(err)
+    }
   }
-
 
   Promise.all(promises).then(async function() {
     console.log("Shutting down")
